@@ -2,7 +2,7 @@
   {
     "payeename": "TestNEFTOne",
     "from_account": "084188900001394",
-    "amount": "11",
+    "amount": "12",
     "transfer_type": "NEFT",
     "transfer_schedule": "One Time",
     "remarks": "NEFT Payment",
