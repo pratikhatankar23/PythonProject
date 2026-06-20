@@ -1,0 +1,29 @@
+[
+  {
+    "makerLoginID": "282364M2",
+    "title": "",
+    "firstName": "Second",
+    "middleName": "",
+    "lastName": "",
+    "dateOfBirth": "01-Jan-1950",
+    "emailId": "second@gmail.com",
+    "countryCode": "+91",
+    "mobileNumber": "1234512341",
+    "contactNumber": "",
+    "addressLine1": "Addr1",
+    "addressLine2": "",
+    "addressLine3": "",
+    "addressLine4": "",
+    "country": "India",
+    "city": "Mumbai",
+    "zipCode": "",
+    "accessRightsSelectAll": "N",
+    "accessRights": [
+      "Bulk Upload Maker",
+      "Collection Maker",
+      "EPI Recon Maker",
+      "Fund Transfer Maker"
+    ],
+    "otp": "222222"
+  }
+]

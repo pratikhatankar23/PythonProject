@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "payeename": "XXXXXISHNA FORGINGS",
+      "from_account": "084188900001394",
+      "amount": "10",
+      "transfer_schedule": "Recurring Payment",
+      "frequency": "Monthly",
+      "start_date": "18-Jul-2026",
+      "si_instruction_schedule": "Select end date",
+      "end_date": "02-Jun-2027",
+      "remarks": "Internal Payment",
+      "otp": "222222"
+    }
+  ]
+}

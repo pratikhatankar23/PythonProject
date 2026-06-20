@@ -1,0 +1,11 @@
+[
+  {
+    "payeename": "TestNEFTOne",
+    "from_account": "084188900001394",
+    "amount": "200001",
+    "transfer_type": "RTGS",
+    "transfer_schedule": "One Time",
+    "remarks": "RTGS Payment",
+    "otp": "222222"
+  }
+]

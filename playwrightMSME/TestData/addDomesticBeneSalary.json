@@ -1,0 +1,14 @@
+[
+    {
+    "accountNumber": "11100011123",
+    "confirmAccountNumber": "11100011123",
+    "transferAmount": "113",
+    "ifsc": "ICIC0000005",
+    "accountName": "EmpDom13",
+    "empNickName": "EmpDom13",
+    "empId": "EMPDOM13",
+    "emailId": "EmpDom13@gmail.com",
+    "mobileNumber": "1110001113",
+    "otp": "222222"
+  }
+]

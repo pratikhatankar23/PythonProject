@@ -1,0 +1,12 @@
+{
+  "data": [
+      {
+      "payeename": "XXXXXAL FLEX",
+      "from_account": "053263400008715",
+      "amount": "2500000",
+      "transfer_schedule": "One Time",
+      "remarks": "Internal Payment",
+      "otp": "222222"
+    }
+  ]
+}

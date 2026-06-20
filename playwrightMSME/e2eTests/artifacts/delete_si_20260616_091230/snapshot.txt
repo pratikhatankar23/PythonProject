@@ -1,0 +1,414 @@
+PAGE
+
+url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions
+title=
+frames=1
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions readyState=complete bodyText='Skip to main content\n|\n\xa0 A- \xa0 \nSmall Font\n\xa0 A \xa0 \nDefault Font\n\xa0 A+ \xa0\nLarge Font\nHi HARDIK\nXXXXXAL FLEX\nLast login 16 Jun 2026 09:05 AM IST\nNeed Help? Refer User Guide Document\n22\nHome\nAccounts \nPayments \nSingle Payments\nTransfer - Exisiting Beneficiary\nOwn Account Transfer\nQuick Transfer\nStanding Instructions\nUpcoming Transfers\nFavorite Transactions\nPending Transactions\nBulk Payments\nYES DigiLRS\nE-IPO\nGST Payment\nCustom Duty Payment\nBill Payments\nSalary Management\nManage Beneficiary\nDemand Draft\nDirect Tax\nYES ONE WORLD (IBU)\nCollections \nTrade Plus \nAuthorizations \nServices \nDigital Supply Chain\nHomePaymentsSingle PaymentsStanding Instructions\nStanding Instructions\nBeneficiary details\n\t\nDuration\n\t\nAmount\n\t\n\t\n\n\nX\nXXXXXAL FLEX\n007584600001720\n\t17/06/2026-31/12/2099\tINR 10.00\t\t\n\nX\nXXXXXAL FLEX\n007584600001720\n\t17/06/2026-31/12/2099\tINR 10.00\t\t\n\nX\nXXXXXAL FLEX\n007584600001720\n\t17/06/2026-31/12/2099\tINR 10.00\t\t\n\nX\nXXXXXAL FLEX\n007584600001720\n\t16/06/2026-17/06/2027\tINR 10.00\t\t\n\nT\nTestNEFTF'
+
+INPUTS
+
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=0 tag=input type=text id=obdx3p3b222mc7m2sr2k627g4s4j4o795v3jo457d|input name= placeholder=What are you looking for today? aria= value= visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=1 tag=input type= id= name= placeholder= aria= value= visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=2 tag=input type=text id=inputSearchobdx637m5b1g1k7297e6i117b22d206m733u7c113u|input name= placeholder=Search SI aria={searchBy} value= visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=3 tag=input type= id= name= placeholder= aria={searchBy} value= visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=4 tag=input type=checkbox id=agree-tnc-generic oj-flex|cb name=checkboxSetAgreeId placeholder= aria= value=undefined visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=5 tag=input type=radio id=ui-id-64|rb name=ui-id-52 placeholder= aria= value=secureConsentEnglish visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=6 tag=input type=radio id=ui-id-65|rb name=ui-id-52 placeholder= aria= value=secureConsentHindi visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=7 tag=input type=radio id=ui-id-66|rb name=ui-id-52 placeholder= aria= value=secureConsentMarathi visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=8 tag=input type=radio id=ui-id-67|rb name=ui-id-52 placeholder= aria= value=secureConsentGujarati visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=9 tag=input type=radio id=ui-id-68|rb name=ui-id-52 placeholder= aria= value=secureConsentBengali visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=10 tag=input type=radio id=ui-id-69|rb name=ui-id-52 placeholder= aria= value=secureConsentOdiya visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=11 tag=input type=radio id=ui-id-70|rb name=ui-id-52 placeholder= aria= value=secureConsentAsami visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=12 tag=input type=radio id=ui-id-71|rb name=ui-id-52 placeholder= aria= value=secureConsentKannada visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=13 tag=input type=radio id=ui-id-72|rb name=ui-id-52 placeholder= aria= value=secureConsentMalyalam visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=14 tag=input type=radio id=ui-id-73|rb name=ui-id-52 placeholder= aria= value=secureConsentTamil visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=15 tag=input type=radio id=ui-id-74|rb name=ui-id-52 placeholder= aria= value=secureConsentUrdu visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=16 tag=input type=checkbox id=physicalstmt|cb name=secureConsentYesClickbtn placeholder= aria= value=physicalstmt visible=False
+
+ACTIONS
+
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=0 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Skip to main content
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=1 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=2 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=3 tag=a type= id=smallFont role= value= aria= title=Small Font visible=True disabled=False text=A- Small Font
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=4 tag=a type= id=defaultFont role= value= aria= title=Default Font visible=True disabled=False text=A Default Font
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=5 tag=a type= id=largeFont role= value= aria= title=Large Font visible=True disabled=False text=A+ Large Font
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=6 tag=a type= id= role= value= aria=Options Menu title=Theme Change visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=7 tag=a type= id= role= value= aria=Options Menu title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=8 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Refer User Guide Document
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=9 tag=a type= id= role= value= aria=Settings title=Settings visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=10 tag=a type= id=mailbox-holder role= value= aria= title=Notifications visible=True disabled=False text=22
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=11 tag=a type= id= role= value= aria=Logout title=Logout visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=12 tag=a type= id= role= value= aria=Settings title= visible=False disabled=False text=Settings
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=13 tag=a type= id= role= value= aria=Contact Us title= visible=False disabled=False text=Contact Us
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=14 tag=a type= id= role= value= aria=Help and support title= visible=False disabled=False text=Help and support
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=15 tag=a type= id= role= value= aria=RM Details title= visible=False disabled=False text=RM Details
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=16 tag=a type= id= role= value= aria=Session Summary title= visible=False disabled=False text=Session Summary
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=17 tag=a type= id= role= value= aria=Change Password title= visible=False disabled=False text=Change Password
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=18 tag=oj-button type= id= role= value= aria= title=OK visible=False disabled=False text=OK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=19 tag=button type= id= role= value= aria=OK title= visible=False disabled=False text=OK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=20 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=21 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=22 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=23 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=24 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=25 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=26 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=27 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=28 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=29 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=30 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=31 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=32 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=33 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=34 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=35 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=36 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=37 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=38 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=39 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=40 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=41 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=42 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=43 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=44 tag=a type= id= role= value= aria= title= visible=False disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=45 tag=a type= id= role= value= aria= title= visible=False disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=46 tag=a type= id= role= value= aria= title=Go To Page 2 visible=True disabled=False text=Page 2
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=47 tag=a type= id= role= value= aria= title=Go To Page 3 visible=True disabled=False text=Page 3
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=48 tag=oj-button type= id=register-button role= value= aria= title= visible=False disabled=False text=Confirm & Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=49 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Confirm & Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=50 tag=oj-button type= id=register-button role= value= aria= title= visible=False disabled=False text=Confirm & Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=51 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Confirm & Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=52 tag=oj-button type= id=register-button role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=53 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=54 tag=oj-button type= id=home-button role= value= aria= title= visible=False disabled=False text=Go to Home
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=55 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Go to Home
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=56 tag=oj-button type= id=initiate-button role= value= aria= title= visible=False disabled=False text=View All Standing Instruction
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=57 tag=button type= id= role= value= aria= title= visible=False disabled=False text=View All Standing Instruction
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=58 tag=a type= id= role= value= aria=Back To Top title=Back To Top visible=False disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=59 tag=oj-button type= id=sessionExpiredButton role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=60 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=61 tag=oj-button type= id= role= value= aria= title= visible=False disabled=False text=Confirm
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=62 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Confirm
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=63 tag=oj-button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=64 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=65 tag=a type= id= role= value= aria= title= visible=False disabled=False text=I agree to Terms & Conditions
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=66 tag=oj-button type= id=confirmOk role= value= aria= title= visible=False disabled=False text=Continue banking
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=67 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Continue banking
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=68 tag=oj-button type= id=confirmOk role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=69 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=70 tag=a type= id= role= value= aria= title= visible=False disabled=False text=https://www.yesbank.in/steps-to-report-an-unauthorized-transaction
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=71 tag=oj-button type= id=secureConsentYes role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=72 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=73 tag=oj-button type= id=stayConnectedButton role= value= aria= title= visible=False disabled=False text=Stay Connected
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=74 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Stay Connected
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=75 tag=oj-button type= id=sessionExitButton role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=76 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=77 tag=oj-button type= id=logoutConfirmed role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=78 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=79 tag=oj-button type= id=home-button role= value= aria= title= visible=False disabled=False text=OK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=80 tag=button type= id= role= value= aria= title= visible=False disabled=False text=OK
+
+STANDING INSTRUCTIONS
+
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=0 tag=li id= role= classes= visible=True text=Last login 16 Jun 2026 09:05 AM IST Need Help? Refer User Guide Document
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=1 tag=div id= role=presentation classes=oj-listbox-drop visible=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=2 tag=div id= role= classes=oj-listbox-loader-wrapper visible=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=3 tag=div id=oj-listbox-live-obdx3p3b222mc7m2sr2k627g4s4j4o795v3jo457d role= classes=oj-helper-hidden-accessible oj-listbox-liveregion visible=True text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=4 tag=li id= role= classes= visible=True text=22
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=5 tag=li id= role= classes=loggedInUser visible=True text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=6 tag=li id= role= classes= visible=False text=Settings
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=7 tag=li id= role= classes=oj-navigationlist-category-divider visible=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=8 tag=li id= role= classes= visible=False text=Contact Us
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=9 tag=li id= role= classes=oj-navigationlist-category-divider visible=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=10 tag=li id= role= classes= visible=False text=Help and support
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=11 tag=li id= role= classes=oj-navigationlist-category-divider visible=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=12 tag=li id= role= classes= visible=False text=RM Details
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=13 tag=li id= role= classes=oj-navigationlist-category-divider visible=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=14 tag=li id= role= classes= visible=False text=Session Summary
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=15 tag=li id= role= classes=oj-navigationlist-category-divider visible=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=16 tag=li id= role= classes= visible=False text=Change Password
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=17 tag=li id=Home role= classes= visible=True text=Home
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=18 tag=li id=Accounts role= classes= visible=True text=Accounts
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=19 tag=li id= role= classes=css-inner level-0 visible=False text=Account Dashboard
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=20 tag=li id= role= classes=css-inner level-0 visible=False text=Account Services Cheque Book Request Stop/Unblock Cheque Interest/ Balance Certificate Cheque Status Inquiry Session Summary View Generated Statements
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=21 tag=li id= role= classes=css-inner level-1 visible=False text=Cheque Book Request
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=22 tag=li id= role= classes=css-inner level-1 visible=False text=Stop/Unblock Cheque
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=23 tag=li id= role= classes=css-inner level-1 visible=False text=Interest/ Balance Certificate
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=24 tag=li id= role= classes=css-inner level-1 visible=False text=Cheque Status Inquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=25 tag=li id= role= classes=css-inner level-1 visible=False text=Session Summary
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=26 tag=li id= role= classes=css-inner level-1 visible=False text=View Generated Statements
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=27 tag=li id= role= classes=css-inner level-0 visible=False text=Deposits View Deposits Open Fixed Deposit Open Fixed Deposit Old View TDS Interest/ Balance Certificate Sweep In Maintenance Form 121 Download Form 121 Manage Nominee New Manage Nominee Fixed Deposit Dashboard
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=28 tag=li id= role= classes=css-inner level-1 visible=False text=View Deposits
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=29 tag=li id= role= classes=css-inner level-1 visible=False text=Open Fixed Deposit
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=30 tag=li id= role= classes=css-inner level-1 visible=False text=Open Fixed Deposit Old
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=31 tag=li id= role= classes=css-inner level-1 visible=False text=View TDS
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=32 tag=li id= role= classes=css-inner level-1 visible=False text=Interest/ Balance Certificate
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=33 tag=li id= role= classes=css-inner level-1 visible=False text=Sweep In Maintenance
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=34 tag=li id= role= classes=css-inner level-1 visible=False text=Form 121
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=35 tag=li id= role= classes=css-inner level-1 visible=False text=Download Form 121
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=36 tag=li id= role= classes=css-inner level-1 visible=False text=Manage Nominee New
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=37 tag=li id= role= classes=css-inner level-1 visible=False text=Manage Nominee
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=38 tag=li id= role= classes=css-inner level-1 visible=False text=Fixed Deposit Dashboard
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=39 tag=li id= role= classes=css-inner level-0 visible=False text=Loans & Finances Loan Dashboard View Loan Application Status Apply for FD/ OD
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=40 tag=li id= role= classes=css-inner level-1 visible=False text=Loan Dashboard
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=41 tag=li id= role= classes=css-inner level-1 visible=False text=View Loan Application Status
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=42 tag=li id= role= classes=css-inner level-1 visible=False text=Apply for FD/ OD
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=43 tag=li id= role= classes=css-inner level-0 visible=False text=Positive Pay View Positive Pay (new) Create positive Pay (new) Bulk Positive Pay Bulk Positive Pay Inquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=44 tag=li id= role= classes=css-inner level-1 visible=False text=View Positive Pay (new)
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=45 tag=li id= role= classes=css-inner level-1 visible=False text=Create positive Pay (new)
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=46 tag=li id= role= classes=css-inner level-1 visible=False text=Bulk Positive Pay
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=47 tag=li id= role= classes=css-inner level-1 visible=False text=Bulk Positive Pay Inquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=48 tag=li id=Payments role= classes= visible=True text=Payments Single Payments Transfer - Exisiting Beneficiary Own Account Transfer Quick Transfer Standing Instructions Upcoming Transfers Favorite Transactions Pending Transactions Bulk Payments YES DigiLRS E-IPO GST Payment Custom Duty Payment Bill Payments Salary Management Manage Beneficiary Demand Draft Direct Tax YES ONE WORLD (IBU)
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=49 tag=li id= role= classes=css-inner level-0 is-focused visible=True text=Single Payments Transfer - Exisiting Beneficiary Own Account Transfer Quick Transfer Standing Instructions Upcoming Transfers Favorite Transactions Pending Transactions
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=50 tag=li id= role= classes=css-inner level-1 visible=True text=Transfer - Exisiting Beneficiary
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=51 tag=li id= role= classes=css-inner level-1 visible=True text=Own Account Transfer
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=52 tag=li id= role= classes=css-inner level-1 visible=True text=Quick Transfer
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=53 tag=li id= role= classes=css-inner level-1 is-focused visible=True text=Standing Instructions
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=54 tag=li id= role= classes=css-inner level-1 visible=True text=Upcoming Transfers
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=55 tag=li id= role= classes=css-inner level-1 visible=True text=Favorite Transactions
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=56 tag=li id= role= classes=css-inner level-1 visible=True text=Pending Transactions
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=57 tag=li id= role= classes=css-inner level-0 visible=True text=Bulk Payments
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=58 tag=li id= role= classes=css-inner level-1 visible=False text=Add Group
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=59 tag=li id= role= classes=css-inner level-1 visible=False text=Group Payment
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=60 tag=li id= role= classes=css-inner level-1 visible=False text=Multiple Payments to Registered Beneficairy
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=61 tag=li id= role= classes=css-inner level-1 visible=False text=Uploaded Files Inquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=62 tag=li id= role= classes=css-inner level-1 visible=False text=Bulk Payment
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=63 tag=li id= role= classes=css-inner level-0 visible=True text=YES DigiLRS
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=64 tag=li id= role= classes=css-inner level-1 visible=False text=Send Funds Abroad (YES DigiLRS)
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=65 tag=li id= role= classes=css-inner level-1 visible=False text=Add / View LRS Overseas Beneficiary
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=66 tag=li id= role= classes=css-inner level-0 visible=True text=E-IPO
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=67 tag=li id= role= classes=css-inner level-1 visible=False text=Active Issues
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=68 tag=li id= role= classes=css-inner level-1 visible=False text=Application Details
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=69 tag=li id= role= classes=css-inner level-1 visible=False text=Applicant Registration
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=70 tag=li id= role= classes=css-inner level-1 visible=False text=Manage Applicants
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=71 tag=li id= role= classes=css-inner level-0 visible=True text=GST Payment
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=72 tag=li id= role= classes=css-inner level-0 visible=True text=Custom Duty Payment
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=73 tag=li id= role= classes=css-inner level-0 visible=True text=Bill Payments
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=74 tag=li id= role= classes=css-inner level-1 visible=False text=Dashboard
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=75 tag=li id= role= classes=css-inner level-1 visible=False text=Add Billers
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=76 tag=li id= role= classes=css-inner level-1 visible=False text=Set Auto Payment
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=77 tag=li id= role= classes=css-inner level-1 visible=False text=Manage Schedule Payments
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=78 tag=li id= role= classes=css-inner level-1 visible=False text=Manage Auto Payments
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=79 tag=li id= role= classes=css-inner level-1 visible=False text=Registered Biller
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=80 tag=li id= role= classes=css-inner level-0 visible=True text=Salary Management
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=81 tag=li id= role= classes=css-inner level-1 visible=False text=Manage Employee
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=82 tag=li id= role= classes=css-inner level-1 visible=False text=Add Employee
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=83 tag=li id= role= classes=css-inner level-1 visible=False text=Bulk Employee Management
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=84 tag=li id= role= classes=css-inner level-1 visible=False text=Bulk Employee Inquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=85 tag=li id= role= classes=css-inner level-1 visible=False text=Bulk Salary Payment
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=86 tag=li id= role= classes=css-inner level-1 visible=False text=Bulk Salary Payment Inquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=87 tag=li id= role= classes=css-inner level-0 visible=True text=Manage Beneficiary
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=88 tag=li id= role= classes=css-inner level-1 visible=False text=Manage Beneficiary
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=89 tag=li id= role= classes=css-inner level-1 visible=False text=Add Beneficiary
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=90 tag=li id= role= classes=css-inner level-1 visible=False text=Bulk Beneficiary Management
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=91 tag=li id= role= classes=css-inner level-1 visible=False text=Bulk Beneficiary Inquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=92 tag=li id= role= classes=css-inner level-0 visible=True text=Demand Draft
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=93 tag=li id= role= classes=css-inner level-1 visible=False text=Issue Demand Drafts
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=94 tag=li id= role= classes=css-inner level-1 visible=False text=Add Demand Draft Beneficiary
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=95 tag=li id= role= classes=css-inner level-1 visible=False text=Adhoc Demand Draft
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=96 tag=li id= role= classes=css-inner level-1 visible=False text=View Demand Draft History
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=97 tag=li id= role= classes=css-inner level-1 visible=False text=Pay Demand Draft Beneficiary
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=98 tag=li id= role= classes=css-inner level-0 visible=True text=Direct Tax
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=99 tag=li id= role= classes=css-inner level-1 visible=False text=View Pan/Tan registrations
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=100 tag=li id= role= classes=css-inner level-1 visible=False text=View Tax Payment History
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=101 tag=li id= role= classes=css-inner level-1 visible=False text=Income Tax E-filing
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=102 tag=li id= role= classes=css-inner level-1 visible=False text=View Form 26-AS
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=103 tag=li id= role= classes=css-inner level-1 visible=False text=Direct Tax Payment (New)
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=104 tag=li id= role= classes=css-inner level-1 visible=False text=Register profile
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=105 tag=li id= role= classes=css-inner level-0 visible=True text=YES ONE WORLD (IBU)
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=106 tag=li id= role= classes=css-inner level-1 visible=False text=Manage IBU Beneficiary
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=107 tag=li id= role= classes=css-inner level-1 visible=False text=Add IBU Beneficiary
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=108 tag=li id= role= classes=css-inner level-1 visible=False text=Pay IBU Beneficiary
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=109 tag=li id= role= classes=css-inner level-1 visible=False text=Own Account Transfer
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=110 tag=li id=Collections role= classes= visible=True text=Collections
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=111 tag=li id= role= classes=css-inner level-0 visible=False text=E-Collect
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=112 tag=li id= role= classes=css-inner level-0 visible=False text=UPI Collections
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=113 tag=li id= role= classes=css-inner level-0 visible=False text=Link based collections
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=114 tag=li id=Trade Plus role= classes= visible=True text=Trade Plus
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=115 tag=li id= role= classes=css-inner level-0 visible=False text=Overview
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=116 tag=li id= role= classes=css-inner level-0 visible=False text=Application Tracker
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=117 tag=li id= role= classes=css-inner level-0 visible=False text=Apply For Trade
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=118 tag=li id= role= classes=css-inner level-0 visible=False text=Collection Export Collection Initiate Export CollectionModify CollectionView Export CollectionImport Collection Acceptance/Settlement of CollectionView Import Collection
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=119 tag=li id= role= classes=css-inner level-1 visible=False text=Export Collection Initiate Export CollectionModify CollectionView Export Collection
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=120 tag=li id=obdx4f482o4i585f75j8n4a3o7q7a6k7l5e66g5h role= classes=css-inner text-css1 level-2 visible=False text=Initiate Export Collection
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=121 tag=li id=obdx477ha7q4r2t537e683f6c3i4i2v7l25k5f762f role= classes=css-inner text-css1 level-2 visible=False text=Modify Collection
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=122 tag=li id=obdx6l1q6n3i2b7m352s1v163h72672f1n271k106s4 role= classes=css-inner text-css1 level-2 visible=False text=View Export Collection
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=123 tag=li id= role= classes=css-inner level-1 visible=False text=Import Collection Acceptance/Settlement of CollectionView Import Collection
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=124 tag=li id=obdx284q7uf3m324a4i5t6v3v1v4i771b63344f4a3g role= classes=css-inner text-css1 level-2 visible=False text=Acceptance/Settlement of Collection
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=125 tag=li id=obdxe5u3ua393g712p6b6a537j4n5d1c1e1k795le role= classes=css-inner text-css1 level-2 visible=False text=View Import Collection
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=126 tag=li id= role= classes=css-inner level-0 visible=False text=EDPMS EDPMS Dashboard and Enquiry EDPMS IRM / e-FIRC Enquiry EDPMS Request
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=127 tag=li id= role= classes=css-inner level-1 visible=False text=EDPMS Dashboard and Enquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=128 tag=li id= role= classes=css-inner level-1 visible=False text=EDPMS IRM / e-FIRC Enquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=129 tag=li id= role= classes=css-inner level-1 visible=False text=EDPMS Request
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=130 tag=li id= role= classes=css-inner level-0 visible=False text=EEFC EEFC Conversion EEFC Conversion Enquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=131 tag=li id= role= classes=css-inner level-1 visible=False text=EEFC Conversion
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=132 tag=li id= role= classes=css-inner level-1 visible=False text=EEFC Conversion Enquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=133 tag=li id= role= classes=css-inner level-0 visible=False text=File Upload File Upload Uploaded Files Inquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=134 tag=li id= role= classes=css-inner level-1 visible=False text=File Upload
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=135 tag=li id= role= classes=css-inner level-1 visible=False text=Uploaded Files Inquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=136 tag=li id= role= classes=css-inner level-0 visible=False text=Guarantee Inward Bank Guarantee Guarantee Amend AcceptanceInitiate Lodge ClaimView Bank GuaranteeOutward Bank Guarantee Amend Bank GuaranteeBank Guarantee SettlementCancel Bank GuaranteeInitiate Bank GuaranteeView Bank GuaranteeShipping Guarantee Initiate Shipping GuaranteeView Shipping Guarantee
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=137 tag=li id= role= classes=css-inner level-1 visible=False text=Inward Bank Guarantee Guarantee Amend AcceptanceInitiate Lodge ClaimView Bank Guarantee
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=138 tag=li id=obdx4i3u66p5e8411o5u772s6l74ii4n6e2i3e3f role= classes=css-inner text-css1 level-2 visible=False text=Guarantee Amend Acceptance
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=139 tag=li id=obdx3fa5v3e3v2131s3n7n1p3p32m2e4n705m6o1k role= classes=css-inner text-css1 level-2 visible=False text=Initiate Lodge Claim
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=140 tag=li id=obdx62n2u6t2p3142137n7v7a27d7143707a7p5173 role= classes=css-inner text-css1 level-2 visible=False text=View Bank Guarantee
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=141 tag=li id= role= classes=css-inner level-1 visible=False text=Outward Bank Guarantee Amend Bank GuaranteeBank Guarantee SettlementCancel Bank GuaranteeInitiate Bank GuaranteeView Bank Guarantee
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=142 tag=li id=obdx1a6a1a257732263m4g71312n67234v1r4l4v4f3d role= classes=css-inner text-css1 level-2 visible=False text=Amend Bank Guarantee
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=143 tag=li id=obdxl46725e5r4d1j1l526l6v83u5a2g1p49j555t role= classes=css-inner text-css1 level-2 visible=False text=Bank Guarantee Settlement
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=144 tag=li id=obdx334rb6l6b6ih5a171r40i22356122322e622 role= classes=css-inner text-css1 level-2 visible=False text=Cancel Bank Guarantee
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=145 tag=li id=obdx2m3s2d537a2r643e78k2v4i15e6o225l594i66 role= classes=css-inner text-css1 level-2 visible=False text=Initiate Bank Guarantee
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=146 tag=li id=obdx66422v2632n2p7r2r4j276t4r7d2t611r8o31 role= classes=css-inner text-css1 level-2 visible=False text=View Bank Guarantee
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=147 tag=li id= role= classes=css-inner level-1 visible=False text=Shipping Guarantee Initiate Shipping GuaranteeView Shipping Guarantee
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=148 tag=li id=obdx3k7tk2ld7o1e2g17e147s6d7a7j4j2f3v7t67 role= classes=css-inner text-css1 level-2 visible=False text=Initiate Shipping Guarantee
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=149 tag=li id=obdx7i175k2d1m3m4d7g6k243e3fb2s3d123s3s460 role= classes=css-inner text-css1 level-2 visible=False text=View Shipping Guarantee
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=150 tag=li id= role= classes=css-inner level-0 visible=False text=Initiate BOE Regularization
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=151 tag=li id= role= classes=css-inner level-0 visible=False text=Initiate Tracer
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=152 tag=li id= role= classes=css-inner level-0 visible=False text=Inward Remittance
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=153 tag=li id= role= classes=css-inner level-0 visible=False text=Letter Of Credit Import Letter of Credit Acceptance / Settlement of BillsAmend Letter of CreditInitiate Letter of CreditView BillView Letter of CreditExport Letter of Credit Amend Transfer LCAssign ProceedsInitiate BillInitiate Transfer LCLC Amendment AcceptanceModify BillsView BillView Letter of Credit
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=154 tag=li id= role= classes=css-inner level-1 visible=False text=Import Letter of Credit Acceptance / Settlement of BillsAmend Letter of CreditInitiate Letter of CreditView BillView Letter of Credit
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=155 tag=li id=obdx127o2g114p557n2d3t7n3s25232a2m5j7m674n1o role= classes=css-inner text-css1 level-2 visible=False text=Acceptance / Settlement of Bills
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=156 tag=li id=obdx2n1c1l5k4u12183l663a7s117n3a5f7u7j7n37 role= classes=css-inner text-css1 level-2 visible=False text=Amend Letter of Credit
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=157 tag=li id=obdx442s5e343h284r1c2j745g6o5u2b5m2k1f7c2l role= classes=css-inner text-css1 level-2 visible=False text=Initiate Letter of Credit
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=158 tag=li id=obdx4391q1i1s1e3b2v3p5j05h6e6g7ve692i4v20 role= classes=css-inner text-css1 level-2 visible=False text=View Bill
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=159 tag=li id=obdx72r33112247f134he3v0uf4u2s4b51m2 role= classes=css-inner text-css1 level-2 visible=False text=View Letter of Credit
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=160 tag=li id= role= classes=css-inner level-1 visible=False text=Export Letter of Credit Amend Transfer LCAssign ProceedsInitiate BillInitiate Transfer LCLC Amendment AcceptanceModify BillsView BillView Letter of Credit
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=161 tag=li id=obdx5u2271u224e10d6e576n4s73453f741d3u64f role= classes=css-inner text-css1 level-2 visible=False text=Amend Transfer LC
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=162 tag=li id=obdx1v4a2bn127p6u4q5f2re7h624a493g6pc4532 role= classes=css-inner text-css1 level-2 visible=False text=Assign Proceeds
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=163 tag=li id=obdx7r7j1d786v1s3n3p6r7b5h3b6o6v78473n543n74 role= classes=css-inner text-css1 level-2 visible=False text=Initiate Bill
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=164 tag=li id=obdx5a7p7v27152a5049676n28384r5i5b1a3p2n3ra role= classes=css-inner text-css1 level-2 visible=False text=Initiate Transfer LC
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=165 tag=li id=obdx37386h3o697u4u1t3g6h3f1o4a6976195e421r50 role= classes=css-inner text-css1 level-2 visible=False text=LC Amendment Acceptance
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=166 tag=li id=obdx5bf23o2r2e5h3k381k262e6g4m753ts693ek role= classes=css-inner text-css1 level-2 visible=False text=Modify Bills
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=167 tag=li id=obdx4m3r6456m216o1n641b7tt7k6g2p4e2c3t1f21 role= classes=css-inner text-css1 level-2 visible=False text=View Bill
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=168 tag=li id=obdx1f43619l5n755n37671e0126o5p6p2130175s role= classes=css-inner text-css1 level-2 visible=False text=View Letter of Credit
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=169 tag=li id= role= classes=css-inner level-0 visible=False text=Maintenance Additional Conditions Maintenance Assignee Maintenance Clause Maintenance Other Party Maintenance
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=170 tag=li id= role= classes=css-inner level-1 visible=False text=Additional Conditions Maintenance
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=171 tag=li id= role= classes=css-inner level-1 visible=False text=Assignee Maintenance
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=172 tag=li id= role= classes=css-inner level-1 visible=False text=Clause Maintenance
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=173 tag=li id= role= classes=css-inner level-1 visible=False text=Other Party Maintenance
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=174 tag=li id= role= classes=css-inner level-0 visible=False text=Pre & Post Shipment Pre-Shipment Loan Request PCFC /EPC Extension /LiquidationPre Shipment Loan EnquiryPre-Shipment Loan RequestPost-Shipment Loan Request Initiate Post ShipmentPost Shipment EnquiryPost shipment EPC Extension /Liquidation
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=175 tag=li id= role= classes=css-inner level-1 visible=False text=Pre-Shipment Loan Request PCFC /EPC Extension /LiquidationPre Shipment Loan EnquiryPre-Shipment Loan Request
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=176 tag=li id=obdx27783v7up4v612h5b2v1o274d6h4n5u6n2m1j39 role= classes=css-inner text-css1 level-2 visible=False text=PCFC /EPC Extension /Liquidation
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=177 tag=li id=obdxdn3ffg6b2s4r4375o73142p1s7c494l742i role= classes=css-inner text-css1 level-2 visible=False text=Pre Shipment Loan Enquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=178 tag=li id=obdx5858f1s767d4v6o4m322k1ql1k2f2d533i2c5r role= classes=css-inner text-css1 level-2 visible=False text=Pre-Shipment Loan Request
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=179 tag=li id= role= classes=css-inner level-1 visible=False text=Post-Shipment Loan Request Initiate Post ShipmentPost Shipment EnquiryPost shipment EPC Extension /Liquidation
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=180 tag=li id=obdx655424k4mp1n6o3u4r5c525d7l347kk1j1j5v role= classes=css-inner text-css1 level-2 visible=False text=Initiate Post Shipment
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=181 tag=li id=obdx536cb50521n2j7oc551o6p765h6g632g7l61 role= classes=css-inner text-css1 level-2 visible=False text=Post Shipment Enquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=182 tag=li id=obdx5a7i1o7j363l2u6t2h40241655pd6229355i3g role= classes=css-inner text-css1 level-2 visible=False text=Post shipment EPC Extension /Liquidation
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=183 tag=li id= role= classes=css-inner level-0 visible=False text=Outward Remittance IDPMS Dashboard and EnquiryInitiate YBL RequestInitiate Non YBL RequestOutward Remittance Initiate Outward RemittanceOutward Remittance Enquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=184 tag=li id= role= classes=css-inner level-1 visible=False text=IDPMS Dashboard and EnquiryInitiate YBL RequestInitiate Non YBL Request
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=185 tag=li id=obdx7m5s451s5k79746v5tq7f7q4o5o167t4d677p2q role= classes=css-inner text-css1 level-2 visible=False text=Dashboard and Enquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=186 tag=li id=obdx7s59b311e563vp1k4c1u5446j1s7s2s1a114t role= classes=css-inner text-css1 level-2 visible=False text=Initiate YBL Request
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=187 tag=li id=obdx2nj6gd4g1h5bv5d73641p3233j555s3u4e72 role= classes=css-inner text-css1 level-2 visible=False text=Initiate Non YBL Request
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=188 tag=li id= role= classes=css-inner level-1 visible=False text=Outward Remittance Initiate Outward RemittanceOutward Remittance Enquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=189 tag=li id=obdx1e4k72397t4d427t7t1q1f241v5d55347vv2k1g role= classes=css-inner text-css1 level-2 visible=False text=Initiate Outward Remittance
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=190 tag=li id=obdx7i6219s7m1l5dr32h3d6i1nn3j3a252p93g role= classes=css-inner text-css1 level-2 visible=False text=Outward Remittance Enquiry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=191 tag=li id= role= classes=css-inner level-0 visible=False text=Trade Reports My Reports Create New ReportMy Saved ReportsScheduled ReportBills Bills BookedBills MaturityBills OutstandingBills OverdueImport Collection Bills ReportInland Inward Bills ReceivedRemittance Advance Export ReceiptsBuyers Credit LiquidationEEFCEPC PCFC DUEEPC PCFC LIQUIDATIONOutward RemittanceLCBG BG OutstandingBOE OutstandingLC OutstandingLCBDLCBG AdvicingTD Lien
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=192 tag=li id= role= classes=css-inner level-1 visible=False text=My Reports Create New ReportMy Saved ReportsScheduled Report
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=193 tag=li id=obdx2o1h2l777718607a576h7e5k6m7v6e4p4e6h1146 role= classes=css-inner text-css1 level-2 visible=False text=Create New Report
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=194 tag=li id=obdxj4p59792l67173d5t745vn6m67326f5s7r5iv role= classes=css-inner text-css1 level-2 visible=False text=My Saved Reports
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=195 tag=li id=obdx4q246h564o6v2l7t565lm1n6f2m1g4t3t1l7b7l role= classes=css-inner text-css1 level-2 visible=False text=Scheduled Report
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=196 tag=li id= role= classes=css-inner level-1 visible=False text=Bills Bills BookedBills MaturityBills OutstandingBills OverdueImport Collection Bills ReportInland Inward Bills Received
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=197 tag=li id=obdx703n7e6p6e7q297b29154p53o5g582g2g7s3766 role= classes=css-inner text-css1 level-2 visible=False text=Bills Booked
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=198 tag=li id=obdx7v4e304g7v5b1o314e4s6c58a1q3m5o7f1rr1h role= classes=css-inner text-css1 level-2 visible=False text=Bills Maturity
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=199 tag=li id=obdxt3k3k3v1v5t5k4s7p347p1310l4r62673r3f6p role= classes=css-inner text-css1 level-2 visible=False text=Bills Outstanding
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=200 tag=li id=obdx6o5s69274j7l542m1c12s736h1b7u4t4f5e1j6l role= classes=css-inner text-css1 level-2 visible=False text=Bills Overdue
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=201 tag=li id=obdxo657e345af4h2653u3em7cd1h7q4a1s3766 role= classes=css-inner text-css1 level-2 visible=False text=Import Collection Bills Report
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=202 tag=li id=obdx643t770626r3s50426o7s784q4q202h6i2v697u role= classes=css-inner text-css1 level-2 visible=False text=Inland Inward Bills Received
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=203 tag=li id= role= classes=css-inner level-1 visible=False text=Remittance Advance Export ReceiptsBuyers Credit LiquidationEEFCEPC PCFC DUEEPC PCFC LIQUIDATIONOutward Remittance
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=204 tag=li id=obdx6738101l1u3f764jt2m7e7de333qv2j251940 role= classes=css-inner text-css1 level-2 visible=False text=Advance Export Receipts
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=205 tag=li id=obdx563t7hc1uv60287p697h1i6h597m1j551a7id role= classes=css-inner text-css1 level-2 visible=False text=Buyers Credit Liquidation
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=206 tag=li id=obdx3s4k1d1r4l1f676g1o69306m1h1q573ev3c1a role= classes=css-inner text-css1 level-2 visible=False text=EEFC
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=207 tag=li id=obdx6f207e2r6l51471kp7a30484r662k1f1o6im6p role= classes=css-inner text-css1 level-2 visible=False text=EPC PCFC DUE
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=208 tag=li id=obdx281r15f54s66204s97v45502s7l124h1g3421 role= classes=css-inner text-css1 level-2 visible=False text=EPC PCFC LIQUIDATION
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=209 tag=li id=obdx2l691v2f795u7o7n6i4c68611b646f507c1nb4r role= classes=css-inner text-css1 level-2 visible=False text=Outward Remittance
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=210 tag=li id= role= classes=css-inner level-1 visible=False text=LCBG BG OutstandingBOE OutstandingLC OutstandingLCBDLCBG AdvicingTD Lien
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=211 tag=li id=obdx7h1s6v7o711ql772428306g03g2g8q5b2b2u role= classes=css-inner text-css1 level-2 visible=False text=BG Outstanding
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=212 tag=li id=obdx191p7co531l3j7f6k12356s463kf1qm2h5mj role= classes=css-inner text-css1 level-2 visible=False text=BOE Outstanding
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=213 tag=li id=obdx6a4h5i65442e275j1ur5q734c3l4l4q384d7r10 role= classes=css-inner text-css1 level-2 visible=False text=LC Outstanding
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=214 tag=li id=obdx214i3t5i571k6o4s29m1v1d20s242254v5g10 role= classes=css-inner text-css1 level-2 visible=False text=LCBD
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=215 tag=li id=obdx721f12764ao4k5p61o2h2g6e6ro4o7o734l2v role= classes=css-inner text-css1 level-2 visible=False text=LCBG Advicing
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=216 tag=li id=obdx6e441r1l16324s4o111ff132m227r1r7a4p1l7l role= classes=css-inner text-css1 level-2 visible=False text=TD Lien
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=217 tag=li id=Authorizations role= classes= visible=True text=Authorizations
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=218 tag=li id= role= classes=css-inner level-0 visible=False text=Pending for Approval
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=219 tag=li id= role= classes=css-inner level-0 visible=False text=Pending for Release
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=220 tag=li id= role= classes=css-inner level-0 visible=False text=Reroute & Prioritize
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=221 tag=li id= role= classes=css-inner level-0 visible=False text=My Initiated List
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=222 tag=li id= role= classes=css-inner level-0 visible=False text=Transaction Log
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=223 tag=li id= role= classes=css-inner level-0 visible=False text=My Approved List
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=224 tag=li id= role= classes=css-inner level-0 visible=False text=API Authorization
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=225 tag=li id=Services role= classes= visible=True text=Services
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=226 tag=li id= role= classes=css-inner level-0 visible=False text=Maker Management
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=227 tag=li id= role= classes=css-inner level-0 visible=False text=Create Maker
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=228 tag=li id= role= classes=css-inner level-0 visible=False text=View Limits
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=229 tag=li id= role= classes=css-inner level-0 visible=False text=Credit Cards
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=230 tag=li id= role= classes=css-inner level-0 visible=False text=Debit Cards
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=231 tag=li id= role= classes=css-inner level-0 visible=False text=Raise Query/Complaint
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=232 tag=li id= role= classes=css-inner level-0 visible=False text=Track Request
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=233 tag=li id= role= classes=css-inner level-0 visible=False text=Yes Rewards
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=234 tag=li id= role= classes=css-inner level-0 visible=False text=Upload Asset Documents
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=235 tag=li id= role= classes=css-inner level-0 visible=False text=FAQ & User Guide
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=236 tag=li id= role= classes=css-inner level-0 visible=False text=POS
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=237 tag=li id= role= classes=css-inner level-0 visible=False text=EPI Reconciliation Report
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=238 tag=li id= role= classes=css-inner level-0 visible=False text=Report Unauthorized Transaction
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=239 tag=li id=Digital Supply Chain role= classes= visible=True text=Digital Supply Chain
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=240 tag=li id= role= classes=breadcrumb-item visible=True text=Home
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=241 tag=li id= role= classes=breadcrumb-item visible=True text=Payments
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=242 tag=li id= role= classes=breadcrumb-item visible=True text=Single Payments
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=243 tag=li id= role= classes=breadcrumb-item visible=True text=Standing Instructions
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=244 tag=div id= role=presentation classes=oj-listbox-drop visible=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=245 tag=div id= role= classes=oj-listbox-loader-wrapper visible=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=246 tag=div id=oj-listbox-live-inputSearchobdx637m5b1g1k7297e6i117b22d206m733u7c113u role= classes=oj-helper-hidden-accessible oj-listbox-liveregion visible=True text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=247 tag=tr id= role= classes=oj-table-header-row visible=True text=Beneficiary details Duration Amount
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=248 tag=tr id= role= classes=oj-table-body-row visible=True text=X XXXXXAL FLEX 007584600001720 17/06/2026-31/12/2099 INR 10.00
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=249 tag=tr id= role= classes=oj-table-body-row visible=True text=X XXXXXAL FLEX 007584600001720 17/06/2026-31/12/2099 INR 10.00
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=250 tag=tr id= role= classes=oj-table-body-row visible=True text=X XXXXXAL FLEX 007584600001720 17/06/2026-31/12/2099 INR 10.00
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=251 tag=tr id= role= classes=oj-table-body-row visible=True text=X XXXXXAL FLEX 007584600001720 16/06/2026-17/06/2027 INR 10.00
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=252 tag=tr id= role= classes=oj-table-body-row visible=True text=T TestNEFTFive 1234567895 15/06/2026-31/12/2099 INR 15.00
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=253 tag=tr id= role= classes=oj-table-body-row visible=True text=T TestNEFTFour 123456123491 15/06/2026-31/12/2099 INR 14.00
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=254 tag=tr id= role= classes=oj-table-body-row visible=True text=T TestNEFTTwo 123456123488 15/06/2026-31/12/2099 INR 12.00
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=255 tag=tr id= role= classes=oj-table-body-row visible=True text=T TestNEFTOne 123456123489 15/06/2026-31/12/2099 INR 11.00
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=256 tag=tr id= role= classes=oj-table-body-row visible=True text=X XXXXXAL FLEX 007584600001720 15/06/2026-31/12/2099 INR 10.00
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=view-standing-instructions idx=257 tag=div id= role= classes=card-head visible=False text=YES Business Secure Usage GuidelinesUser is advised not to share sensitive information like Customer ID, Aadhaar Number, DOB, Card Number, CVV, PIN, MPIN, OTP, YES BANK Net Banking Login ID and Password, etc. over a phone call, chat, any other medium with any third person as the same may grant access for login into YES BANK Net Banking / Mobile Banking platforms. These details will then be used to conduct fraudulent activities on your account without your permission leading to financial lossUser is advised to logout or kill the application every time after usageUser is advised to get the application blocked immediately by reaching out to the customer care representative OR use the YES BANK website https://www.yesbank.in/steps-to-report-an-unauthorized-transactionYour password should be complex and difficult for others to guess. Use letters, numbers and special characters [such as !,@,#,$,%,^,&,*,(,)] in your passwordsIf a password attempt fails a certain number of times, the application will get locked. User is also advised to set a strong application password instead of weak ones for login into the applicationNever share your passwords with others, even family members. Do not reveal them to anybody,not even to YES BANK employeeChange your passwords (both login password and transaction password) after your first login, and thereafter regularly (at least once in a month)Always check complete details of the bank account before initiating bank transfers. In case any fraudulent transaction is observed, immediately report the details to the police and to your bankAvoid using unsecured, unknown Wi-Fi networks. There may be rogue Wi-Fi access points at public places used for distributing malicious applicationsFraudsters manipulate caller ID apps and search engines to list themselves as toll free numbers. They then gain your trust and extract sensitive information like OTP, passwords, or Credit Card details. Please Beware! Always check your bank or service provider’s website for Customer Care numbers or e-mail IDsYES BANK or Government and Regulatory bodies, including the Income Tax Department/ Reserve Bank of India (RBI), will never ask for any confidential information over email or phone callTreat any email message that asks for confidential/personal information with suspicion. Do not respond to forms in emails that ask for your Net Banking or email user id/password, ATM/Credit card number or PIN, Date of Birth, Mobile number etcNever use a link in an email to log on to the YES BANK website. Type the URL directly into your browser's address bar to ensure you reach the correct web page. Access the official YES BANK website via www.yesbank.inDo not open email attachments from unverified/unexpected sources or instant message download links. Delete such suspicious email messages immediatelyDo not access YES BANK Net Banking or make payments using your Credit/Debit Card from shared or unprotected computers in public placesSetup either email and/or SMS alerts on your YES BANK Net Banking/Credit Card for all transactions on your account(s)/credit cardPay complete attention to the SMS alerts like transaction alerts and OTP sent by the Bank and immediately report any discrepancies to the bankReview Credit Card and Bank statements regularly, and in case of any discrepancy, immediately report the same to the bankEnsure that the latest contact information is continually updated with the Bank.
+
+CONSOLE
+
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/extensions/components/payments/view-standing-instructions/loader.js?hash=sha512-hTGGy7pQTcquONqU0HZMxy8NlAwsX0dhF2p6AIOwG0+7Bl4piDJn464fcDIqM75ScwLtvwONBZE+SoyF/AvuwA==': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/extensions/components/payments/view-standing-instructions/loader.js?hash=sha512-hTGGy7pQTcquONqU0HZMxy8NlAwsX0dhF2p6AIOwG0+7Bl4piDJn464fcDIqM75ScwLtvwONBZE+SoyF/AvuwA==': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/dashboard/navigation-arrow.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/dashboard/navigation-arrow.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/favicon_new.ico': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/favicon_new.ico': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/prelogin/Icons.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/prelogin/Icons.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/prelogin/chevron-right.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/prelogin/chevron-right.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=SSO.METHOD&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=SSO.METHOD&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=digi_od_redirection&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=digi_od_redirection&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Account%20Summary/pay-group.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Account%20Summary/pay-group.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=TO_SHOW_NBAOFFER&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=TO_SHOW_NBAOFFER&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Generic/bulktransfer.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Generic/bulktransfer.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Generic/pay-bene.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Generic/pay-bene.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Generic/addsi.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Generic/addsi.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=DIGI_OD_COMP_REDIRECTION&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=DIGI_OD_COMP_REDIRECTION&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-retail/origination/cz/v1/suggestedTransactions?partyBasedOffer=true&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-retail/origination/cz/v1/suggestedTransactions?partyBasedOffer=true&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-payments/payment/v1/payments/instructions?status=ACTIVE&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-payments/payment/v1/payments/instructions?status=ACTIVE&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Generic/edit_benef.png': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Generic/edit_benef.png': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Generic/delete_benef.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Generic/delete_benef.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/header/newloader.webp': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/header/newloader.webp': Cleared data types: "cache".
+
+REQUEST FAILURES
+
+GET https://yesbusiness.yesuat.bank.in/images/images/placeholder.svg -> net::ERR_ABORTED

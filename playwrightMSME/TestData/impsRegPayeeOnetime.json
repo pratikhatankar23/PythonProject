@@ -1,0 +1,11 @@
+[
+  {
+    "payeename": "TestIMPSOne",
+    "from_account": "084188900001394",
+    "amount": "10",
+    "transfer_type": "IMPS",
+    "transfer_schedule": "One Time",
+    "remarks": "IMPS Payment",
+    "otp": "222222"
+  }
+]
