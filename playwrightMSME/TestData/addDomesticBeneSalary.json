@@ -1,14 +1,14 @@
 [
     {
-    "accountNumber": "11100011123",
-    "confirmAccountNumber": "11100011123",
+    "accountNumber": "123456042",
+    "confirmAccountNumber": "123456042",
     "transferAmount": "113",
-    "ifsc": "ICIC0000005",
-    "accountName": "EmpDom13",
-    "empNickName": "EmpDom13",
-    "empId": "EMPDOM13",
-    "emailId": "EmpDom13@gmail.com",
-    "mobileNumber": "1110001113",
+    "ifsc": "HDFC0004024",
+    "accountName": "EmpIMPS",
+    "empNickName": "EmpIMPS",
+    "empId": "EMPLIMPS",
+    "emailId": "EmpIMPS@gmail.com",
+    "mobileNumber": "1111666613",
     "otp": "222222"
   }
 ]

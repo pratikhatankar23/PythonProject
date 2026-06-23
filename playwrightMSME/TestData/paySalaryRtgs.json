@@ -1,0 +1,10 @@
+[
+  {
+    "employeeName": "EmpDom01",
+    "fromAccount": "084188900001394",
+    "amount": "200001",
+    "transferType": "RTGS",
+    "remarks": "RTGS Salary Payment",
+    "otp": "222222"
+  }
+]

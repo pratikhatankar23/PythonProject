@@ -1,0 +1,9 @@
+[
+  {
+    "employeeName": "Emp03",
+    "fromAccount": "084188900001394",
+    "amount": "10",
+    "remarks": "Internal Salary Payment",
+    "otp": "222222"
+  }
+]
