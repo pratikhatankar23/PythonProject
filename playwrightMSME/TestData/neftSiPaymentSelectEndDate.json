@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "payeename": "TestNEFTOne",
+      "payeename": "TestNEFTSeven",
       "from_account": "084188900001394",
       "amount": "11",
       "transfer_type": "NEFT",

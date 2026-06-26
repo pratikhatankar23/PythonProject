@@ -1,10 +1,11 @@
 {
   "data": [
       {
-      "payeename": "XXXXXAL FLEX",
-      "from_account": "053263400008715",
-      "amount": "2500000",
+      "payeename": "XXXXXISHNA FORGINGS",
+      "from_account": "084188900001394",
+      "amount": "22",
       "transfer_schedule": "One Time",
+      "transfer_when": "Today",
       "remarks": "Internal Payment",
       "otp": "222222"
     }

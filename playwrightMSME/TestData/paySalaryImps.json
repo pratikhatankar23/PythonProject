@@ -1,0 +1,10 @@
+[
+  {
+    "employeeName": "EmpIMPS",
+    "fromAccount": "084188900001394",
+    "amount": "10",
+    "transferType": "IMPS",
+    "remarks": "IMPS Salary Payment",
+    "otp": "222222"
+  }
+]

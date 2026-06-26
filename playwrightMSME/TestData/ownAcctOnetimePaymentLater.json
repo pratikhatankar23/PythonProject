@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "to_account": "007584600001720",
+      "from_account": "084188900001394",
+      "amount": "10",
+      "remarks": "Own Account Transfer",
+      "transfer_schedule": "One Time",
+      "transfer_when": "30-Jun-2026"
+    }
+  ]
+}

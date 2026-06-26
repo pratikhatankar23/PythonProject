@@ -61,6 +61,7 @@ class OwnAcctOnetimePaymentPage(NeftRegPayeeOnetimePage):
             transfer_data["transfer_schedule"],
             "Transfer schedule",
         )
+        self._select_transfer_when_if_required(transfer_data)
 
         self._click_action(
             re.compile(r"^\s*Proceed\s*$", re.I),
@@ -337,7 +338,21 @@ class OwnAcctOnetimePaymentPage(NeftRegPayeeOnetimePage):
         ]
 
         if re.search(r"Transfer\s+Schedule|Schedule", review_text, re.I):
-            expected_value_groups.append((transfer_data["transfer_schedule"],))
+            expected_value_groups.append(
+                tuple(self._schedule_review_variants(transfer_data["transfer_schedule"]))
+            )
+
+        if transfer_data.get("transfer_when") and re.search(
+            r"Transfer\s+When|Transfer\s+Date|Transfer\s+On",
+            review_text,
+            re.I,
+        ):
+            expected_value_groups.extend(
+                [
+                    ("Transfer When", "Transfer Date", "Transfer On"),
+                    tuple(self._transfer_when_review_variants(transfer_data)),
+                ]
+            )
 
         if transfer_data.get("remarks"):
             expected_value_groups.extend(

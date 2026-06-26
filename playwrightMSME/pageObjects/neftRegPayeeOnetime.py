@@ -1,5 +1,6 @@
 import re
 import time
+from datetime import date
 from pathlib import Path
 
 from playwright.sync_api import Page
@@ -81,6 +82,7 @@ class NeftRegPayeeOnetimePage(AddYesBankBenePage):
             transfer_data["transfer_schedule"],
             "Transfer schedule",
         )
+        self._select_transfer_when_if_required(transfer_data)
 
         remarks = self._find_remarks_field()
         self._type_like_user(remarks, transfer_data["remarks"])
@@ -146,7 +148,17 @@ class NeftRegPayeeOnetimePage(AddYesBankBenePage):
         ]
 
         if re.search(r"Transfer\s+Schedule|Schedule", review_text, re.I):
-            expected_value_groups.append((transfer_data["transfer_schedule"],))
+            expected_value_groups.append(
+                tuple(self._schedule_review_variants(transfer_data["transfer_schedule"]))
+            )
+
+        if transfer_data.get("transfer_when"):
+            expected_value_groups.extend(
+                [
+                    ("Transfer When", "Transfer Date", "Transfer On"),
+                    tuple(self._transfer_when_review_variants(transfer_data)),
+                ]
+            )
 
         if transfer_data.get("remarks"):
             expected_value_groups.extend(
@@ -826,6 +838,738 @@ class NeftRegPayeeOnetimePage(AddYesBankBenePage):
             return fields[0]
 
         return frame.locator("input").filter(has_text=re.compile(r"a^"))
+
+    def _select_transfer_when_if_required(self, transfer_data):
+        transfer_when = transfer_data.get("transfer_when")
+
+        if not transfer_when:
+            return
+
+        requested_date = None
+        if self._normalize_text(transfer_when) != "today":
+            requested_date = self._parse_transfer_when_date(transfer_when)
+
+        self._wait_for_transfer_when_field(timeout=30)
+        transfer_when_field = self._find_transfer_when_field()
+        self._click_transfer_when_calendar_icon(transfer_when_field)
+
+        if requested_date:
+            selected_dates = self._click_calendar_date(requested_date)
+        else:
+            selected_dates = self._click_first_enabled_calendar_date()
+
+        try:
+            transfer_when_field.press("Tab")
+        except Exception:
+            pass
+
+        field_value = self._transfer_when_field_value(transfer_when_field)
+        selected_values = [field_value, *selected_dates, transfer_when]
+        selected_values = list(dict.fromkeys(value for value in selected_values if value))
+        transfer_data["_selected_transfer_when"] = selected_values[0]
+        transfer_data["_selected_transfer_when_variants"] = selected_values
+
+    def _parse_transfer_when_date(self, transfer_when):
+        raw_value = str(transfer_when or "").strip()
+
+        text_match = re.fullmatch(
+            r"(\d{1,2})[-/\s]([A-Za-z]{3,})[-/,\s]+(\d{4})",
+            raw_value,
+        )
+        if text_match:
+            day, month, year = text_match.groups()
+            month_number = self._month_number(month)
+            if month_number:
+                return self._build_transfer_when_date(
+                    int(year),
+                    int(month_number),
+                    int(day),
+                    raw_value,
+                )
+
+        iso_match = re.fullmatch(r"(\d{4})[-/](\d{1,2})[-/](\d{1,2})", raw_value)
+        if iso_match:
+            year, month, day = iso_match.groups()
+            return self._build_transfer_when_date(
+                int(year),
+                int(month),
+                int(day),
+                raw_value,
+            )
+
+        numeric_match = re.fullmatch(
+            r"(\d{1,2})[-/\s](\d{1,2})[-/\s](\d{4})",
+            raw_value,
+        )
+        if numeric_match:
+            day, month, year = numeric_match.groups()
+            return self._build_transfer_when_date(
+                int(year),
+                int(month),
+                int(day),
+                raw_value,
+            )
+
+        raise AssertionError(
+            "Unsupported transfer_when value "
+            f"{transfer_when!r}. Use 'Today' or a date like '30-Jun-2026', "
+            "'30/06/2026', or '2026-06-30'."
+        )
+
+    @staticmethod
+    def _build_transfer_when_date(year, month, day, raw_value):
+        try:
+            return date(year, month, day)
+        except ValueError as exc:
+            raise AssertionError(
+                f"Invalid transfer_when date {raw_value!r}: {exc}"
+            ) from None
+
+    def _wait_for_transfer_when_field(self, timeout: float = 30):
+        deadline = time.monotonic() + timeout
+
+        while time.monotonic() < deadline:
+            body_text = self._normalized_body_text()
+            error_match = self.TRANSFER_ERROR_PATTERN.search(body_text)
+
+            if error_match and not re.search(r"Transfer\s+When|Transfer\s+Date", body_text, re.I):
+                raise AssertionError(
+                    "Transfer When field failed to load after selecting Transfer "
+                    f"Schedule: {error_match.group(0)}\n\nPage text:\n{body_text}"
+                )
+
+            if self._find_transfer_when_field_optional(timeout=1):
+                return
+
+            self.page.wait_for_timeout(500)
+
+        raise AssertionError(
+            "Timed out waiting for Transfer When field after selecting Transfer "
+            f"Schedule.\n{self._page_snapshot()}\n\n{self._input_snapshot()}"
+        )
+
+    def _find_transfer_when_field(self):
+        field = self._find_transfer_when_field_optional(timeout=30)
+
+        if field:
+            return field
+
+        raise AssertionError(
+            "Could not find Transfer When field.\n"
+            f"{self._page_snapshot()}\n\n{self._input_snapshot()}"
+        )
+
+    def _find_transfer_when_field_optional(self, timeout: float = 1):
+        label = re.compile(r"Transfer\s+When|Transfer\s+Date|Transfer\s+On", re.I)
+
+        return self._find_visible_field_optional(
+            [
+                lambda frame: frame.get_by_label(label),
+                lambda frame: frame.get_by_placeholder(label),
+                lambda frame: frame.get_by_role("textbox", name=label),
+                lambda frame: frame.locator(
+                    'input[aria-label*="Transfer When" i], '
+                    'input[placeholder*="Transfer When" i], '
+                    'input[aria-label*="Transfer Date" i], '
+                    'input[placeholder*="Transfer Date" i], '
+                    'input[id*="transfer" i][id*="when" i], '
+                    'input[name*="transfer" i][name*="when" i], '
+                    'input[id*="transfer" i][id*="date" i], '
+                    'input[name*="transfer" i][name*="date" i], '
+                    'oj-input-date input, oj-date-picker input, '
+                    'input[class*="date" i]'
+                ),
+                lambda frame: self._nearby_field_candidate(frame, label),
+            ],
+            timeout=timeout,
+        )
+
+    def _click_transfer_when_calendar_icon(self, transfer_when_field):
+        calendar_action = self._find_calendar_action_near_field(transfer_when_field)
+
+        if calendar_action:
+            try:
+                calendar_action.click(timeout=10000, force=True)
+                self.page.wait_for_timeout(500)
+                return
+            except Exception:
+                try:
+                    calendar_action.evaluate("element => element.click()")
+                    self.page.wait_for_timeout(500)
+                    return
+                except Exception:
+                    pass
+
+        try:
+            transfer_when_field.click(timeout=10000)
+            self.page.wait_for_timeout(500)
+            return
+        except Exception as exc:
+            raise AssertionError(
+                f"Could not open Transfer When calendar: {exc}\n"
+                f"{self._page_snapshot()}\n\n{self._action_snapshot()}"
+            ) from None
+
+    def _find_calendar_action_near_field(self, field):
+        scopes = []
+
+        for xpath in (
+            "xpath=ancestor::oj-input-date[1]",
+            "xpath=ancestor::*[contains(translate(@class, "
+            "'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'date')][1]",
+            "xpath=ancestor::*[self::div or self::oj-form-layout][1]",
+            "xpath=ancestor::*[self::div or self::oj-form-layout][2]",
+            "xpath=ancestor::*[self::div or self::oj-form-layout][3]",
+        ):
+            try:
+                scopes.append(field.locator(xpath))
+            except Exception:
+                continue
+
+        scopes.append(self.page.locator("body"))
+
+        calendar_pattern = re.compile(r"(calendar|date|picker|select)", re.I)
+
+        for scope in scopes:
+            action = self._visible_enabled_first(
+                [
+                    scope.get_by_role("button", name=calendar_pattern),
+                    scope.get_by_role("link", name=calendar_pattern),
+                    scope.locator("[aria-label*='calendar' i]"),
+                    scope.locator("[title*='calendar' i]"),
+                    scope.locator("[aria-label*='date' i]"),
+                    scope.locator("[title*='date' i]"),
+                    scope.locator(".oj-inputdatetime-calendar-icon"),
+                    scope.locator(".oj-datepicker-trigger"),
+                    scope.locator("[class*='calendar' i]"),
+                    scope.locator("[class*='date-picker' i]"),
+                ]
+            )
+
+            if action:
+                return action
+
+        return None
+
+    def _click_first_enabled_calendar_date(self, timeout: float = 15):
+        deadline = time.monotonic() + timeout
+
+        while time.monotonic() < deadline:
+            for frame in self.page.frames:
+                date_action = self._first_enabled_calendar_date_in_frame(frame)
+
+                if not date_action:
+                    continue
+
+                selected_dates = self._calendar_date_values(date_action)
+
+                try:
+                    date_action.click(timeout=10000, force=True)
+                except Exception:
+                    date_action.evaluate("element => element.click()")
+
+                self.page.wait_for_timeout(700)
+                return selected_dates
+
+            self.page.wait_for_timeout(500)
+
+        raise AssertionError(
+            "Could not find an enabled date in the Transfer When calendar.\n"
+            f"{self._page_snapshot()}\n\n{self._action_snapshot()}"
+        )
+
+    def _click_calendar_date(self, requested_date: date, timeout: float = 20):
+        deadline = time.monotonic() + timeout
+        last_calendar_month = None
+
+        while time.monotonic() < deadline:
+            calendar_month = self._visible_calendar_month_year()
+
+            if calendar_month:
+                last_calendar_month = calendar_month
+                month_delta = (
+                    (requested_date.year - calendar_month[0]) * 12
+                    + requested_date.month
+                    - calendar_month[1]
+                )
+
+                if month_delta:
+                    if self._click_calendar_month_navigation(month_delta):
+                        self.page.wait_for_timeout(500)
+                        continue
+
+                    break
+
+            for frame in self.page.frames:
+                date_action = self._enabled_calendar_date_in_frame(
+                    frame,
+                    requested_date.day,
+                )
+
+                if not date_action:
+                    continue
+
+                selected_dates = self._calendar_date_values(date_action)
+
+                try:
+                    date_action.click(timeout=10000, force=True)
+                except Exception:
+                    date_action.evaluate("element => element.click()")
+
+                self.page.wait_for_timeout(700)
+                selected_dates.extend(self._date_variants_from_date(requested_date))
+                return list(dict.fromkeys(value for value in selected_dates if value))
+
+            self.page.wait_for_timeout(500)
+
+        expected_date = requested_date.strftime("%d-%b-%Y")
+        month_text = ""
+
+        if last_calendar_month:
+            month_text = (
+                f" Calendar was showing "
+                f"{self._month_name(last_calendar_month[1])} {last_calendar_month[0]}."
+            )
+
+        raise AssertionError(
+            f"Could not select enabled Transfer When date {expected_date}."
+            f"{month_text}\n{self._page_snapshot()}\n\n{self._action_snapshot()}"
+        )
+
+    def _enabled_calendar_date_in_frame(self, frame, day: int):
+        day_pattern = re.compile(rf"^\s*{day}\s*$")
+        locators = [
+            frame.locator(
+                ".oj-datepicker-calendar td:not(.oj-disabled) "
+                "a:not(.oj-disabled):not([aria-disabled='true'])"
+            ).filter(has_text=day_pattern),
+            frame.locator(
+                "td:not(.oj-disabled):not([aria-disabled='true']) "
+                "a:not(.oj-disabled):not([aria-disabled='true'])"
+            ).filter(has_text=day_pattern),
+            frame.locator(
+                "[role='gridcell']:not([aria-disabled='true']) "
+                "a:not([aria-disabled='true'])"
+            ).filter(has_text=day_pattern),
+            frame.locator(
+                "[role='gridcell']:not([aria-disabled='true'])"
+            ).filter(has_text=day_pattern),
+            frame.locator(
+                "button:not([disabled]):not([aria-disabled='true'])"
+            ).filter(has_text=day_pattern),
+            frame.locator(
+                "a:not([aria-disabled='true'])"
+            ).filter(has_text=day_pattern),
+        ]
+
+        for locator in locators:
+            try:
+                count = locator.count()
+            except Exception:
+                continue
+
+            for index in range(count):
+                candidate = locator.nth(index)
+
+                if self._is_enabled_calendar_date(candidate):
+                    return candidate
+
+        return None
+
+    def _visible_calendar_month_year(self):
+        month_year_pattern = re.compile(
+            r"\b(January|February|March|April|May|June|July|August|September|"
+            r"October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|"
+            r"Oct|Nov|Dec)\s+(\d{4})\b",
+            re.I,
+        )
+
+        for frame in self.page.frames:
+            for locator in (
+                frame.locator(
+                    ".oj-datepicker-popup, .oj-datepicker, .oj-popup, "
+                    "[role='dialog'], [class*='datepicker' i], [id*='datepicker' i]"
+                ),
+                frame.locator("body"),
+            ):
+                try:
+                    count = min(locator.count(), 3)
+                except Exception:
+                    continue
+
+                for index in range(count):
+                    candidate = locator.nth(index)
+
+                    try:
+                        if not candidate.is_visible(timeout=300):
+                            continue
+                        text = candidate.inner_text(timeout=500)
+                    except Exception:
+                        continue
+
+                    match = month_year_pattern.search(text)
+                    if not match:
+                        continue
+
+                    month, year = match.groups()
+                    month_number = self._month_number(month)
+                    if month_number:
+                        return int(year), int(month_number)
+
+        return None
+
+    def _click_calendar_month_navigation(self, month_delta: int):
+        nav_pattern = (
+            re.compile(r"^\s*(Next|Forward)\s*$", re.I)
+            if month_delta > 0
+            else re.compile(r"^\s*(Previous|Prev|Back)\s*$", re.I)
+        )
+        class_fragment = "next" if month_delta > 0 else "prev"
+
+        for frame in self.page.frames:
+            action = self._visible_enabled_first(
+                [
+                    frame.get_by_role("button", name=nav_pattern),
+                    frame.get_by_role("link", name=nav_pattern),
+                    frame.locator(f".oj-datepicker-{class_fragment}-icon"),
+                    frame.locator(
+                        f"[aria-label*='{class_fragment}' i], "
+                        f"[title*='{class_fragment}' i], "
+                        f"[class*='datepicker-{class_fragment}' i]"
+                    ),
+                ]
+            )
+
+            if not action:
+                continue
+
+            try:
+                action.click(timeout=5000, force=True)
+            except Exception:
+                action.evaluate("element => element.click()")
+
+            return True
+
+        return False
+
+    def _date_variants_from_date(self, selected_date: date):
+        day = selected_date.day
+        month = selected_date.month
+        year = selected_date.year
+        month_number = f"{month:02d}"
+        day_number = f"{day:02d}"
+        month_name = self._month_name(month)
+        month_abbr = month_name[:3]
+
+        return [
+            f"{year}-{month_number}-{day_number}",
+            f"{year}/{month_number}/{day_number}",
+            f"{day_number}/{month_number}/{year}",
+            f"{day}/{month}/{year}",
+            f"{day_number}-{month_number}-{year}",
+            f"{day}-{month}-{year}",
+            f"{day}-{month_abbr}-{year}",
+            f"{day_number}-{month_abbr}-{year}",
+            f"{day} {month_abbr} {year}",
+            f"{day} {month_name} {year}",
+            f"{day} {month_name}, {year}",
+        ]
+
+    def _first_enabled_calendar_date_in_frame(self, frame):
+        locators = [
+            frame.locator(
+                ".oj-datepicker-calendar td:not(.oj-disabled) "
+                "a:not(.oj-disabled):not([aria-disabled='true'])"
+            ),
+            frame.locator(
+                "td:not(.oj-disabled):not([aria-disabled='true']) "
+                "a:not(.oj-disabled):not([aria-disabled='true'])"
+            ),
+            frame.locator(
+                "[role='gridcell']:not([aria-disabled='true']) "
+                "a:not([aria-disabled='true'])"
+            ),
+            frame.locator(
+                "[role='gridcell']:not([aria-disabled='true'])"
+            ),
+            frame.locator(
+                "button:not([disabled]):not([aria-disabled='true'])"
+            ).filter(has_text=re.compile(r"^\s*\d{1,2}\s*$")),
+            frame.locator(
+                "a:not([aria-disabled='true'])"
+            ).filter(has_text=re.compile(r"^\s*\d{1,2}\s*$")),
+        ]
+
+        for locator in locators:
+            try:
+                count = locator.count()
+            except Exception:
+                continue
+
+            for index in range(count):
+                candidate = locator.nth(index)
+
+                if self._is_enabled_calendar_date(candidate):
+                    return candidate
+
+        return None
+
+    def _is_enabled_calendar_date(self, candidate):
+        try:
+            if not candidate.is_visible(timeout=300):
+                return False
+        except Exception:
+            return False
+
+        try:
+            disabled = candidate.evaluate(
+                """
+                element => {
+                  const node = element.closest("td, [role='gridcell'], button, a") || element;
+                  const calendarRoot = element.closest(
+                    ".oj-datepicker-calendar, .oj-datepicker-content, "
+                    + ".oj-datepicker-popup, .oj-datepicker, .oj-popup, "
+                    + "[class*='calendar'], [class*='datepicker'], "
+                    + "[id*='calendar'], [id*='datepicker'], [role='dialog']"
+                  );
+                  const classText = (node.className || "") + " " + (element.className || "");
+                  const ariaDisabled = node.getAttribute("aria-disabled") || element.getAttribute("aria-disabled");
+                  const disabledAttr = node.hasAttribute("disabled") || element.hasAttribute("disabled");
+                  const text = (element.innerText || element.textContent || "").trim();
+
+                  return {
+                    inCalendar: !!calendarRoot,
+                    disabled: disabledAttr || ariaDisabled === "true" || /disabled|unselectable/i.test(classText),
+                    text
+                  };
+                }
+                """
+            )
+        except Exception:
+            return False
+
+        return bool(
+            disabled.get("inCalendar")
+            and not disabled.get("disabled")
+            and re.fullmatch(r"\d{1,2}", str(disabled.get("text") or ""))
+        )
+
+    def _calendar_date_values(self, date_action):
+        try:
+            date_details = date_action.evaluate(
+                """
+                element => {
+                  const popupRoot = element.closest(
+                    ".oj-datepicker-popup, .oj-datepicker, .oj-popup, [role='dialog']"
+                  );
+                  const calendarRoot = popupRoot
+                    || element.closest(".oj-datepicker-calendar, [class*='calendar'], [id*='calendar']")
+                    || document.body;
+                  return {
+                    cellText: [
+                      element.getAttribute("aria-label") || "",
+                      element.getAttribute("title") || "",
+                      element.innerText || element.textContent || ""
+                    ].join(" ").replace(/\\s+/g, " ").trim(),
+                    calendarText: (calendarRoot.innerText || calendarRoot.textContent || "")
+                      .replace(/\\s+/g, " ")
+                      .trim(),
+                    bodyText: (document.body.innerText || document.body.textContent || "")
+                      .replace(/\\s+/g, " ")
+                      .trim()
+                  };
+                }
+                """
+            )
+        except Exception:
+            return []
+
+        return self._calendar_date_variants(date_details)
+
+    def _calendar_date_variants(self, date_details):
+        cell_text = str(date_details.get("cellText") or "").strip()
+        calendar_text = str(date_details.get("calendarText") or "").strip()
+        body_text = str(date_details.get("bodyText") or "").strip()
+        variants = []
+
+        if cell_text:
+            variants.append(cell_text)
+
+        day_match = re.search(r"\b(\d{1,2})\b", cell_text)
+        month_match = re.search(
+            r"\b(January|February|March|April|May|June|July|August|September|"
+            r"October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|"
+            r"Oct|Nov|Dec)\s+(\d{4})\b",
+            f"{calendar_text} {body_text}",
+            re.I,
+        )
+
+        if day_match and month_match:
+            day = day_match.group(1)
+            month_name, year = month_match.groups()
+            month_number = self._month_number(month_name)
+
+            if month_number:
+                padded_day = day.zfill(2)
+                variants.extend(
+                    [
+                        f"{year}-{month_number}-{padded_day}",
+                        f"{padded_day}/{month_number}/{year}",
+                        f"{int(day)}/{int(month_number)}/{year}",
+                        f"{padded_day}-{month_number}-{year}",
+                        f"{int(day)}-{int(month_number)}-{year}",
+                        f"{day} {month_name} {year}",
+                        f"{day} {month_name}, {year}",
+                        f"{day}-{month_name}-{year}",
+                    ]
+                )
+
+        return list(dict.fromkeys(value for value in variants if value))
+
+    def _transfer_when_field_value(self, field):
+        try:
+            return field.input_value(timeout=1000).strip()
+        except Exception:
+            return ""
+
+    def _transfer_when_review_variants(self, transfer_data):
+        values = [transfer_data.get("transfer_when", "")]
+        selected_value = transfer_data.get("_selected_transfer_when")
+        selected_variants = transfer_data.get("_selected_transfer_when_variants", [])
+
+        if selected_variants:
+            values.extend(selected_variants)
+
+        if selected_value:
+            values.append(selected_value)
+            values.extend(self._date_review_variants(selected_value))
+
+        return list(dict.fromkeys(value for value in values if value))
+
+    def _schedule_review_variants(self, schedule_value: str):
+        compact_value = re.sub(r"\s+", "", schedule_value or "")
+        variants = [schedule_value, compact_value]
+
+        if self._normalize_text(schedule_value) == "one time":
+            variants.extend(["oneTime", "onetime", "one-time"])
+
+        return list(dict.fromkeys(value for value in variants if value))
+
+    def _date_review_variants(self, date_value: str):
+        variants = {date_value}
+
+        numeric_match = re.fullmatch(
+            r"\s*(\d{1,2})[-/\s](\d{1,2})[-/\s](\d{4})\s*",
+            date_value,
+        )
+        if numeric_match:
+            first, second, year = numeric_match.groups()
+            variants.update(
+                {
+                    f"{first.zfill(2)}/{second.zfill(2)}/{year}",
+                    f"{first.zfill(2)}-{second.zfill(2)}-{year}",
+                    f"{int(first)}/{int(second)}/{year}",
+                    f"{int(first)}-{int(second)}-{year}",
+                }
+            )
+
+        iso_match = re.fullmatch(
+            r"\s*(\d{4})[-/](\d{1,2})[-/](\d{1,2})\s*",
+            date_value,
+        )
+        if iso_match:
+            year, month, day = iso_match.groups()
+            padded_day = day.zfill(2)
+            padded_month = month.zfill(2)
+            variants.update(
+                {
+                    f"{year}-{padded_month}-{padded_day}",
+                    f"{year}/{padded_month}/{padded_day}",
+                    f"{padded_day}/{padded_month}/{year}",
+                    f"{int(day)}/{int(month)}/{year}",
+                    f"{padded_day}-{padded_month}-{year}",
+                    f"{int(day)}-{int(month)}-{year}",
+                }
+            )
+
+        text_match = re.fullmatch(
+            r"\s*(\d{1,2})[-/\s]([A-Za-z]{3,})[-/,\s]+(\d{4})\s*",
+            date_value,
+        )
+        if text_match:
+            day, month, year = text_match.groups()
+            month_number = self._month_number(month)
+            variants.update(
+                {
+                    f"{day}-{month}-{year}",
+                    f"{day} {month} {year}",
+                    f"{day} {month}, {year}",
+                    f"{day}/{month}/{year}",
+                }
+            )
+
+            if month_number:
+                padded_day = day.zfill(2)
+                variants.update(
+                    {
+                        f"{padded_day}/{month_number}/{year}",
+                        f"{month_number}/{padded_day}/{year}",
+                        f"{padded_day}-{month_number}-{year}",
+                        f"{month_number}-{padded_day}-{year}",
+                    }
+                )
+
+        return variants
+
+    @staticmethod
+    def _month_number(month_name: str):
+        month_numbers = {
+            "jan": "01",
+            "january": "01",
+            "feb": "02",
+            "february": "02",
+            "mar": "03",
+            "march": "03",
+            "apr": "04",
+            "april": "04",
+            "may": "05",
+            "jun": "06",
+            "june": "06",
+            "jul": "07",
+            "july": "07",
+            "aug": "08",
+            "august": "08",
+            "sep": "09",
+            "sept": "09",
+            "september": "09",
+            "oct": "10",
+            "october": "10",
+            "nov": "11",
+            "november": "11",
+            "dec": "12",
+            "december": "12",
+        }
+
+        return month_numbers.get(month_name.strip().lower())
+
+    @staticmethod
+    def _month_name(month_number: int):
+        month_names = [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December",
+        ]
+
+        return month_names[int(month_number) - 1]
 
     def _wait_for_review_transaction_or_fail(self, timeout: float = 45):
         review_pattern = re.compile(r"Review\s+(?:Transaction|Details)", re.I)
