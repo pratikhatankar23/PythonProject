@@ -160,6 +160,18 @@ class NeftRegPayeeOnetimePage(AddYesBankBenePage):
                 ]
             )
 
+        if transfer_data.get("transfer_time") and re.search(
+            r"Transfer\s+Time|Payment\s+Time|Execution\s+Time",
+            review_text,
+            re.I,
+        ):
+            expected_value_groups.extend(
+                [
+                    ("Transfer Time",),
+                    tuple(self._transfer_time_review_variants(transfer_data)),
+                ]
+            )
+
         if transfer_data.get("remarks"):
             expected_value_groups.extend(
                 [
@@ -194,7 +206,9 @@ class NeftRegPayeeOnetimePage(AddYesBankBenePage):
     def assert_transferred_successfully(self):
         success_text = re.compile(
             r"(Transferred\s+successfully|Transfer\s+successful|"
-            r"Transaction\s+successful|Payment\s+successful)",
+            r"Transaction\s+successful|Payment\s+successful|"
+            r"Transfer\s+has\s+been\s+scheduled\s+successfully|"
+            r"scheduled\s+successfully)",
             re.I,
         )
         self._wait_for_transfer_final_confirmation_or_fail(success_text, timeout=45)
@@ -868,6 +882,44 @@ class NeftRegPayeeOnetimePage(AddYesBankBenePage):
         selected_values = list(dict.fromkeys(value for value in selected_values if value))
         transfer_data["_selected_transfer_when"] = selected_values[0]
         transfer_data["_selected_transfer_when_variants"] = selected_values
+        self._select_transfer_time_for_dated_transfer(transfer_data, requested_date)
+
+    def _select_transfer_time_for_dated_transfer(self, transfer_data, requested_date):
+        if not requested_date:
+            return
+
+        transfer_time = transfer_data.get("transfer_time")
+
+        if not transfer_time:
+            if getattr(self, "REQUIRE_TRANSFER_TIME_FOR_DATED_TRANSFER", False):
+                raise AssertionError(
+                    "transfer_time is required in test data for dated "
+                    "pay later transactions."
+                )
+
+            return
+
+        if getattr(self, "ALLOW_MISSING_TRANSFER_TIME_FIELD", False):
+            transfer_time_field = self._find_transfer_time_field_optional(timeout=5)
+
+            if not transfer_time_field:
+                return
+        else:
+            self._wait_for_transfer_time_field(timeout=30)
+            transfer_time_field = self._find_transfer_time_field()
+
+        self._select_dropdown_option(
+            transfer_time_field,
+            transfer_time,
+            "Transfer Time dropdown",
+            option_text=transfer_time,
+            choose_first_filtered=False,
+            allow_keyboard_fallback=True,
+        )
+        self._assert_any_value_visible(
+            self._transfer_time_review_variants(transfer_data),
+            "selected Transfer Time",
+        )
 
     def _parse_transfer_when_date(self, transfer_when):
         raw_value = str(transfer_when or "").strip()
@@ -978,6 +1030,73 @@ class NeftRegPayeeOnetimePage(AddYesBankBenePage):
                     'input[name*="transfer" i][name*="date" i], '
                     'oj-input-date input, oj-date-picker input, '
                     'input[class*="date" i]'
+                ),
+                lambda frame: self._nearby_field_candidate(frame, label),
+            ],
+            timeout=timeout,
+        )
+
+    def _wait_for_transfer_time_field(self, timeout: float = 30):
+        deadline = time.monotonic() + timeout
+
+        while time.monotonic() < deadline:
+            body_text = self._normalized_body_text()
+            error_match = self.TRANSFER_ERROR_PATTERN.search(body_text)
+
+            if error_match and not re.search(
+                r"Transfer\s+Time|Payment\s+Time|Execution\s+Time",
+                body_text,
+                re.I,
+            ):
+                raise AssertionError(
+                    "Transfer Time field failed to load after selecting Transfer "
+                    f"When: {error_match.group(0)}\n\nPage text:\n{body_text}"
+                )
+
+            if self._find_transfer_time_field_optional(timeout=1):
+                return
+
+            self.page.wait_for_timeout(500)
+
+        raise AssertionError(
+            "Timed out waiting for Transfer Time field after selecting Transfer "
+            f"When.\n{self._page_snapshot()}\n\n{self._input_snapshot()}"
+        )
+
+    def _find_transfer_time_field(self):
+        field = self._find_transfer_time_field_optional(timeout=30)
+
+        if field:
+            return field
+
+        raise AssertionError(
+            "Could not find Transfer Time field.\n"
+            f"{self._page_snapshot()}\n\n{self._input_snapshot()}"
+        )
+
+    def _find_transfer_time_field_optional(self, timeout: float = 1):
+        label = re.compile(
+            r"(?:Select\s+)?Transfer\s+Time|Payment\s+Time|Execution\s+Time",
+            re.I,
+        )
+
+        return self._find_visible_field_optional(
+            [
+                lambda frame: frame.get_by_label(label),
+                lambda frame: frame.get_by_placeholder(label),
+                lambda frame: frame.get_by_role("combobox", name=label),
+                lambda frame: frame.get_by_role("textbox", name=label),
+                lambda frame: frame.locator(
+                    'input[aria-label*="Transfer Time" i], '
+                    'input[placeholder*="Transfer Time" i], '
+                    'input[id*="transfer" i][id*="time" i], '
+                    'input[name*="transfer" i][name*="time" i], '
+                    '[role="combobox"][aria-label*="Transfer Time" i], '
+                    '[role="combobox"][id*="transfer" i][id*="time" i], '
+                    'oj-select-single[aria-label*="Transfer Time" i], '
+                    'oj-select-one[aria-label*="Transfer Time" i], '
+                    'oj-select-single[id*="transfer" i][id*="time" i], '
+                    'oj-select-one[id*="transfer" i][id*="time" i]'
                 ),
                 lambda frame: self._nearby_field_candidate(frame, label),
             ],
@@ -1446,6 +1565,15 @@ class NeftRegPayeeOnetimePage(AddYesBankBenePage):
 
         return list(dict.fromkeys(value for value in values if value))
 
+    def _transfer_time_review_variants(self, transfer_data):
+        transfer_time = transfer_data.get("transfer_time", "")
+        values = [transfer_time]
+
+        if self._normalize_text(transfer_time) == "anytime":
+            values.append("Any Time")
+
+        return list(dict.fromkeys(value for value in values if value))
+
     def _schedule_review_variants(self, schedule_value: str):
         compact_value = re.sub(r"\s+", "", schedule_value or "")
         variants = [schedule_value, compact_value]
@@ -1634,6 +1762,33 @@ class NeftRegPayeeOnetimePage(AddYesBankBenePage):
         raise AssertionError(
             f"Expected {description} {value!r} to be visible after selection.\n"
             f"{self._page_snapshot()}"
+        )
+
+    def _assert_any_value_visible(self, values, description: str, timeout: float = 10):
+        deadline = time.monotonic() + timeout
+        expected_values = [
+            self._normalize_text(value)
+            for value in values
+            if value
+        ]
+
+        while time.monotonic() < deadline:
+            body_text = self._normalized_body_text()
+
+            if any(expected in body_text for expected in expected_values):
+                return
+
+            if any(
+                self._visible_field_value_contains(expected)
+                for expected in expected_values
+            ):
+                return
+
+            self.page.wait_for_timeout(500)
+
+        raise AssertionError(
+            f"Expected {description} value from {values!r} to be visible after "
+            f"selection.\n{self._page_snapshot()}"
         )
 
     def _visible_field_value_contains(self, expected: str):

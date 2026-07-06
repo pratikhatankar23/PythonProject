@@ -4,4 +4,4 @@ from pageObjects.internalRegPayeeOnetimePayment import (
 
 
 class InternalRegPayeeOnetimePaymentLaterPage(InternalRegPayeeOnetimePaymentPage):
-    pass
+    REQUIRE_TRANSFER_TIME_FOR_DATED_TRANSFER = True

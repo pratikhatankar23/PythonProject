@@ -28,7 +28,7 @@ def _load_json_data(path):
 
     return data
 
-
+@pytest.mark.smoke
 @pytest.mark.parametrize(
     "login_data",
     _load_json_data(LOGIN_DATA_PATH),

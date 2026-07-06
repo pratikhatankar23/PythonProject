@@ -342,15 +342,23 @@ class OwnAcctOnetimePaymentPage(NeftRegPayeeOnetimePage):
                 tuple(self._schedule_review_variants(transfer_data["transfer_schedule"]))
             )
 
-        if transfer_data.get("transfer_when") and re.search(
-            r"Transfer\s+When|Transfer\s+Date|Transfer\s+On",
+        if transfer_data.get("transfer_when"):
+            expected_value_groups.extend(
+                [
+                    ("Transfer When", "Transfer Date", "Transfer On"),
+                    tuple(self._transfer_when_review_variants(transfer_data)),
+                ]
+            )
+
+        if transfer_data.get("transfer_time") and re.search(
+            r"Transfer\s+Time|Payment\s+Time|Execution\s+Time",
             review_text,
             re.I,
         ):
             expected_value_groups.extend(
                 [
-                    ("Transfer When", "Transfer Date", "Transfer On"),
-                    tuple(self._transfer_when_review_variants(transfer_data)),
+                    ("Transfer Time",),
+                    tuple(self._transfer_time_review_variants(transfer_data)),
                 ]
             )
 
@@ -373,7 +381,9 @@ class OwnAcctOnetimePaymentPage(NeftRegPayeeOnetimePage):
     def _transfer_success_visible(self, timeout: float = 5):
         success_text = re.compile(
             r"(Transferred\s+successfully|Transfer\s+successful|"
-            r"Transaction\s+successful|Payment\s+successful)",
+            r"Transaction\s+successful|Payment\s+successful|"
+            r"Transfer\s+has\s+been\s+scheduled\s+successfully|"
+            r"scheduled\s+successfully)",
             re.I,
         )
         deadline = time.monotonic() + timeout

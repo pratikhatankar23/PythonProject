@@ -102,6 +102,18 @@ class InternalRegPayeeOnetimePaymentPage(NeftRegPayeeOnetimePage):
                 ]
             )
 
+        if transfer_data.get("transfer_time") and re.search(
+            r"Transfer\s+Time|Payment\s+Time|Execution\s+Time",
+            review_text,
+            re.I,
+        ):
+            expected_value_groups.extend(
+                [
+                    ("Transfer Time",),
+                    tuple(self._transfer_time_review_variants(transfer_data)),
+                ]
+            )
+
         return [
             values
             for values in expected_value_groups
