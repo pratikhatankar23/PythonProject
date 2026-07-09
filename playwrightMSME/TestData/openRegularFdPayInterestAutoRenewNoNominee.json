@@ -1,0 +1,16 @@
+[
+  {
+    "depositType": "Regular Fixed Deposit",
+    "sourceAccount": "084188900001394",
+    "depositAmount": "10000",
+    "interest": "Pay Interest",
+    "interestPayout": "Month End",
+    "choosePaymentOption": "084188900001394",
+    "principal": "Auto Renew",
+    "years": "2",
+    "months": "0",
+    "days": "0",
+    "nomineeType": "No Nominee",
+    "otp": "222222"
+  }
+]
