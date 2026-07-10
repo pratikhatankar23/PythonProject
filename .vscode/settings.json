@@ -1,6 +1,6 @@
 {
     "python.testing.pytestArgs": [
-        "playwrightMSME"
+        "playwrightMSME_Offshore_Preprod"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true

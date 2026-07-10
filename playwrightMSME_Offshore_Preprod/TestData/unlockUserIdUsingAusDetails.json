@@ -1,0 +1,18 @@
+[
+  {
+    "case_id": "unlock_user_id_using_aus_details",
+    "userId": "3159820C1",
+    "acceptTandC": "Y",
+    "authenticationMethod": "Authorized Signatory",
+    "customerId": "3159820",
+    "pan": "ABCDE1234F",
+    "dob": "07-Aug-1991",
+    "countryCode": "+91",
+    "mobileNumber": "9889888789",
+    "emailId": "abc@gmail.com",
+    "enterPassword": "Password@27",
+    "confirmPassword": "Password@27",
+    "emailOtp": "222222",
+    "mobileOtp": "222222"
+  }
+]

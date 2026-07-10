@@ -1,0 +1,121 @@
+PAGE
+
+url=https://yesbusiness.yesuat.bank.in/
+title=YES Bank
+frames=1
+frame=0 url=https://yesbusiness.yesuat.bank.in/ readyState=complete bodyText='Skip to main content\n|\n\xa0 A- \xa0 \nSmall Font\n\xa0 A \xa0 \nDefault Font\n\xa0 A+ \xa0\nLarge Font\nHi HARDIK\nXXXXXAL FLEX\nLast login 16 Jun 2026 02:21 PM IST\nNeed Help? Refer User Guide Document\n34\nHome\nAccounts \nPayments \nCollections \nTrade Plus \nAuthorizations \nServices \nDigital Supply Chain\n\xa0\nAccounts\nLoans\nDeposits\nView Banking Portfolio >\nAccount\nBalance\nINR ***********\nShow\nAccount Details\nView Statements\nNo request pending for your action\nBanking\nDiscover More\nCurrent Account 007583800000363\n\xa0\nRecent Transactions\nUPI Collection Summary\ne-Collection Summary\nDate & Time\n\t\nDescription\n\t\nDebit/ Credit\n\t\nAmount\n\n07 Mar 2026 02:29 AM\tFTX/A2A/0M00002603070229366793327334/YESAP60661966588/PhonePe Limited/F09 M17xr1gq1puvRedemptio\tCredit\tINR 23,082.00 \nAvailable Balance : INR 1,70,363.61\n\n06 Mar 2026 03:18 AM\tFTX/A2A/0M00002603060318207613914843/YESAP60653843094/PhonePe Limited/F09 M17xr1gq1puvRedemptio\tCredit\tINR 200.00 \nAvailable Balance : INR 1,47,281.61\n\n03 Mar 2026 02:27 AM\tFTX/A2A/0M00002603030227030'
+
+INPUTS
+
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=0 tag=input type=text id=obdx6d17c555m3e2q31f36e7r1h295e2o235b5q1l|input name= placeholder=What are you looking for today? aria= value= visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=1 tag=input type= id= name= placeholder= aria= value= visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=2 tag=input type=text id=payeename|input name= placeholder= aria= value=CA - 007583800000363 visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=3 tag=input type=text id=oj-searchselect-filter-payeename|input name= placeholder= aria= value= visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=4 tag=input type=text id= name= placeholder= aria= value= visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=5 tag=input type=radio id=ui-id-111 name=_n_ui-id-111 placeholder= aria= value=1 visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=6 tag=input type=radio id=ui-id-112 name=_n_ui-id-111 placeholder= aria= value=2 visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=7 tag=input type=checkbox id=agree-tnc-generic oj-flex|cb name=checkboxSetAgreeId placeholder= aria= value=undefined visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=8 tag=input type=radio id=ui-id-64|rb name=ui-id-52 placeholder= aria= value=secureConsentEnglish visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=9 tag=input type=radio id=ui-id-65|rb name=ui-id-52 placeholder= aria= value=secureConsentHindi visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=10 tag=input type=radio id=ui-id-66|rb name=ui-id-52 placeholder= aria= value=secureConsentMarathi visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=11 tag=input type=radio id=ui-id-67|rb name=ui-id-52 placeholder= aria= value=secureConsentGujarati visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=12 tag=input type=radio id=ui-id-68|rb name=ui-id-52 placeholder= aria= value=secureConsentBengali visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=13 tag=input type=radio id=ui-id-69|rb name=ui-id-52 placeholder= aria= value=secureConsentOdiya visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=14 tag=input type=radio id=ui-id-70|rb name=ui-id-52 placeholder= aria= value=secureConsentAsami visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=15 tag=input type=radio id=ui-id-71|rb name=ui-id-52 placeholder= aria= value=secureConsentKannada visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=16 tag=input type=radio id=ui-id-72|rb name=ui-id-52 placeholder= aria= value=secureConsentMalyalam visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=17 tag=input type=radio id=ui-id-73|rb name=ui-id-52 placeholder= aria= value=secureConsentTamil visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=18 tag=input type=radio id=ui-id-74|rb name=ui-id-52 placeholder= aria= value=secureConsentUrdu visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=19 tag=input type=checkbox id=physicalstmt|cb name=secureConsentYesClickbtn placeholder= aria= value=physicalstmt visible=False
+
+ACTIONS
+
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=0 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Skip to main content
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=1 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=2 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=3 tag=a type= id=smallFont role= value= aria= title=Small Font visible=True disabled=False text=A- Small Font
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=4 tag=a type= id=defaultFont role= value= aria= title=Default Font visible=True disabled=False text=A Default Font
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=5 tag=a type= id=largeFont role= value= aria= title=Large Font visible=True disabled=False text=A+ Large Font
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=6 tag=a type= id= role= value= aria=Options Menu title=Theme Change visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=7 tag=a type= id= role= value= aria=Options Menu title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=8 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Refer User Guide Document
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=9 tag=a type= id= role= value= aria=Settings title=Settings visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=10 tag=a type= id=mailbox-holder role= value= aria= title=Notifications visible=True disabled=False text=34
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=11 tag=a type= id= role= value= aria=Logout title=Logout visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=12 tag=a type= id= role= value= aria=Settings title= visible=False disabled=False text=Settings
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=13 tag=a type= id= role= value= aria=Contact Us title= visible=False disabled=False text=Contact Us
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=14 tag=a type= id= role= value= aria=Help and support title= visible=False disabled=False text=Help and support
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=15 tag=a type= id= role= value= aria=RM Details title= visible=False disabled=False text=RM Details
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=16 tag=a type= id= role= value= aria=Session Summary title= visible=False disabled=False text=Session Summary
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=17 tag=a type= id= role= value= aria=Change Password title= visible=False disabled=False text=Change Password
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=18 tag=oj-button type= id= role= value= aria= title=OK visible=False disabled=False text=OK
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=19 tag=button type= id= role= value= aria=OK title= visible=False disabled=False text=OK
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=20 tag=a type= id= role=tab value= aria= title= visible=True disabled=False text=Accounts
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=21 tag=a type= id= role=tab value= aria= title= visible=True disabled=False text=Loans
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=22 tag=a type= id= role=tab value= aria= title= visible=True disabled=False text=Deposits
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=23 tag=a type= id= role=button value= aria= title= visible=False disabled=False text=More
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=24 tag=a type= id= role= value= aria= title= visible=True disabled=False text=View Banking Portfolio >
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=25 tag=a type= id= role=presentation value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=26 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=27 tag=oj-button type= id= role= value= aria= title=Show visible=True disabled=False text=Show
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=28 tag=button type= id= role= value= aria=Show title= visible=True disabled=False text=Show
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=29 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=30 tag=oj-button type= id=inputButton2 role= value= aria= title= visible=True disabled=False text=Account Details
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=31 tag=button type= id= role= value= aria= title= visible=True disabled=False text=Account Details
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=32 tag=oj-button type= id=inputButton2 role= value= aria= title= visible=True disabled=False text=View Statements
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=33 tag=button type= id= role= value= aria= title= visible=True disabled=False text=View Statements
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=34 tag=a type= id= role=tab value= aria= title= visible=True disabled=False text=Recent Transactions
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=35 tag=a type= id= role=tab value= aria= title= visible=True disabled=False text=UPI Collection Summary
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=36 tag=a type= id= role=tab value= aria= title= visible=True disabled=False text=e-Collection Summary
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=37 tag=a type= id= role=button value= aria= title= visible=False disabled=False text=More
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=38 tag=oj-button type= id=inputButton2 role= value= aria= title= visible=True disabled=False text=View all
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=39 tag=button type= id= role= value= aria= title= visible=True disabled=False text=View all
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=40 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=41 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=42 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=43 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=44 tag=a type= id= role= value= aria= title= visible=False disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=45 tag=a type= id= role= value= aria= title= visible=False disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=46 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=47 tag=a type= id= role= value= aria= title=Go To Page 1 visible=True disabled=False text=Page 1
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=48 tag=a type= id= role= value= aria= title=Go To Page 2 visible=True disabled=False text=Page 2
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=49 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=50 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=51 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=52 tag=oj-button type= id=register-button role= value= aria= title= visible=False disabled=False text=Confirm & Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=53 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Confirm & Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=54 tag=oj-button type= id=register-button role= value= aria= title= visible=False disabled=False text=Confirm & Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=55 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Confirm & Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=56 tag=oj-button type= id=register-button role= value= aria= title= visible=False disabled=False text=Confirm & Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=57 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Confirm & Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=58 tag=oj-button type= id=sessionExpiredButton role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=59 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=60 tag=oj-button type= id= role= value= aria= title= visible=False disabled=False text=Confirm
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=61 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Confirm
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=62 tag=oj-button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=63 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=64 tag=a type= id= role= value= aria= title= visible=False disabled=False text=I agree to Terms & Conditions
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=65 tag=oj-button type= id=confirmOk role= value= aria= title= visible=False disabled=False text=Continue banking
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=66 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Continue banking
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=67 tag=oj-button type= id=confirmOk role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=68 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=69 tag=a type= id= role= value= aria= title= visible=False disabled=False text=https://www.yesbank.in/steps-to-report-an-unauthorized-transaction
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=70 tag=oj-button type= id=secureConsentYes role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=71 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=72 tag=oj-button type= id=stayConnectedButton role= value= aria= title= visible=False disabled=False text=Stay Connected
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=73 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Stay Connected
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=74 tag=oj-button type= id=sessionExitButton role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=75 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=76 tag=oj-button type= id=logoutConfirmed role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=77 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=78 tag=oj-button type= id=home-button role= value= aria= title= visible=False disabled=False text=OK
+frame=0 url=https://yesbusiness.yesuat.bank.in/ idx=79 tag=button type= id= role= value= aria= title= visible=False disabled=False text=OK
+
+CONSOLE
+
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/header/newloader.webp': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/header/newloader.webp': Cleared data types: "cache".
+
+REQUEST FAILURES
+
+No request failures captured.

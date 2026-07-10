@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">report.html</title>
+      <link href="assets\style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="title">report.html</h1>
+    <p>Report generated on 06-Jul-2026 at 14:50:47 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.2.0</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</td>
+        </tr>
+      </tbody>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left">&lt;</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">&gt;</div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+        </div>
+        <p class="run-count">18 tests took 00:30:26.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to get the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" >
+            <span class="failed">11 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" >
+            <span class="passed">7 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" disabled>
+            <span class="error">0 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled>
+            <span class="rerun">0 Reruns</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="retried" disabled>
+            <span class="retried">0 Retried,</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+      </div>
+      <div class="additional-summary postfix">
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.14.4&#34;, &#34;Platform&#34;: &#34;Windows-11-10.0.26200-SP0&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;9.0.3&#34;, &#34;pluggy&#34;: &#34;1.6.0&#34;}, &#34;Plugins&#34;: {&#34;allure-pytest&#34;: &#34;2.16.0&#34;, &#34;base-url&#34;: &#34;2.1.0&#34;, &#34;html&#34;: &#34;4.2.0&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;, &#34;playwright&#34;: &#34;0.8.0&#34;}, &#34;Base URL&#34;: &#34;&#34;}, &#34;tests&#34;: {&#34;e2eTests/test_e2e_msme_impsRegPayeeOnetime.py::test_imps_registered_payee_onetime[chromium-TestIMPSOne-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Passed screenshot: e2eTests_test_e2e_msme_impsRegPayeeOnetime.py_test_imps_registered_payee_onetime_chromium-TestIMPSOne-valid_msme_login_passed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_impsRegPayeeOnetime.py__test_imps_registered_payee_onetime_chromium_TestIMPSOne_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_impsRegPayeeOnetime.py::test_imps_registered_payee_onetime[chromium-TestIMPSOne-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:01:26&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_impsRegPayeeOnetime.py::test_imps_registered_payee_onetime[chromium-TestIMPSOne-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:26&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;e2eTests/test_e2e_msme_internalRegPayeeOnetimePayment.py::test_internal_registered_payee_onetime_payment[chromium-XXXXXISHNA FORGINGS-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Failed screenshot: e2eTests_test_e2e_msme_internalRegPayeeOnetimePayment.py_test_internal_registered_payee_onetime_payment_chromium-XXXXXISHNA_FORGINGS-valid_msme_login_failed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_internalRegPayeeOnetimePayment.py__test_internal_registered_payee_onetime_payment_chromium_XXXXXISHNA_FORGINGS_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_internalRegPayeeOnetimePayment.py::test_internal_registered_payee_onetime_payment[chromium-XXXXXISHNA FORGINGS-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:02:05&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_internalRegPayeeOnetimePayment.py::test_internal_registered_payee_onetime_payment[chromium-XXXXXISHNA FORGINGS-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:02:05&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;page = &amp;lt;Page url=&amp;#x27;https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary&amp;#x27;&amp;gt;\nbase_url = &amp;#x27;https://yesbusiness.yesuat.bank.in/?page=login-form-main&amp;#x27;\nlogin_data = {&amp;#x27;case_id&amp;#x27;: &amp;#x27;valid_msme_login&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, &amp;#x27;password&amp;#x27;: &amp;#x27;Password@23&amp;#x27;, &amp;#x27;username&amp;#x27;: &amp;#x27;282365C1&amp;#x27;}\ninternal_payment_data = {&amp;#x27;_selected_transfer_when&amp;#x27;: &amp;#x27;07/06/2026&amp;#x27;, &amp;#x27;_selected_transfer_when_variants&amp;#x27;: [&amp;#x27;07/06/2026&amp;#x27;, &amp;#x27;6&amp;#x27;, &amp;#x27;2026-07-06&amp;#x27;, &amp;#x27;06/07/2026&amp;#x27;, &amp;#x27;6/7/2026&amp;#x27;, &amp;#x27;06-07-2026&amp;#x27;, ...], &amp;#x27;amount&amp;#x27;: &amp;#x27;22&amp;#x27;, &amp;#x27;from_account&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, ...}\n\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\n        &amp;quot;login_data&amp;quot;,\n        _load_json_data(LOGIN_DATA_PATH),\n        ids=lambda data: data.get(&amp;quot;case_id&amp;quot;, data.get(&amp;quot;username&amp;quot;, &amp;quot;msme_login&amp;quot;)),\n    )\n    @pytest.mark.parametrize(\n        &amp;quot;internal_payment_data&amp;quot;,\n        _load_json_data(INTERNAL_PAYMENT_DATA_PATH),\n        ids=lambda data: data.get(\n            &amp;quot;case_id&amp;quot;,\n            data.get(&amp;quot;payeename&amp;quot;, &amp;quot;internal_reg_payee_onetime_payment&amp;quot;),\n        ),\n    )\n    def test_internal_registered_payee_onetime_payment(\n        page,\n        base_url,\n        login_data,\n        internal_payment_data,\n    ):\n        msme_login = MsmeLoginPage(page, base_url)\n        msme_login.login(\n            username=login_data[&amp;quot;username&amp;quot;],\n            password=login_data[&amp;quot;password&amp;quot;],\n            otp=login_data[&amp;quot;otp&amp;quot;],\n        )\n    \n        internal_payment = InternalRegPayeeOnetimePaymentPage(page)\n&amp;gt;       internal_payment.internal_registered_payee_onetime_payment(internal_payment_data)\n\ne2eTests\\test_e2e_msme_internalRegPayeeOnetimePayment.py:61: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;pageObjects.internalRegPayeeOnetimePayment.InternalRegPayeeOnetimePaymentPage object at 0x000001ED2A6F6660&amp;gt;\ntransfer_data = {&amp;#x27;_selected_transfer_when&amp;#x27;: &amp;#x27;07/06/2026&amp;#x27;, &amp;#x27;_selected_transfer_when_variants&amp;#x27;: [&amp;#x27;07/06/2026&amp;#x27;, &amp;#x27;6&amp;#x27;, &amp;#x27;2026-07-06&amp;#x27;, &amp;#x27;06/07/2026&amp;#x27;, &amp;#x27;6/7/2026&amp;#x27;, &amp;#x27;06-07-2026&amp;#x27;, ...], &amp;#x27;amount&amp;#x27;: &amp;#x27;22&amp;#x27;, &amp;#x27;from_account&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, ...}\n\n    def internal_registered_payee_onetime_payment(self, transfer_data):\n        try:\n            self._handle_post_login_popups()\n            self.navigate_to_pay_beneficiary()\n            self.enter_internal_pay_beneficiary_details(transfer_data)\n            self.verify_internal_review_transaction(transfer_data)\n            self.proceed_to_pay_and_confirm(transfer_data[&amp;quot;otp&amp;quot;])\n            self.assert_transferred_successfully()\n        except Exception as exc:\n            artifact_dir = self._save_debug_artifacts()\n            error_message = str(exc)\n            if not isinstance(exc, AssertionError):\n                error_message = f&amp;quot;{type(exc).__name__}: {exc}&amp;quot;\n    \n&amp;gt;           raise AssertionError(\n                f&amp;quot;{error_message}\\n\\nDebug artifacts saved to: {artifact_dir.resolve()}&amp;quot;\n            ) from None\nE           AssertionError: Timed out waiting for Transferred successfully confirmation after OTP submission.\nE           url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary\nE           title=YES Bank\nE           frames=1\nE           frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary readyState=complete bodyText=&amp;#x27;\\xa0\\nPayment unsuccessful\\nDatabase Error :\\nTry Again\\nBACK\\nSkip to main content\\n|\\n\\xa0 A- \\xa0 \\nSmall Font\\n\\xa0 A \\xa0 \\nDefault Font\\n\\xa0 A+ \\xa0\\nLarge Font\\nHi HARDIK\\nXXXXXAL FLEX\\nLast login 06 Jul 2026 02:20 PM IST\\nNeed Help? Refer User Guide Document\\n10\\nHome\\nAccounts \\nPayments \\nCollections \\nTrade Plus \\nAuthorizations \\nServices \\nDigital Supply Chain\\nHomePaymentsSingle PaymentsTransfer - Exisiting Beneficiary\\nReview Transaction\\nYou initiated a request to transfer money. Please review the details before you confirm.\\nTransfer From\\n282364-XXXXXAL FLEX - 084188900001394\\nTransfer To\\nXXXXXISHNA FORGINGS - 019080100000084\\nTransfer Amount\\nINR 22.00\\nTransfer Schedule\\noneTime\\nTransfer When\\n2026-07-06\\nTransfer Type\\nINTERNAL\\nRemarks: Internal Payment\\nDear Customer, please note that credit gets afforded to the beneficiary solely based on account number. Kindly re-verify the account number mentioned in the beneficiary account number section before initiating a transaction.\\nProceed to Pay\\nBack\\nFund Transfer\\nOwn Account Tr&amp;#x27;\nE           \nE           Debug artifacts saved to: C:\\Users\\Pratik\\PycharmProjects\\PythonProject\\playwrightMSME\\artifacts\\internal_reg_payee_onetime_payment_20260706_142346\n\npageObjects\\internalRegPayeeOnetimePayment.py:23: AssertionError\n&#34;}], &#34;e2eTests/test_e2e_msme_internalRegPayeeOnetimePaymentLater.py::test_internal_registered_payee_onetime_payment_later[chromium-XXXXXISHNA FORGINGS-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Failed screenshot: e2eTests_test_e2e_msme_internalRegPayeeOnetimePaymentLater.py_test_internal_registered_payee_onetime_payment_later_chromium-XXXXXISHNA_FORGINGS-valid_msme_login_failed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_internalRegPayeeOnetimePaymentLater.py__test_internal_registered_payee_onetime_payment_later_chromium_XXXXXISHNA_FORGINGS_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_internalRegPayeeOnetimePaymentLater.py::test_internal_registered_payee_onetime_payment_later[chromium-XXXXXISHNA FORGINGS-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:02:15&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_internalRegPayeeOnetimePaymentLater.py::test_internal_registered_payee_onetime_payment_later[chromium-XXXXXISHNA FORGINGS-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:02:15&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;page = &amp;lt;Page url=&amp;#x27;https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary&amp;#x27;&amp;gt;\nbase_url = &amp;#x27;https://yesbusiness.yesuat.bank.in/?page=login-form-main&amp;#x27;\nlogin_data = {&amp;#x27;case_id&amp;#x27;: &amp;#x27;valid_msme_login&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, &amp;#x27;password&amp;#x27;: &amp;#x27;Password@23&amp;#x27;, &amp;#x27;username&amp;#x27;: &amp;#x27;282365C1&amp;#x27;}\ninternal_payment_data = {&amp;#x27;_selected_transfer_when&amp;#x27;: &amp;#x27;07/16/2026&amp;#x27;, &amp;#x27;_selected_transfer_when_variants&amp;#x27;: [&amp;#x27;07/16/2026&amp;#x27;, &amp;#x27;16&amp;#x27;, &amp;#x27;2026-07-16&amp;#x27;, &amp;#x27;16/07/2026&amp;#x27;, &amp;#x27;16/7/2026&amp;#x27;, &amp;#x27;16-07-2026&amp;#x27;, ...], &amp;#x27;amount&amp;#x27;: &amp;#x27;22&amp;#x27;, &amp;#x27;from_account&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, ...}\n\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\n        &amp;quot;login_data&amp;quot;,\n        _load_json_data(LOGIN_DATA_PATH),\n        ids=lambda data: data.get(&amp;quot;case_id&amp;quot;, data.get(&amp;quot;username&amp;quot;, &amp;quot;msme_login&amp;quot;)),\n    )\n    @pytest.mark.parametrize(\n        &amp;quot;internal_payment_data&amp;quot;,\n        _load_json_data(INTERNAL_PAYMENT_DATA_PATH),\n        ids=lambda data: data.get(\n            &amp;quot;case_id&amp;quot;,\n            data.get(&amp;quot;payeename&amp;quot;, &amp;quot;internal_reg_payee_onetime_payment_later&amp;quot;),\n        ),\n    )\n    def test_internal_registered_payee_onetime_payment_later(\n        page,\n        base_url,\n        login_data,\n        internal_payment_data,\n    ):\n        msme_login = MsmeLoginPage(page, base_url)\n        msme_login.login(\n            username=login_data[&amp;quot;username&amp;quot;],\n            password=login_data[&amp;quot;password&amp;quot;],\n            otp=login_data[&amp;quot;otp&amp;quot;],\n        )\n    \n        internal_payment = InternalRegPayeeOnetimePaymentLaterPage(page)\n&amp;gt;       internal_payment.internal_registered_payee_onetime_payment(internal_payment_data)\n\ne2eTests\\test_e2e_msme_internalRegPayeeOnetimePaymentLater.py:61: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;pageObjects.internalRegPayeeOnetimePaymentLater.InternalRegPayeeOnetimePaymentLaterPage object at 0x000001ED375A1E80&amp;gt;\ntransfer_data = {&amp;#x27;_selected_transfer_when&amp;#x27;: &amp;#x27;07/16/2026&amp;#x27;, &amp;#x27;_selected_transfer_when_variants&amp;#x27;: [&amp;#x27;07/16/2026&amp;#x27;, &amp;#x27;16&amp;#x27;, &amp;#x27;2026-07-16&amp;#x27;, &amp;#x27;16/07/2026&amp;#x27;, &amp;#x27;16/7/2026&amp;#x27;, &amp;#x27;16-07-2026&amp;#x27;, ...], &amp;#x27;amount&amp;#x27;: &amp;#x27;22&amp;#x27;, &amp;#x27;from_account&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, ...}\n\n    def internal_registered_payee_onetime_payment(self, transfer_data):\n        try:\n            self._handle_post_login_popups()\n            self.navigate_to_pay_beneficiary()\n            self.enter_internal_pay_beneficiary_details(transfer_data)\n            self.verify_internal_review_transaction(transfer_data)\n            self.proceed_to_pay_and_confirm(transfer_data[&amp;quot;otp&amp;quot;])\n            self.assert_transferred_successfully()\n        except Exception as exc:\n            artifact_dir = self._save_debug_artifacts()\n            error_message = str(exc)\n            if not isinstance(exc, AssertionError):\n                error_message = f&amp;quot;{type(exc).__name__}: {exc}&amp;quot;\n    \n&amp;gt;           raise AssertionError(\n                f&amp;quot;{error_message}\\n\\nDebug artifacts saved to: {artifact_dir.resolve()}&amp;quot;\n            ) from None\nE           AssertionError: Timed out waiting for Review Transaction page after clicking Proceed.\nE           url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary\nE           title=YES Bank\nE           frames=1\nE           frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary readyState=complete bodyText=&amp;#x27;Skip to main content\\n|\\n\\xa0 A- \\xa0 \\nSmall Font\\n\\xa0 A \\xa0 \\nDefault Font\\n\\xa0 A+ \\xa0\\nLarge Font\\nHi HARDIK\\nXXXXXAL FLEX\\nLast login 06 Jul 2026 02:21 PM IST\\nNeed Help? Refer User Guide Document\\n11\\nHome\\nAccounts \\nPayments \\nCollections \\nTrade Plus \\nAuthorizations \\nServices \\nDigital Supply Chain\\nHomePaymentsSingle PaymentsTransfer - Exisiting Beneficiary\\nPay Beneficiary\\nSelect beneficiary\\n1 matches found\\nTransfer From\\n3 matches found\\nAvailable Balance :\\nVerify Recipient Name\\nTransfer Amount\\nINR 1,00,000\\nINR 75,000\\nINR 50,000\\nINR 25,000\\nTransfer Schedule\\nOne Time\\nRecurring Payment\\nTransfer When\\nPress Key down or Key up for access to Calendar.\\nTransfer Time\\nAnytime\\nRemarks (optional)\\n19 characters left.\\nProceed\\nFund Transfer\\nOwn Account Transfer\\nPay Group\\nBulk Transfer\\nQuick Transfer\\nQuick Actions\\nStanding Instructions\\nView Beneficiaries\\nAdd New Beneficiary\\nView Statement\\nDisplaying page 1 of 3\\nPage 1 content loaded\\npagingControlLoginPagination\\nPage\\n1\\nPage\\n2\\nPage\\n3&amp;#x27;\nE           \nE           Debug artifacts saved to: C:\\Users\\Pratik\\PycharmProjects\\PythonProject\\playwrightMSME\\artifacts\\internal_reg_payee_onetime_payment_20260706_142602\n\npageObjects\\internalRegPayeeOnetimePayment.py:23: AssertionError\n&#34;}], &#34;e2eTests/test_e2e_msme_internalSiPayment.py::test_internal_si_payment[chromium-XXXXXISHNA FORGINGS-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Failed screenshot: e2eTests_test_e2e_msme_internalSiPayment.py_test_internal_si_payment_chromium-XXXXXISHNA_FORGINGS-valid_msme_login_failed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_internalSiPayment.py__test_internal_si_payment_chromium_XXXXXISHNA_FORGINGS_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_internalSiPayment.py::test_internal_si_payment[chromium-XXXXXISHNA FORGINGS-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:00:51&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_internalSiPayment.py::test_internal_si_payment[chromium-XXXXXISHNA FORGINGS-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:51&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;page = &amp;lt;Page url=&amp;#x27;https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary&amp;#x27;&amp;gt;\nbase_url = &amp;#x27;https://yesbusiness.yesuat.bank.in/?page=login-form-main&amp;#x27;\nlogin_data = {&amp;#x27;case_id&amp;#x27;: &amp;#x27;valid_msme_login&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, &amp;#x27;password&amp;#x27;: &amp;#x27;Password@23&amp;#x27;, &amp;#x27;username&amp;#x27;: &amp;#x27;282365C1&amp;#x27;}\ninternal_si_data = {&amp;#x27;amount&amp;#x27;: &amp;#x27;13&amp;#x27;, &amp;#x27;frequency&amp;#x27;: &amp;#x27;Monthly&amp;#x27;, &amp;#x27;from_account&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, ...}\n\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\n        &amp;quot;login_data&amp;quot;,\n        _load_json_data(LOGIN_DATA_PATH),\n        ids=lambda data: data.get(&amp;quot;case_id&amp;quot;, data.get(&amp;quot;username&amp;quot;, &amp;quot;msme_login&amp;quot;)),\n    )\n    @pytest.mark.parametrize(\n        &amp;quot;internal_si_data&amp;quot;,\n        _load_json_data(INTERNAL_SI_DATA_PATH),\n        ids=lambda data: data.get(&amp;quot;case_id&amp;quot;, data.get(&amp;quot;payeename&amp;quot;, &amp;quot;internal_si_payment&amp;quot;)),\n    )\n    def test_internal_si_payment(page, base_url, login_data, internal_si_data):\n        msme_login = MsmeLoginPage(page, base_url)\n        msme_login.login(\n            username=login_data[&amp;quot;username&amp;quot;],\n            password=login_data[&amp;quot;password&amp;quot;],\n            otp=login_data[&amp;quot;otp&amp;quot;],\n        )\n    \n        internal_si_payment = InternalSiPaymentPage(page)\n&amp;gt;       internal_si_payment.internal_si_payment(internal_si_data)\n\ne2eTests\\test_e2e_msme_internalSiPayment.py:49: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;pageObjects.internalSiPayment.InternalSiPaymentPage object at 0x000001ED48B94C20&amp;gt;\ntransfer_data = {&amp;#x27;amount&amp;#x27;: &amp;#x27;13&amp;#x27;, &amp;#x27;frequency&amp;#x27;: &amp;#x27;Monthly&amp;#x27;, &amp;#x27;from_account&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, ...}\n\n    def internal_si_payment(self, transfer_data):\n        try:\n            self._handle_post_login_popups()\n            self.navigate_to_pay_beneficiary()\n            self.enter_internal_si_payment_details(transfer_data)\n            self.verify_internal_si_review_transaction(transfer_data)\n            self.proceed_to_pay_and_confirm(transfer_data[&amp;quot;otp&amp;quot;])\n            self.assert_transferred_successfully()\n        except Exception as exc:\n            artifact_dir = self._save_debug_artifacts()\n            error_message = str(exc)\n            if not isinstance(exc, AssertionError):\n                error_message = f&amp;quot;{type(exc).__name__}: {exc}&amp;quot;\n    \n&amp;gt;           raise AssertionError(\n                f&amp;quot;{error_message}\\n\\nDebug artifacts saved to: {artifact_dir.resolve()}&amp;quot;\n            ) from None\nE           AssertionError: Could not click Select beneficiary dropdown: Locator.click: Timeout 10000ms exceeded.\nE           Call log:\nE             - waiting for get_by_label(re.compile(r&amp;quot;Select\\s+beneficiar(?:y|ies)&amp;quot;, re.IGNORECASE)).first\nE               - locator resolved to &amp;lt;oj-select-single id=&amp;quot;payeename&amp;quot; required=&amp;quot;[[true]]&amp;quot; label-edge=&amp;quot;provided&amp;quot; :id=&amp;quot;[[&amp;#x27;payeename&amp;#x27;]]&amp;quot; value=&amp;quot;{{selectedPayee}}&amp;quot; title=&amp;quot;Select beneficiary&amp;quot; item-text=&amp;quot;[[getItemText]]&amp;quot; data=&amp;quot;[[payeeListProvider]]&amp;quot; aria-label=&amp;quot;Select beneficiary&amp;quot; :title=&amp;quot;[[nls.MakePayment.Payee]]&amp;quot; data-id=&amp;quot;[[&amp;#x27;SelectSingle_payee&amp;#x27;]]&amp;quot; label-hint=&amp;quot;[[nls.MakePayment.Payee]]&amp;quot; :aria-label=&amp;quot;[[nls.MakePayment.Payee]]&amp;quot; placeholder=&amp;quot;[[nls.MakePayment.Payee]]&amp;quot; class=&amp;quot;select-beneficiary oj-searchselect oj-form-control oj-component oj-enabled oj-sea\u2026&amp;gt;\u2026&amp;lt;/oj-select-single&amp;gt;\nE             - attempting click action\nE               2 \u00d7 waiting for element to be visible, enabled and stable\nE                 - element is visible, enabled and stable\nE                 - scrolling into view if needed\nE                 - done scrolling\nE                 - &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;close-window_layer_overlay&amp;quot; class=&amp;quot;oj-component-overlay oj-dialog-layer&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; from &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;__oj_zorder_container&amp;quot;&amp;gt;\u2026&amp;lt;/div&amp;gt; subtree intercepts pointer events\nE               - retrying click action\nE               - waiting 20ms\nE               2 \u00d7 waiting for element to be visible, enabled and stable\nE                 - element is visible, enabled and stable\nE                 - scrolling into view if needed\nE                 - done scrolling\nE                 - &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;close-window_layer_overlay&amp;quot; class=&amp;quot;oj-component-overlay oj-dialog-layer&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; from &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;__oj_zorder_container&amp;quot;&amp;gt;\u2026&amp;lt;/div&amp;gt; subtree intercepts pointer events\nE               - retrying click action\nE                 - waiting 100ms\nE               18 \u00d7 waiting for element to be visible, enabled and stable\nE                  - element is visible, enabled and stable\nE                  - scrolling into view if needed\nE                  - done scrolling\nE                  - &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;close-window_layer_overlay&amp;quot; class=&amp;quot;oj-component-overlay oj-dialog-layer&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; from &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;__oj_zorder_container&amp;quot;&amp;gt;\u2026&amp;lt;/div&amp;gt; subtree intercepts pointer events\nE                - retrying click action\nE                  - waiting 500ms\nE           \nE           \nE           Debug artifacts saved to: C:\\Users\\Pratik\\PycharmProjects\\PythonProject\\playwrightMSME\\artifacts\\internal_si_payment_20260706_142654\n\npageObjects\\internalSiPayment.py:23: AssertionError\n&#34;}], &#34;e2eTests/test_e2e_msme_internalSiPaymentSelectEndDate.py::test_internal_si_payment_select_end_date[chromium-XXXXXISHNA FORGINGS-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Failed screenshot: e2eTests_test_e2e_msme_internalSiPaymentSelectEndDate.py_test_internal_si_payment_select_end_date_chromium-XXXXXISHNA_FORGINGS-valid_msme_login_failed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_internalSiPaymentSelectEndDate.py__test_internal_si_payment_select_end_date_chromium_XXXXXISHNA_FORGINGS_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_internalSiPaymentSelectEndDate.py::test_internal_si_payment_select_end_date[chromium-XXXXXISHNA FORGINGS-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:00:48&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_internalSiPaymentSelectEndDate.py::test_internal_si_payment_select_end_date[chromium-XXXXXISHNA FORGINGS-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:48&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;page = &amp;lt;Page url=&amp;#x27;https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary&amp;#x27;&amp;gt;\nbase_url = &amp;#x27;https://yesbusiness.yesuat.bank.in/?page=login-form-main&amp;#x27;\nlogin_data = {&amp;#x27;case_id&amp;#x27;: &amp;#x27;valid_msme_login&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, &amp;#x27;password&amp;#x27;: &amp;#x27;Password@23&amp;#x27;, &amp;#x27;username&amp;#x27;: &amp;#x27;282365C1&amp;#x27;}\ninternal_si_select_end_date_data = {&amp;#x27;amount&amp;#x27;: &amp;#x27;10&amp;#x27;, &amp;#x27;end_date&amp;#x27;: &amp;#x27;02-Jun-2027&amp;#x27;, &amp;#x27;frequency&amp;#x27;: &amp;#x27;Monthly&amp;#x27;, &amp;#x27;from_account&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, ...}\n\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\n        &amp;quot;login_data&amp;quot;,\n        _load_json_data(LOGIN_DATA_PATH),\n        ids=lambda data: data.get(&amp;quot;case_id&amp;quot;, data.get(&amp;quot;username&amp;quot;, &amp;quot;msme_login&amp;quot;)),\n    )\n    @pytest.mark.parametrize(\n        &amp;quot;internal_si_select_end_date_data&amp;quot;,\n        _load_json_data(INTERNAL_SI_SELECT_END_DATE_DATA_PATH),\n        ids=lambda data: data.get(\n            &amp;quot;case_id&amp;quot;,\n            data.get(&amp;quot;payeename&amp;quot;, &amp;quot;internal_si_payment_select_end_date&amp;quot;),\n        ),\n    )\n    def test_internal_si_payment_select_end_date(\n        page,\n        base_url,\n        login_data,\n        internal_si_select_end_date_data,\n    ):\n        msme_login = MsmeLoginPage(page, base_url)\n        msme_login.login(\n            username=login_data[&amp;quot;username&amp;quot;],\n            password=login_data[&amp;quot;password&amp;quot;],\n            otp=login_data[&amp;quot;otp&amp;quot;],\n        )\n    \n        internal_si_payment_select_end_date = InternalSiPaymentSelectEndDatePage(page)\n&amp;gt;       internal_si_payment_select_end_date.internal_si_payment_select_end_date(\n            internal_si_select_end_date_data\n        )\n\ne2eTests\\test_e2e_msme_internalSiPaymentSelectEndDate.py:61: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;pageObjects.internalSiPaymentSelectEndDate.InternalSiPaymentSelectEndDatePage object at 0x000001ED48B974D0&amp;gt;\ntransfer_data = {&amp;#x27;amount&amp;#x27;: &amp;#x27;10&amp;#x27;, &amp;#x27;end_date&amp;#x27;: &amp;#x27;02-Jun-2027&amp;#x27;, &amp;#x27;frequency&amp;#x27;: &amp;#x27;Monthly&amp;#x27;, &amp;#x27;from_account&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, ...}\n\n    def internal_si_payment_select_end_date(self, transfer_data):\n        try:\n            self._handle_post_login_popups()\n            self.navigate_to_pay_beneficiary()\n            self.enter_internal_si_payment_select_end_date_details(transfer_data)\n            self.verify_internal_si_select_end_date_review_transaction(transfer_data)\n            self.proceed_to_pay_and_confirm(transfer_data[&amp;quot;otp&amp;quot;])\n            self.assert_transferred_successfully()\n        except Exception as exc:\n            artifact_dir = self._save_debug_artifacts()\n            error_message = str(exc)\n            if not isinstance(exc, AssertionError):\n                error_message = f&amp;quot;{type(exc).__name__}: {exc}&amp;quot;\n    \n&amp;gt;           raise AssertionError(\n                f&amp;quot;{error_message}\\n\\nDebug artifacts saved to: {artifact_dir.resolve()}&amp;quot;\n            ) from None\nE           AssertionError: Could not click Select beneficiary dropdown: Locator.click: Timeout 10000ms exceeded.\nE           Call log:\nE             - waiting for get_by_label(re.compile(r&amp;quot;Select\\s+beneficiar(?:y|ies)&amp;quot;, re.IGNORECASE)).first\nE               - locator resolved to &amp;lt;oj-select-single id=&amp;quot;payeename&amp;quot; required=&amp;quot;[[true]]&amp;quot; label-edge=&amp;quot;provided&amp;quot; :id=&amp;quot;[[&amp;#x27;payeename&amp;#x27;]]&amp;quot; value=&amp;quot;{{selectedPayee}}&amp;quot; title=&amp;quot;Select beneficiary&amp;quot; item-text=&amp;quot;[[getItemText]]&amp;quot; data=&amp;quot;[[payeeListProvider]]&amp;quot; aria-label=&amp;quot;Select beneficiary&amp;quot; :title=&amp;quot;[[nls.MakePayment.Payee]]&amp;quot; data-id=&amp;quot;[[&amp;#x27;SelectSingle_payee&amp;#x27;]]&amp;quot; label-hint=&amp;quot;[[nls.MakePayment.Payee]]&amp;quot; :aria-label=&amp;quot;[[nls.MakePayment.Payee]]&amp;quot; placeholder=&amp;quot;[[nls.MakePayment.Payee]]&amp;quot; class=&amp;quot;select-beneficiary oj-searchselect oj-form-control oj-component oj-enabled oj-sea\u2026&amp;gt;\u2026&amp;lt;/oj-select-single&amp;gt;\nE             - attempting click action\nE               2 \u00d7 waiting for element to be visible, enabled and stable\nE                 - element is visible, enabled and stable\nE                 - scrolling into view if needed\nE                 - done scrolling\nE                 - &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;close-window_layer_overlay&amp;quot; class=&amp;quot;oj-component-overlay oj-dialog-layer&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; from &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;__oj_zorder_container&amp;quot;&amp;gt;\u2026&amp;lt;/div&amp;gt; subtree intercepts pointer events\nE               - retrying click action\nE               - waiting 20ms\nE               2 \u00d7 waiting for element to be visible, enabled and stable\nE                 - element is visible, enabled and stable\nE                 - scrolling into view if needed\nE                 - done scrolling\nE                 - &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;close-window_layer_overlay&amp;quot; class=&amp;quot;oj-component-overlay oj-dialog-layer&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; from &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;__oj_zorder_container&amp;quot;&amp;gt;\u2026&amp;lt;/div&amp;gt; subtree intercepts pointer events\nE               - retrying click action\nE                 - waiting 100ms\nE               19 \u00d7 waiting for element to be visible, enabled and stable\nE                  - element is visible, enabled and stable\nE                  - scrolling into view if needed\nE                  - done scrolling\nE                  - &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;close-window_layer_overlay&amp;quot; class=&amp;quot;oj-component-overlay oj-dialog-layer&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; from &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;__oj_zorder_container&amp;quot;&amp;gt;\u2026&amp;lt;/div&amp;gt; subtree intercepts pointer events\nE                - retrying click action\nE                  - waiting 500ms\nE           \nE           \nE           Debug artifacts saved to: C:\\Users\\Pratik\\PycharmProjects\\PythonProject\\playwrightMSME\\artifacts\\internal_si_payment_select_end_date_20260706_142742\n\npageObjects\\internalSiPaymentSelectEndDate.py:23: AssertionError\n&#34;}], &#34;e2eTests/test_e2e_msme_neftRegPayeeOnetime.py::test_neft_registered_payee_onetime[chromium-TestNEFTOne-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Passed screenshot: e2eTests_test_e2e_msme_neftRegPayeeOnetime.py_test_neft_registered_payee_onetime_chromium-TestNEFTOne-valid_msme_login_passed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_neftRegPayeeOnetime.py__test_neft_registered_payee_onetime_chromium_TestNEFTOne_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_neftRegPayeeOnetime.py::test_neft_registered_payee_onetime[chromium-TestNEFTOne-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:01:26&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_neftRegPayeeOnetime.py::test_neft_registered_payee_onetime[chromium-TestNEFTOne-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:26&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;e2eTests/test_e2e_msme_neftRegPayeeOnetimeLater.py::test_neft_registered_payee_onetime_later[chromium-TestNEFTOne-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Passed screenshot: e2eTests_test_e2e_msme_neftRegPayeeOnetimeLater.py_test_neft_registered_payee_onetime_later_chromium-TestNEFTOne-valid_msme_login_passed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_neftRegPayeeOnetimeLater.py__test_neft_registered_payee_onetime_later_chromium_TestNEFTOne_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_neftRegPayeeOnetimeLater.py::test_neft_registered_payee_onetime_later[chromium-TestNEFTOne-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:01:35&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_neftRegPayeeOnetimeLater.py::test_neft_registered_payee_onetime_later[chromium-TestNEFTOne-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:35&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;e2eTests/test_e2e_msme_neftSiPayment.py::test_neft_si_payment[chromium-TestNEFTSix-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Failed screenshot: e2eTests_test_e2e_msme_neftSiPayment.py_test_neft_si_payment_chromium-TestNEFTSix-valid_msme_login_failed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_neftSiPayment.py__test_neft_si_payment_chromium_TestNEFTSix_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_neftSiPayment.py::test_neft_si_payment[chromium-TestNEFTSix-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:02:15&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_neftSiPayment.py::test_neft_si_payment[chromium-TestNEFTSix-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:02:15&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;page = &amp;lt;Page url=&amp;#x27;https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary&amp;#x27;&amp;gt;\nbase_url = &amp;#x27;https://yesbusiness.yesuat.bank.in/?page=login-form-main&amp;#x27;\nlogin_data = {&amp;#x27;case_id&amp;#x27;: &amp;#x27;valid_msme_login&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, &amp;#x27;password&amp;#x27;: &amp;#x27;Password@23&amp;#x27;, &amp;#x27;username&amp;#x27;: &amp;#x27;282365C1&amp;#x27;}\nneft_si_data = {&amp;#x27;amount&amp;#x27;: &amp;#x27;11&amp;#x27;, &amp;#x27;frequency&amp;#x27;: &amp;#x27;Monthly&amp;#x27;, &amp;#x27;from_account&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, ...}\n\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\n        &amp;quot;login_data&amp;quot;,\n        _load_json_data(LOGIN_DATA_PATH),\n        ids=lambda data: data.get(&amp;quot;case_id&amp;quot;, data.get(&amp;quot;username&amp;quot;, &amp;quot;msme_login&amp;quot;)),\n    )\n    @pytest.mark.parametrize(\n        &amp;quot;neft_si_data&amp;quot;,\n        _load_json_data(NEFT_SI_DATA_PATH),\n        ids=lambda data: data.get(&amp;quot;case_id&amp;quot;, data.get(&amp;quot;payeename&amp;quot;, &amp;quot;neft_si_payment&amp;quot;)),\n    )\n    def test_neft_si_payment(page, base_url, login_data, neft_si_data):\n        msme_login = MsmeLoginPage(page, base_url)\n        msme_login.login(\n            username=login_data[&amp;quot;username&amp;quot;],\n            password=login_data[&amp;quot;password&amp;quot;],\n            otp=login_data[&amp;quot;otp&amp;quot;],\n        )\n    \n        neft_si_payment = NeftSiPaymentPage(page)\n&amp;gt;       neft_si_payment.neft_si_payment(neft_si_data)\n\ne2eTests\\test_e2e_msme_neftSiPayment.py:49: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;pageObjects.neftSiPayment.NeftSiPaymentPage object at 0x000001ED64DD8440&amp;gt;\ntransfer_data = {&amp;#x27;amount&amp;#x27;: &amp;#x27;11&amp;#x27;, &amp;#x27;frequency&amp;#x27;: &amp;#x27;Monthly&amp;#x27;, &amp;#x27;from_account&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, ...}\n\n    def neft_si_payment(self, transfer_data):\n        try:\n            self._handle_post_login_popups()\n            self.navigate_to_pay_beneficiary()\n            self.enter_neft_si_payment_details(transfer_data)\n            self.verify_neft_si_review_transaction(transfer_data)\n            self.proceed_to_pay_and_confirm(transfer_data[&amp;quot;otp&amp;quot;])\n            self.assert_transferred_successfully()\n        except Exception as exc:\n            artifact_dir = self._save_debug_artifacts()\n            error_message = str(exc)\n            if not isinstance(exc, AssertionError):\n                error_message = f&amp;quot;{type(exc).__name__}: {exc}&amp;quot;\n    \n&amp;gt;           raise AssertionError(\n                f&amp;quot;{error_message}\\n\\nDebug artifacts saved to: {artifact_dir.resolve()}&amp;quot;\n            ) from None\nE           AssertionError: Timed out waiting for Transferred successfully confirmation after OTP submission.\nE           url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary\nE           title=YES Bank\nE           frames=1\nE           frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary readyState=complete bodyText=&amp;#x27;\\xa0\\nPayment unsuccessful\\nSystem cannot process the request currently. Please try later.\\nTry Again\\nBACK\\nSkip to main content\\n|\\n\\xa0 A- \\xa0 \\nSmall Font\\n\\xa0 A \\xa0 \\nDefault Font\\n\\xa0 A+ \\xa0\\nLarge Font\\nHi HARDIK\\nXXXXXAL FLEX\\nLast login 06 Jul 2026 02:29 PM IST\\nNeed Help? Refer User Guide Document\\n12\\nHome\\nAccounts \\nPayments \\nCollections \\nTrade Plus \\nAuthorizations \\nServices \\nDigital Supply Chain\\nHomePaymentsSingle PaymentsTransfer - Exisiting Beneficiary\\nReview Transaction\\nYou initiated a request to transfer money. Please review the details before you confirm.\\nTransfer From\\n282364-XXXXXAL FLEX - 084188900001394\\nTransfer To\\nTestNEFTSix - 1234567896\\nTransfer Amount\\nINR 11.00\\nTransfer Type\\nNEFT\\nStart date\\n18 Jul, 2026\\nFrequency\\nMonthly\\nEnd date\\n31 Dec, 2099\\nRemarks: NEFT SI Payment\\nDear Customer, please note that credit gets afforded to the beneficiary solely based on account number. Kindly re-verify the account number mentioned in the beneficiary account number section before initiating a transaction.\\nProceed&amp;#x27;\nE           \nE           Debug artifacts saved to: C:\\Users\\Pratik\\PycharmProjects\\PythonProject\\playwrightMSME\\artifacts\\neft_si_payment_20260706_143258\n\npageObjects\\neftSiPayment.py:23: AssertionError\n&#34;}], &#34;e2eTests/test_e2e_msme_neftSiPaymentSelectEndDate.py::test_neft_si_payment_select_end_date[chromium-TestNEFTSeven-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Failed screenshot: e2eTests_test_e2e_msme_neftSiPaymentSelectEndDate.py_test_neft_si_payment_select_end_date_chromium-TestNEFTSeven-valid_msme_login_failed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_neftSiPaymentSelectEndDate.py__test_neft_si_payment_select_end_date_chromium_TestNEFTSeven_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_neftSiPaymentSelectEndDate.py::test_neft_si_payment_select_end_date[chromium-TestNEFTSeven-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:02:32&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_neftSiPaymentSelectEndDate.py::test_neft_si_payment_select_end_date[chromium-TestNEFTSeven-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:02:32&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;page = &amp;lt;Page url=&amp;#x27;https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary&amp;#x27;&amp;gt;\nbase_url = &amp;#x27;https://yesbusiness.yesuat.bank.in/?page=login-form-main&amp;#x27;\nlogin_data = {&amp;#x27;case_id&amp;#x27;: &amp;#x27;valid_msme_login&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, &amp;#x27;password&amp;#x27;: &amp;#x27;Password@23&amp;#x27;, &amp;#x27;username&amp;#x27;: &amp;#x27;282365C1&amp;#x27;}\nneft_si_select_end_date_data = {&amp;#x27;amount&amp;#x27;: &amp;#x27;11&amp;#x27;, &amp;#x27;end_date&amp;#x27;: &amp;#x27;14-Jun-2027&amp;#x27;, &amp;#x27;frequency&amp;#x27;: &amp;#x27;Monthly&amp;#x27;, &amp;#x27;from_account&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, ...}\n\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\n        &amp;quot;login_data&amp;quot;,\n        _load_json_data(LOGIN_DATA_PATH),\n        ids=lambda data: data.get(&amp;quot;case_id&amp;quot;, data.get(&amp;quot;username&amp;quot;, &amp;quot;msme_login&amp;quot;)),\n    )\n    @pytest.mark.parametrize(\n        &amp;quot;neft_si_select_end_date_data&amp;quot;,\n        _load_json_data(NEFT_SI_SELECT_END_DATE_DATA_PATH),\n        ids=lambda data: data.get(\n            &amp;quot;case_id&amp;quot;,\n            data.get(&amp;quot;payeename&amp;quot;, &amp;quot;neft_si_payment_select_end_date&amp;quot;),\n        ),\n    )\n    def test_neft_si_payment_select_end_date(\n        page,\n        base_url,\n        login_data,\n        neft_si_select_end_date_data,\n    ):\n        msme_login = MsmeLoginPage(page, base_url)\n        msme_login.login(\n            username=login_data[&amp;quot;username&amp;quot;],\n            password=login_data[&amp;quot;password&amp;quot;],\n            otp=login_data[&amp;quot;otp&amp;quot;],\n        )\n    \n        neft_si_payment_select_end_date = NeftSiPaymentSelectEndDatePage(page)\n&amp;gt;       neft_si_payment_select_end_date.neft_si_payment_select_end_date(\n            neft_si_select_end_date_data\n        )\n\ne2eTests\\test_e2e_msme_neftSiPaymentSelectEndDate.py:59: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;pageObjects.neftSiPaymentSelectEndDate.NeftSiPaymentSelectEndDatePage object at 0x000001ED64DDBCB0&amp;gt;\ntransfer_data = {&amp;#x27;amount&amp;#x27;: &amp;#x27;11&amp;#x27;, &amp;#x27;end_date&amp;#x27;: &amp;#x27;14-Jun-2027&amp;#x27;, &amp;#x27;frequency&amp;#x27;: &amp;#x27;Monthly&amp;#x27;, &amp;#x27;from_account&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, ...}\n\n    def neft_si_payment_select_end_date(self, transfer_data):\n        try:\n            self._handle_post_login_popups()\n            self.navigate_to_pay_beneficiary()\n            self.enter_neft_si_payment_select_end_date_details(transfer_data)\n            self.verify_neft_si_review_transaction(transfer_data)\n            self.proceed_to_pay_and_confirm(transfer_data[&amp;quot;otp&amp;quot;])\n            self.assert_transferred_successfully()\n        except Exception as exc:\n            artifact_dir = self._save_debug_artifacts()\n            error_message = str(exc)\n            if not isinstance(exc, AssertionError):\n                error_message = f&amp;quot;{type(exc).__name__}: {exc}&amp;quot;\n    \n&amp;gt;           raise AssertionError(\n                f&amp;quot;{error_message}\\n\\nDebug artifacts saved to: {artifact_dir.resolve()}&amp;quot;\n            ) from None\nE           AssertionError: Timed out waiting for Review Transaction page after clicking Proceed.\nE           url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary\nE           title=YES Bank\nE           frames=1\nE           frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary readyState=complete bodyText=&amp;#x27;Skip to main content\\n|\\n\\xa0 A- \\xa0 \\nSmall Font\\n\\xa0 A \\xa0 \\nDefault Font\\n\\xa0 A+ \\xa0\\nLarge Font\\nHi HARDIK\\nXXXXXAL FLEX\\nLast login 06 Jul 2026 02:30 PM IST\\nNeed Help? Refer User Guide Document\\n13\\nHome\\nAccounts \\nPayments \\nCollections \\nTrade Plus \\nAuthorizations \\nServices \\nDigital Supply Chain\\nHomePaymentsSingle PaymentsTransfer - Exisiting Beneficiary\\nPay Beneficiary\\nSelect beneficiary\\n1 matches found\\nTransfer From\\n2 matches found\\nAvailable Balance : INR 2,25,574.56\\nVerify Recipient Name\\nTransfer Amount\\nINR 1,00,000\\nINR 75,000\\nINR 50,000\\nINR 25,000\\nTransfer type\\nIMPS\\nNEFT\\nRTGS\\nTransfer Schedule\\nOne Time\\nRecurring Payment\\nFrequency\\nMonthly\\nStart date\\nPress Key down or Key up for access to Calendar.\\nStanding instruction schedule\\nContinue until instructed to stop\\nSelect end date\\nEnd date\\nPress Key down or Key up for access to Calendar.\\nRemarks (optional)\\n20 characters left.\\nProceed\\nFund Transfer\\nOwn Account Transfer\\nPay Group\\nBulk Transfer\\nQuick Transfer\\nQuick Actions\\nStanding Instructions\\nView Beneficiari&amp;#x27;\nE           \nE           Debug artifacts saved to: C:\\Users\\Pratik\\PycharmProjects\\PythonProject\\playwrightMSME\\artifacts\\neft_si_payment_select_end_date_20260706_143530\n\npageObjects\\neftSiPaymentSelectEndDate.py:23: AssertionError\n&#34;}], &#34;e2eTests/test_e2e_msme_ownAcctOnetimePayment.py::test_own_account_onetime_payment[chromium-084188900001394_to_007584600001720-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Failed screenshot: e2eTests_test_e2e_msme_ownAcctOnetimePayment.py_test_own_account_onetime_payment_chromium-084188900001394_to_007584600001720-valid_msme_login_failed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_ownAcctOnetimePayment.py__test_own_account_onetime_payment_chromium_084188900001394_to_007584600001720_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_ownAcctOnetimePayment.py::test_own_account_onetime_payment[chromium-084188900001394_to_007584600001720-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:02:01&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_ownAcctOnetimePayment.py::test_own_account_onetime_payment[chromium-084188900001394_to_007584600001720-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:02:01&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;page = &amp;lt;Page url=&amp;#x27;https://yesbusiness.yesuat.bank.in/?page=own-account-transfer&amp;#x27;&amp;gt;\nbase_url = &amp;#x27;https://yesbusiness.yesuat.bank.in/?page=login-form-main&amp;#x27;\nlogin_data = {&amp;#x27;case_id&amp;#x27;: &amp;#x27;valid_msme_login&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, &amp;#x27;password&amp;#x27;: &amp;#x27;Password@23&amp;#x27;, &amp;#x27;username&amp;#x27;: &amp;#x27;282365C1&amp;#x27;}\nown_account_payment_data = {&amp;#x27;amount&amp;#x27;: &amp;#x27;23&amp;#x27;, &amp;#x27;from_account&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, &amp;#x27;remarks&amp;#x27;: &amp;#x27;Own Account Transfer&amp;#x27;, &amp;#x27;to_account&amp;#x27;: &amp;#x27;007584600001720&amp;#x27;, ...}\n\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\n        &amp;quot;login_data&amp;quot;,\n        _load_json_data(LOGIN_DATA_PATH),\n        ids=lambda data: data.get(&amp;quot;case_id&amp;quot;, data.get(&amp;quot;username&amp;quot;, &amp;quot;msme_login&amp;quot;)),\n    )\n    @pytest.mark.parametrize(\n        &amp;quot;own_account_payment_data&amp;quot;,\n        _load_json_data(OWN_ACCOUNT_PAYMENT_DATA_PATH),\n        ids=lambda data: data.get(\n            &amp;quot;case_id&amp;quot;,\n            f&amp;quot;{data.get(&amp;#x27;from_account&amp;#x27;, &amp;#x27;from&amp;#x27;)}_to_{data.get(&amp;#x27;to_account&amp;#x27;, &amp;#x27;to&amp;#x27;)}&amp;quot;,\n        ),\n    )\n    def test_own_account_onetime_payment(\n        page,\n        base_url,\n        login_data,\n        own_account_payment_data,\n    ):\n        msme_login = MsmeLoginPage(page, base_url)\n        msme_login.login(\n            username=login_data[&amp;quot;username&amp;quot;],\n            password=login_data[&amp;quot;password&amp;quot;],\n            otp=login_data[&amp;quot;otp&amp;quot;],\n        )\n    \n        payment_data = dict(own_account_payment_data)\n        payment_data.setdefault(&amp;quot;otp&amp;quot;, login_data[&amp;quot;otp&amp;quot;])\n    \n        own_account_payment = OwnAcctOnetimePaymentPage(page)\n&amp;gt;       own_account_payment.own_account_onetime_payment(payment_data)\n\ne2eTests\\test_e2e_msme_ownAcctOnetimePayment.py:62: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;pageObjects.ownAcctOnetimePayment.OwnAcctOnetimePaymentPage object at 0x000001ED6FCDEE40&amp;gt;\ntransfer_data = {&amp;#x27;_selected_transfer_when&amp;#x27;: &amp;#x27;07/06/2026&amp;#x27;, &amp;#x27;_selected_transfer_when_variants&amp;#x27;: [&amp;#x27;07/06/2026&amp;#x27;, &amp;#x27;6&amp;#x27;, &amp;#x27;2026-07-06&amp;#x27;, &amp;#x27;06/07/2026&amp;#x27;, &amp;#x27;6/7/2026&amp;#x27;, &amp;#x27;06-07-2026&amp;#x27;, ...], &amp;#x27;amount&amp;#x27;: &amp;#x27;23&amp;#x27;, &amp;#x27;from_account&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, ...}\n\n    def own_account_onetime_payment(self, transfer_data):\n        try:\n            self._handle_post_login_popups()\n            self.navigate_to_own_account_transfer()\n            self.enter_own_account_transfer_details(transfer_data)\n            self.verify_own_account_review_transaction(transfer_data)\n            self.proceed_to_pay_and_confirm_if_required(transfer_data.get(&amp;quot;otp&amp;quot;))\n            self.assert_transferred_successfully()\n        except Exception as exc:\n            artifact_dir = self._save_debug_artifacts()\n            error_message = str(exc)\n            if not isinstance(exc, AssertionError):\n                error_message = f&amp;quot;{type(exc).__name__}: {exc}&amp;quot;\n    \n&amp;gt;           raise AssertionError(\n                f&amp;quot;{error_message}\\n\\nDebug artifacts saved to: {artifact_dir.resolve()}&amp;quot;\n            ) from None\nE           AssertionError: Timed out waiting for Review Transaction page after clicking Proceed.\nE           url=https://yesbusiness.yesuat.bank.in/?page=own-account-transfer\nE           title=YES Bank\nE           frames=1\nE           frame=0 url=https://yesbusiness.yesuat.bank.in/?page=own-account-transfer readyState=complete bodyText=&amp;#x27;Error\\n\\nSystem cannot process the request currently. Please try later.\\n\\nOK\\nSkip to main content\\n|\\n\\xa0 A- \\xa0 \\nSmall Font\\n\\xa0 A \\xa0 \\nDefault Font\\n\\xa0 A+ \\xa0\\nLarge Font\\nHi HARDIK\\nXXXXXAL FLEX\\nLast login 06 Jul 2026 02:33 PM IST\\nNeed Help? Refer User Guide Document\\n13\\nHome\\nAccounts \\nPayments \\nCollections \\nTrade Plus \\nAuthorizations \\nServices \\nDigital Supply Chain\\nHomePaymentsSingle PaymentsOwn Account Transfer\\nOwn Account Transfer\\nTransfer To\\n1 matches found\\nTransfer From\\n1 matches found\\nTransfer Amount\\nINR 1,00,000\\nINR 75,000\\nINR 50,000\\nINR 25,000\\nRemarks\\n15 characters left.\\nTransfer Schedule\\nOne Time\\nRecurring Payment\\nTransfer When\\nPress Key down or Key up for access to Calendar.\\nProceed\\nFund Transfer\\nPay beneficiary\\nPay Group\\nBulk Transfer\\nQuick Transfer\\nQuick Actions\\nView Beneficiaries\\nAdd New Beneficiary\\nView Statement\\nDisplaying page 1 of 3\\nPage 1 content loaded\\npagingControlLoginPagination\\nPage\\n1\\nPage\\n2\\nPage\\n3&amp;#x27;\nE           \nE           Debug artifacts saved to: C:\\Users\\Pratik\\PycharmProjects\\PythonProject\\playwrightMSME\\artifacts\\own_acct_onetime_payment_20260706_143732\n\npageObjects\\ownAcctOnetimePayment.py:28: AssertionError\n&#34;}], &#34;e2eTests/test_e2e_msme_ownAcctOnetimePaymentLater.py::test_own_account_onetime_payment_later[chromium-084188900001394_to_007584600001720_later-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Passed screenshot: e2eTests_test_e2e_msme_ownAcctOnetimePaymentLater.py_test_own_account_onetime_payment_later_chromium-084188900001394_to_007584600001720_later-valid_msme_login_passed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_ownAcctOnetimePaymentLater.py__test_own_account_onetime_payment_later_chromium_084188900001394_to_007584600001720_later_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_ownAcctOnetimePaymentLater.py::test_own_account_onetime_payment_later[chromium-084188900001394_to_007584600001720_later-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:01:32&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_ownAcctOnetimePaymentLater.py::test_own_account_onetime_payment_later[chromium-084188900001394_to_007584600001720_later-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:32&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;e2eTests/test_e2e_msme_ownAcctSiPayment.py::test_own_account_si_payment[chromium-084188900001394_to_007584600001720_si-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Passed screenshot: e2eTests_test_e2e_msme_ownAcctSiPayment.py_test_own_account_si_payment_chromium-084188900001394_to_007584600001720_si-valid_msme_login_passed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_ownAcctSiPayment.py__test_own_account_si_payment_chromium_084188900001394_to_007584600001720_si_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_ownAcctSiPayment.py::test_own_account_si_payment[chromium-084188900001394_to_007584600001720_si-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:01:47&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_ownAcctSiPayment.py::test_own_account_si_payment[chromium-084188900001394_to_007584600001720_si-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:47&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;e2eTests/test_e2e_msme_ownAcctSiPaymentSelectEndDate.py::test_own_account_si_payment_select_end_date[chromium-084188900001394_to_007584600001720_si_end_date-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Passed screenshot: e2eTests_test_e2e_msme_ownAcctSiPaymentSelectEndDate.py_test_own_account_si_payment_select_end_date_chromium-084188900001394_to_007584600001720_si_end_date-valid_msme_login_passed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_ownAcctSiPaymentSelectEndDate.py__test_own_account_si_payment_select_end_date_chromium_084188900001394_to_007584600001720_si_end_date_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_ownAcctSiPaymentSelectEndDate.py::test_own_account_si_payment_select_end_date[chromium-084188900001394_to_007584600001720_si_end_date-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:02:00&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_ownAcctSiPaymentSelectEndDate.py::test_own_account_si_payment_select_end_date[chromium-084188900001394_to_007584600001720_si_end_date-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:02:00&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;e2eTests/test_e2e_msme_paySalaryImps.py::test_pay_salary_imps[chromium-EmpIMPS-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Failed screenshot: e2eTests_test_e2e_msme_paySalaryImps.py_test_pay_salary_imps_chromium-EmpIMPS-valid_msme_login_failed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_paySalaryImps.py__test_pay_salary_imps_chromium_EmpIMPS_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_paySalaryImps.py::test_pay_salary_imps[chromium-EmpIMPS-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:01:38&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_paySalaryImps.py::test_pay_salary_imps[chromium-EmpIMPS-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:38&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;page = &amp;lt;Page url=&amp;#x27;https://yesbusiness.yesuat.bank.in/?page=pay-employee&amp;#x27;&amp;gt;\nbase_url = &amp;#x27;https://yesbusiness.yesuat.bank.in/?page=login-form-main&amp;#x27;\nlogin_data = {&amp;#x27;case_id&amp;#x27;: &amp;#x27;valid_msme_login&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, &amp;#x27;password&amp;#x27;: &amp;#x27;Password@23&amp;#x27;, &amp;#x27;username&amp;#x27;: &amp;#x27;282365C1&amp;#x27;}\nsalary_data = {&amp;#x27;amount&amp;#x27;: &amp;#x27;10&amp;#x27;, &amp;#x27;employeeName&amp;#x27;: &amp;#x27;EmpIMPS&amp;#x27;, &amp;#x27;fromAccount&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, ...}\n\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\n        &amp;quot;login_data&amp;quot;,\n        _load_json_data(LOGIN_DATA_PATH),\n        ids=lambda data: data.get(&amp;quot;case_id&amp;quot;, data.get(&amp;quot;username&amp;quot;, &amp;quot;msme_login&amp;quot;)),\n    )\n    @pytest.mark.parametrize(\n        &amp;quot;salary_data&amp;quot;,\n        _load_json_data(PAY_SALARY_IMPS_DATA_PATH),\n        ids=lambda data: data.get(\n            &amp;quot;case_id&amp;quot;,\n            data.get(&amp;quot;employeeName&amp;quot;, &amp;quot;pay_salary_imps&amp;quot;),\n        ),\n    )\n    def test_pay_salary_imps(page, base_url, login_data, salary_data):\n        msme_login = MsmeLoginPage(page, base_url)\n        msme_login.login(\n            username=login_data[&amp;quot;username&amp;quot;],\n            password=login_data[&amp;quot;password&amp;quot;],\n            otp=login_data[&amp;quot;otp&amp;quot;],\n        )\n    \n        salary_payment = PaySalaryImpsPage(page)\n&amp;gt;       salary_payment.pay_salary_imps(salary_data)\n\ne2eTests\\test_e2e_msme_paySalaryImps.py:52: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;pageObjects.paySalaryImps.PaySalaryImpsPage object at 0x000001ED86D24AD0&amp;gt;\nsalary_data = {&amp;#x27;amount&amp;#x27;: &amp;#x27;10&amp;#x27;, &amp;#x27;employeeName&amp;#x27;: &amp;#x27;EmpIMPS&amp;#x27;, &amp;#x27;fromAccount&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, ...}\n\n    def pay_salary_imps(self, salary_data):\n        try:\n            self._handle_post_login_popups()\n            self.navigate_to_manage_employee()\n            self.click_pay_employee_quick_action()\n            self.enter_pay_employee_details(salary_data)\n            self.verify_transaction_summary(salary_data)\n            self.proceed_to_pay_and_confirm_if_required(salary_data.get(&amp;quot;otp&amp;quot;))\n            self.assert_salary_payment_successful()\n        except Exception as exc:\n            artifact_dir = self._save_debug_artifacts()\n            error_message = str(exc)\n            if not isinstance(exc, AssertionError):\n                error_message = f&amp;quot;{type(exc).__name__}: {exc}&amp;quot;\n    \n&amp;gt;           raise AssertionError(\n                f&amp;quot;{error_message}\\n\\nDebug artifacts saved to: {artifact_dir.resolve()}&amp;quot;\n            ) from None\nE           AssertionError: Salary payment failed before final confirmation screen: transaction failed\nE           \nE           Page text:\nE           verification close verify otp otp has been sent to your registered mobile number enter otp resend otp in 54 secs get otp on email confirm and proceed sorry, transaction failed! retry go to home error system cannot process the request currently. please try later. ok skip to main content | a- small font a default font a+ large font hi hardik xxxxxal flex last login 06 jul 2026 02:41 pm ist need help? refer user guide document 13 home accounts payments collections trade plus authorizations services digital supply chain transaction summary please review the salary payment details before you confirm! employee details bank name ifsc code transfer from transfer amount transfer type empimps 123456042 hdfc bank hdfc0004024 current account - 084188900001394 inr 10.00 imps remarks: imps salary payment dear customer, please note that credit gets afforded to the beneficiary solely based on account number. kindly re-verify the account number mentioned in the beneficiary account number section before initiating a transaction. proceed to pay back quick actions pay employee adhoc transfer manage employees add employees via bulk upload displaying page 1 of 3 page 1 content loaded pagingcontrolloginpagination page 1 page 2 page 3\nE           \nE           Debug artifacts saved to: C:\\Users\\Pratik\\PycharmProjects\\PythonProject\\playwrightMSME\\artifacts\\pay_salary_imps_20260706_144430\n\npageObjects\\paySalaryImps.py:23: AssertionError\n&#34;}], &#34;e2eTests/test_e2e_msme_paySalaryInternalBene.py::test_pay_salary_internal_bene[chromium-Emp03-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Failed screenshot: e2eTests_test_e2e_msme_paySalaryInternalBene.py_test_pay_salary_internal_bene_chromium-Emp03-valid_msme_login_failed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_paySalaryInternalBene.py__test_pay_salary_internal_bene_chromium_Emp03_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_paySalaryInternalBene.py::test_pay_salary_internal_bene[chromium-Emp03-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:01:24&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_paySalaryInternalBene.py::test_pay_salary_internal_bene[chromium-Emp03-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:24&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;page = &amp;lt;Page url=&amp;#x27;https://yesbusiness.yesuat.bank.in/?page=pay-employee&amp;#x27;&amp;gt;\nbase_url = &amp;#x27;https://yesbusiness.yesuat.bank.in/?page=login-form-main&amp;#x27;\nlogin_data = {&amp;#x27;case_id&amp;#x27;: &amp;#x27;valid_msme_login&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, &amp;#x27;password&amp;#x27;: &amp;#x27;Password@23&amp;#x27;, &amp;#x27;username&amp;#x27;: &amp;#x27;282365C1&amp;#x27;}\nsalary_data = {&amp;#x27;amount&amp;#x27;: &amp;#x27;10&amp;#x27;, &amp;#x27;employeeName&amp;#x27;: &amp;#x27;Emp03&amp;#x27;, &amp;#x27;fromAccount&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, ...}\n\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\n        &amp;quot;login_data&amp;quot;,\n        _load_json_data(LOGIN_DATA_PATH),\n        ids=lambda data: data.get(&amp;quot;case_id&amp;quot;, data.get(&amp;quot;username&amp;quot;, &amp;quot;msme_login&amp;quot;)),\n    )\n    @pytest.mark.parametrize(\n        &amp;quot;salary_data&amp;quot;,\n        _load_json_data(PAY_SALARY_DATA_PATH),\n        ids=lambda data: data.get(\n            &amp;quot;case_id&amp;quot;,\n            data.get(&amp;quot;employeeName&amp;quot;, &amp;quot;pay_salary_internal_bene&amp;quot;),\n        ),\n    )\n    def test_pay_salary_internal_bene(page, base_url, login_data, salary_data):\n        msme_login = MsmeLoginPage(page, base_url)\n        msme_login.login(\n            username=login_data[&amp;quot;username&amp;quot;],\n            password=login_data[&amp;quot;password&amp;quot;],\n            otp=login_data[&amp;quot;otp&amp;quot;],\n        )\n    \n        salary_payment = PaySalaryInternalBenePage(page)\n&amp;gt;       salary_payment.pay_salary_internal_bene(salary_data)\n\ne2eTests\\test_e2e_msme_paySalaryInternalBene.py:52: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;pageObjects.paySalaryInternalBene.PaySalaryInternalBenePage object at 0x000001ED93C512B0&amp;gt;\nsalary_data = {&amp;#x27;amount&amp;#x27;: &amp;#x27;10&amp;#x27;, &amp;#x27;employeeName&amp;#x27;: &amp;#x27;Emp03&amp;#x27;, &amp;#x27;fromAccount&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, ...}\n\n    def pay_salary_internal_bene(self, salary_data):\n        try:\n            self._handle_post_login_popups()\n            self.navigate_to_manage_employee()\n            self.click_pay_employee_quick_action()\n            self.enter_pay_employee_details(salary_data)\n            self.verify_transaction_summary(salary_data)\n            self.proceed_to_pay_and_confirm_if_required(salary_data.get(&amp;quot;otp&amp;quot;))\n            self.assert_salary_payment_successful()\n        except Exception as exc:\n            artifact_dir = self._save_debug_artifacts()\n            error_message = str(exc)\n            if not isinstance(exc, AssertionError):\n                error_message = f&amp;quot;{type(exc).__name__}: {exc}&amp;quot;\n    \n&amp;gt;           raise AssertionError(\n                f&amp;quot;{error_message}\\n\\nDebug artifacts saved to: {artifact_dir.resolve()}&amp;quot;\n            ) from None\nE           AssertionError: Could not click Select employee dropdown: Locator.click: Timeout 10000ms exceeded.\nE           Call log:\nE             - waiting for get_by_label(re.compile(r&amp;quot;Select\\s+employee&amp;quot;, re.IGNORECASE)).first\nE               - locator resolved to &amp;lt;div tabindex=&amp;quot;0&amp;quot; role=&amp;quot;combobox&amp;quot; aria-required=&amp;quot;true&amp;quot; aria-expanded=&amp;quot;false&amp;quot; aria-label=&amp;quot;Employee&amp;quot; aria-autocomplete=&amp;quot;none&amp;quot; aria-labelledby=&amp;quot;ui-id-163|label&amp;quot; id=&amp;quot;oj-select-choice-Payee8753165&amp;quot; aria-describedby=&amp;quot;Payee8753165_selected&amp;quot; class=&amp;quot;oj-select-choice oj-select-accessible-container&amp;quot;&amp;gt;\u2026&amp;lt;/div&amp;gt;\nE             - attempting click action\nE               2 \u00d7 waiting for element to be visible, enabled and stable\nE                 - element is visible, enabled and stable\nE                 - scrolling into view if needed\nE                 - done scrolling\nE                 - &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;close-window_layer_overlay&amp;quot; class=&amp;quot;oj-component-overlay oj-dialog-layer&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; from &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;__oj_zorder_container&amp;quot;&amp;gt;\u2026&amp;lt;/div&amp;gt; subtree intercepts pointer events\nE               - retrying click action\nE               - waiting 20ms\nE               2 \u00d7 waiting for element to be visible, enabled and stable\nE                 - element is visible, enabled and stable\nE                 - scrolling into view if needed\nE                 - done scrolling\nE                 - &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;close-window_layer_overlay&amp;quot; class=&amp;quot;oj-component-overlay oj-dialog-layer&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; from &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;__oj_zorder_container&amp;quot;&amp;gt;\u2026&amp;lt;/div&amp;gt; subtree intercepts pointer events\nE               - retrying click action\nE                 - waiting 100ms\nE               - waiting for element to be visible, enabled and stable\nE               - element is visible, enabled and stable\nE               - scrolling into view if needed\nE               - done scrolling\nE               - &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;close-window_layer_overlay&amp;quot; class=&amp;quot;oj-component-overlay oj-dialog-layer&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; from &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;__oj_zorder_container&amp;quot;&amp;gt;\u2026&amp;lt;/div&amp;gt; subtree intercepts pointer events\nE             - retrying click action\nE               - waiting 500ms\nE               - waiting for element to be visible, enabled and stable\nE           \nE           \nE           Debug artifacts saved to: C:\\Users\\Pratik\\PycharmProjects\\PythonProject\\playwrightMSME\\artifacts\\pay_salary_internal_bene_20260706_144553\n\npageObjects\\paySalaryInternalBene.py:51: AssertionError\n&#34;}], &#34;e2eTests/test_e2e_msme_paySalaryNeft.py::test_pay_salary_neft[chromium-EmpDom01-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Failed screenshot: e2eTests_test_e2e_msme_paySalaryNeft.py_test_pay_salary_neft_chromium-EmpDom01-valid_msme_login_failed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_paySalaryNeft.py__test_pay_salary_neft_chromium_EmpDom01_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_paySalaryNeft.py::test_pay_salary_neft[chromium-EmpDom01-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:01:05&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_paySalaryNeft.py::test_pay_salary_neft[chromium-EmpDom01-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:05&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;page = &amp;lt;Page url=&amp;#x27;https://yesbusiness.yesuat.bank.in/?page=pay-employee&amp;#x27;&amp;gt;\nbase_url = &amp;#x27;https://yesbusiness.yesuat.bank.in/?page=login-form-main&amp;#x27;\nlogin_data = {&amp;#x27;case_id&amp;#x27;: &amp;#x27;valid_msme_login&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, &amp;#x27;password&amp;#x27;: &amp;#x27;Password@23&amp;#x27;, &amp;#x27;username&amp;#x27;: &amp;#x27;282365C1&amp;#x27;}\nsalary_data = {&amp;#x27;amount&amp;#x27;: &amp;#x27;10&amp;#x27;, &amp;#x27;employeeName&amp;#x27;: &amp;#x27;EmpDom01&amp;#x27;, &amp;#x27;fromAccount&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, ...}\n\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\n        &amp;quot;login_data&amp;quot;,\n        _load_json_data(LOGIN_DATA_PATH),\n        ids=lambda data: data.get(&amp;quot;case_id&amp;quot;, data.get(&amp;quot;username&amp;quot;, &amp;quot;msme_login&amp;quot;)),\n    )\n    @pytest.mark.parametrize(\n        &amp;quot;salary_data&amp;quot;,\n        _load_json_data(PAY_SALARY_NEFT_DATA_PATH),\n        ids=lambda data: data.get(\n            &amp;quot;case_id&amp;quot;,\n            data.get(&amp;quot;employeeName&amp;quot;, &amp;quot;pay_salary_neft&amp;quot;),\n        ),\n    )\n    def test_pay_salary_neft(page, base_url, login_data, salary_data):\n        msme_login = MsmeLoginPage(page, base_url)\n        msme_login.login(\n            username=login_data[&amp;quot;username&amp;quot;],\n            password=login_data[&amp;quot;password&amp;quot;],\n            otp=login_data[&amp;quot;otp&amp;quot;],\n        )\n    \n        salary_payment = PaySalaryNeftPage(page)\n&amp;gt;       salary_payment.pay_salary_neft(salary_data)\n\ne2eTests\\test_e2e_msme_paySalaryNeft.py:52: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;pageObjects.paySalaryNeft.PaySalaryNeftPage object at 0x000001ED93C53CB0&amp;gt;\nsalary_data = {&amp;#x27;amount&amp;#x27;: &amp;#x27;10&amp;#x27;, &amp;#x27;employeeName&amp;#x27;: &amp;#x27;EmpDom01&amp;#x27;, &amp;#x27;fromAccount&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, ...}\n\n    def pay_salary_neft(self, salary_data):\n        try:\n            self._handle_post_login_popups()\n            self.navigate_to_manage_employee()\n            self.click_pay_employee_quick_action()\n            self.enter_pay_employee_details(salary_data)\n            self.verify_transaction_summary(salary_data)\n            self.proceed_to_pay_and_confirm_if_required(salary_data.get(&amp;quot;otp&amp;quot;))\n            self.assert_salary_payment_successful()\n        except Exception as exc:\n            artifact_dir = self._save_debug_artifacts()\n            error_message = str(exc)\n            if not isinstance(exc, AssertionError):\n                error_message = f&amp;quot;{type(exc).__name__}: {exc}&amp;quot;\n    \n&amp;gt;           raise AssertionError(\n                f&amp;quot;{error_message}\\n\\nDebug artifacts saved to: {artifact_dir.resolve()}&amp;quot;\n            ) from None\nE           AssertionError: Could not click Select employee dropdown: Locator.click: Timeout 10000ms exceeded.\nE           Call log:\nE             - waiting for get_by_label(re.compile(r&amp;quot;Select\\s+employee&amp;quot;, re.IGNORECASE)).first\nE               - locator resolved to &amp;lt;div tabindex=&amp;quot;0&amp;quot; role=&amp;quot;combobox&amp;quot; aria-required=&amp;quot;true&amp;quot; aria-expanded=&amp;quot;false&amp;quot; aria-label=&amp;quot;Employee&amp;quot; aria-autocomplete=&amp;quot;none&amp;quot; aria-labelledby=&amp;quot;ui-id-163|label&amp;quot; id=&amp;quot;oj-select-choice-Payee8753165&amp;quot; aria-describedby=&amp;quot;Payee8753165_selected&amp;quot; class=&amp;quot;oj-select-choice oj-select-accessible-container&amp;quot;&amp;gt;\u2026&amp;lt;/div&amp;gt;\nE             - attempting click action\nE               2 \u00d7 waiting for element to be visible, enabled and stable\nE                 - element is visible, enabled and stable\nE                 - scrolling into view if needed\nE                 - done scrolling\nE                 - &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;close-window_layer_overlay&amp;quot; class=&amp;quot;oj-component-overlay oj-dialog-layer&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; from &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;__oj_zorder_container&amp;quot;&amp;gt;\u2026&amp;lt;/div&amp;gt; subtree intercepts pointer events\nE               - retrying click action\nE               - waiting 20ms\nE               2 \u00d7 waiting for element to be visible, enabled and stable\nE                 - element is visible, enabled and stable\nE                 - scrolling into view if needed\nE                 - done scrolling\nE                 - &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;close-window_layer_overlay&amp;quot; class=&amp;quot;oj-component-overlay oj-dialog-layer&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; from &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;__oj_zorder_container&amp;quot;&amp;gt;\u2026&amp;lt;/div&amp;gt; subtree intercepts pointer events\nE               - retrying click action\nE                 - waiting 100ms\nE               19 \u00d7 waiting for element to be visible, enabled and stable\nE                  - element is visible, enabled and stable\nE                  - scrolling into view if needed\nE                  - done scrolling\nE                  - &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;close-window_layer_overlay&amp;quot; class=&amp;quot;oj-component-overlay oj-dialog-layer&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; from &amp;lt;div role=&amp;quot;presentation&amp;quot; id=&amp;quot;__oj_zorder_container&amp;quot;&amp;gt;\u2026&amp;lt;/div&amp;gt; subtree intercepts pointer events\nE                - retrying click action\nE                  - waiting 500ms\nE           \nE           \nE           Debug artifacts saved to: C:\\Users\\Pratik\\PycharmProjects\\PythonProject\\playwrightMSME\\artifacts\\pay_salary_neft_20260706_144701\n\npageObjects\\paySalaryNeft.py:24: AssertionError\n&#34;}], &#34;e2eTests/test_e2e_msme_paySalaryRtgs.py::test_pay_salary_rtgs[chromium-EmpDom01-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Passed screenshot: e2eTests_test_e2e_msme_paySalaryRtgs.py_test_pay_salary_rtgs_chromium-EmpDom01-valid_msme_login_passed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_paySalaryRtgs.py__test_pay_salary_rtgs_chromium_EmpDom01_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_paySalaryRtgs.py::test_pay_salary_rtgs[chromium-EmpDom01-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:01:34&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_paySalaryRtgs.py::test_pay_salary_rtgs[chromium-EmpDom01-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:34&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;e2eTests/test_e2e_msme_rtgsRegPayeeOnetime.py::test_rtgs_registered_payee_onetime[chromium-TestNEFTOne-valid_msme_login]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;Failed screenshot: e2eTests_test_e2e_msme_rtgsRegPayeeOnetime.py_test_rtgs_registered_payee_onetime_chromium-TestNEFTOne-valid_msme_login_failed.png&#34;, &#34;format_type&#34;: &#34;image&#34;, &#34;content&#34;: &#34;assets\\e2eTests_test_e2e_msme_rtgsRegPayeeOnetime.py__test_rtgs_registered_payee_onetime_chromium_TestNEFTOne_valid_msme_login__0_0.png&#34;, &#34;mime_type&#34;: &#34;image/png&#34;, &#34;extension&#34;: &#34;png&#34;}], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;e2eTests/test_e2e_msme_rtgsRegPayeeOnetime.py::test_rtgs_registered_payee_onetime[chromium-TestNEFTOne-valid_msme_login]&#34;, &#34;duration&#34;: &#34;00:02:05&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;e2eTests/test_e2e_msme_rtgsRegPayeeOnetime.py::test_rtgs_registered_payee_onetime[chromium-TestNEFTOne-valid_msme_login]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:02:05&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;page = &amp;lt;Page url=&amp;#x27;https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary&amp;#x27;&amp;gt;\nbase_url = &amp;#x27;https://yesbusiness.yesuat.bank.in/?page=login-form-main&amp;#x27;\nlogin_data = {&amp;#x27;case_id&amp;#x27;: &amp;#x27;valid_msme_login&amp;#x27;, &amp;#x27;otp&amp;#x27;: &amp;#x27;222222&amp;#x27;, &amp;#x27;password&amp;#x27;: &amp;#x27;Password@23&amp;#x27;, &amp;#x27;username&amp;#x27;: &amp;#x27;282365C1&amp;#x27;}\nrtgs_data = {&amp;#x27;_selected_transfer_when&amp;#x27;: &amp;#x27;07/06/2026&amp;#x27;, &amp;#x27;_selected_transfer_when_variants&amp;#x27;: [&amp;#x27;07/06/2026&amp;#x27;, &amp;#x27;6&amp;#x27;, &amp;#x27;2026-07-06&amp;#x27;, &amp;#x27;06/07/2026&amp;#x27;, &amp;#x27;6/7/2026&amp;#x27;, &amp;#x27;06-07-2026&amp;#x27;, ...], &amp;#x27;amount&amp;#x27;: &amp;#x27;200001&amp;#x27;, &amp;#x27;from_account&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, ...}\n\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\n        &amp;quot;login_data&amp;quot;,\n        _load_json_data(LOGIN_DATA_PATH),\n        ids=lambda data: data.get(&amp;quot;case_id&amp;quot;, data.get(&amp;quot;username&amp;quot;, &amp;quot;msme_login&amp;quot;)),\n    )\n    @pytest.mark.parametrize(\n        &amp;quot;rtgs_data&amp;quot;,\n        _load_json_data(RTGS_DATA_PATH),\n        ids=lambda data: data.get(&amp;quot;case_id&amp;quot;, data.get(&amp;quot;payeename&amp;quot;, &amp;quot;rtgs_reg_payee&amp;quot;)),\n    )\n    def test_rtgs_registered_payee_onetime(page, base_url, login_data, rtgs_data):\n        msme_login = MsmeLoginPage(page, base_url)\n        msme_login.login(\n            username=login_data[&amp;quot;username&amp;quot;],\n            password=login_data[&amp;quot;password&amp;quot;],\n            otp=login_data[&amp;quot;otp&amp;quot;],\n        )\n    \n        rtgs_payment = RtgsRegPayeeOnetimePage(page)\n&amp;gt;       rtgs_payment.rtgs_registered_payee_onetime(rtgs_data)\n\ne2eTests\\test_e2e_msme_rtgsRegPayeeOnetime.py:49: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;pageObjects.rtgsRegPayeeOnetime.RtgsRegPayeeOnetimePage object at 0x000001EDA1D02BA0&amp;gt;\ntransfer_data = {&amp;#x27;_selected_transfer_when&amp;#x27;: &amp;#x27;07/06/2026&amp;#x27;, &amp;#x27;_selected_transfer_when_variants&amp;#x27;: [&amp;#x27;07/06/2026&amp;#x27;, &amp;#x27;6&amp;#x27;, &amp;#x27;2026-07-06&amp;#x27;, &amp;#x27;06/07/2026&amp;#x27;, &amp;#x27;6/7/2026&amp;#x27;, &amp;#x27;06-07-2026&amp;#x27;, ...], &amp;#x27;amount&amp;#x27;: &amp;#x27;200001&amp;#x27;, &amp;#x27;from_account&amp;#x27;: &amp;#x27;084188900001394&amp;#x27;, ...}\n\n    def rtgs_registered_payee_onetime(self, transfer_data):\n        try:\n            self._handle_post_login_popups()\n            self.navigate_to_pay_beneficiary()\n            self.enter_pay_beneficiary_details(transfer_data)\n            self.verify_review_transaction(transfer_data)\n            self.proceed_to_pay_and_confirm(transfer_data[&amp;quot;otp&amp;quot;])\n            self.assert_transferred_successfully()\n        except Exception as exc:\n            artifact_dir = self._save_debug_artifacts()\n            error_message = str(exc)\n            if not isinstance(exc, AssertionError):\n                error_message = f&amp;quot;{type(exc).__name__}: {exc}&amp;quot;\n    \n&amp;gt;           raise AssertionError(\n                f&amp;quot;{error_message}\\n\\nDebug artifacts saved to: {artifact_dir.resolve()}&amp;quot;\n            ) from None\nE           AssertionError: Timed out waiting for Transferred successfully confirmation after OTP submission.\nE           url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary\nE           title=YES Bank\nE           frames=1\nE           frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary readyState=complete bodyText=&amp;#x27;\\xa0\\nPayment unsuccessful\\nThis transaction is failed, please retry after sometime.\\nTry Again\\nBACK\\nSkip to main content\\n|\\n\\xa0 A- \\xa0 \\nSmall Font\\n\\xa0 A \\xa0 \\nDefault Font\\n\\xa0 A+ \\xa0\\nLarge Font\\nHi HARDIK\\nXXXXXAL FLEX\\nLast login 06 Jul 2026 02:47 PM IST\\nNeed Help? Refer User Guide Document\\n13\\nHome\\nAccounts \\nPayments \\nCollections \\nTrade Plus \\nAuthorizations \\nServices \\nDigital Supply Chain\\nHomePaymentsSingle PaymentsTransfer - Exisiting Beneficiary\\nReview Transaction\\nYou initiated a request to transfer money. Please review the details before you confirm.\\nTransfer From\\n282364-XXXXXAL FLEX - 084188900001394\\nTransfer To\\nTestNEFTOne - 123456123489\\nTransfer Amount\\nINR 2,00,001.00\\nTransfer Schedule\\noneTime\\nTransfer When\\n2026-07-06\\nTransfer Type\\nRTGS\\nRemarks: RTGS Payment\\nDear Customer, please note that credit gets afforded to the beneficiary solely based on account number. Kindly re-verify the account number mentioned in the beneficiary account number section before initiating a transaction.\\nProceed to Pay\\nBack\\nF&amp;#x27;\nE           \nE           Debug artifacts saved to: C:\\Users\\Pratik\\PycharmProjects\\PythonProject\\playwrightMSME\\artifacts\\rtgs_reg_payee_onetime_20260706_145041\n\npageObjects\\rtgsRegPayeeOnetime.py:22: AssertionError\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;report.html&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > .col-result')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > .col-result')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`)?.classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+  </body>
+</html>

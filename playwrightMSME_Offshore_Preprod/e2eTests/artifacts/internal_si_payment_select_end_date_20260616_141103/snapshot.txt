@@ -1,0 +1,212 @@
+PAGE
+
+url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary
+title=YES Bank
+frames=1
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary readyState=complete bodyText='Skip to main content\n|\n\xa0 A- \xa0 \nSmall Font\n\xa0 A \xa0 \nDefault Font\n\xa0 A+ \xa0\nLarge Font\nHi HARDIK\nXXXXXAL FLEX\nLast login 16 Jun 2026 02:09 PM IST\nNeed Help? Refer User Guide Document\n29\nHome\nAccounts \nPayments \nCollections \nTrade Plus \nAuthorizations \nServices \nDigital Supply Chain\nHomePaymentsSingle PaymentsTransfer - Exisiting Beneficiary\nPay Beneficiary\nSelect beneficiary\n1 matches found\nTransfer From\nAvailable Balance : INR 1,70,404.50\nVerify Recipient Name\nTransfer Amount\nRequired\nINR 1,00,000\nINR 75,000\nINR 50,000\nINR 25,000\nTransfer schedule\nOne Time\nRecurring Payment\nRemarks (optional)\n35 characters left.\nProceed\nFund Transfer\nOwn Account Transfer\nPay Group\nBulk Transfer\nQuick Transfer\nQuick Actions\nStanding Instructions\nView Beneficiaries\nAdd New Beneficiary\nView Statement\nDisplaying page 2 of 3\nPage 1 content loaded\npagingControlLoginPagination\nPage\n1\nPage\n2\nPage\n3'
+
+INPUTS
+
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=0 tag=input type=text id=obdx1b2h1n203v7u2a291d1s1q43rc1t4q6n4o3f49|input name= placeholder=What are you looking for today? aria= value= visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=1 tag=input type= id= name= placeholder= aria= value= visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=2 tag=input type=text id=payeename|input name= placeholder=Select beneficiary aria=Select beneficiary value=VINAYAK MUKADAM visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=3 tag=input type=text id= name= placeholder= aria= value= visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=4 tag=input type=text id=oj-searchselect-filter-payeename|input name= placeholder=Select beneficiary aria=Select beneficiary value=VINAYAK MUKADAM visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=5 tag=input type=text id=account-input-_oj210|input name= placeholder=Select Account aria= value=Current Account - 007583800000363 visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=6 tag=input type=text id= name= placeholder= aria= value= visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=7 tag=input type=text id=oj-searchselect-filter-account-input-_oj210|input name= placeholder=Select Account aria= value=Current Account - 007583800000363 visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=8 tag=input type=text id=specific-amount|input name= placeholder=₹0 aria=Transfer Amount value= visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=9 tag=input type=radio id=ui-id-246|rb name=ui-id-244 placeholder= aria= value=100000 visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=10 tag=input type=radio id=ui-id-247|rb name=ui-id-244 placeholder= aria= value=75000 visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=11 tag=input type=radio id=ui-id-248|rb name=ui-id-244 placeholder= aria= value=50000 visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=12 tag=input type=radio id=ui-id-249|rb name=ui-id-244 placeholder= aria= value=25000 visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=13 tag=input type=radio id=oneTime|rb name=[['SelectOne_TransferSchedule']] placeholder= aria= value=oneTime visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=14 tag=input type=radio id=recurringPayment|rb name=[['SelectOne_TransferSchedule']] placeholder= aria= value=recurringPayment visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=15 tag=input type=text id=Noteobdx5a4l161s6m1n6vt3j353t4r2f3v4c3d5j4h70u|input name= placeholder= aria=Remarks (optional) value= visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=16 tag=input type=checkbox id=agree-tnc-generic oj-flex|cb name=checkboxSetAgreeId placeholder= aria= value=undefined visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=17 tag=input type=radio id=ui-id-64|rb name=ui-id-52 placeholder= aria= value=secureConsentEnglish visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=18 tag=input type=radio id=ui-id-65|rb name=ui-id-52 placeholder= aria= value=secureConsentHindi visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=19 tag=input type=radio id=ui-id-66|rb name=ui-id-52 placeholder= aria= value=secureConsentMarathi visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=20 tag=input type=radio id=ui-id-67|rb name=ui-id-52 placeholder= aria= value=secureConsentGujarati visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=21 tag=input type=radio id=ui-id-68|rb name=ui-id-52 placeholder= aria= value=secureConsentBengali visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=22 tag=input type=radio id=ui-id-69|rb name=ui-id-52 placeholder= aria= value=secureConsentOdiya visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=23 tag=input type=radio id=ui-id-70|rb name=ui-id-52 placeholder= aria= value=secureConsentAsami visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=24 tag=input type=radio id=ui-id-71|rb name=ui-id-52 placeholder= aria= value=secureConsentKannada visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=25 tag=input type=radio id=ui-id-72|rb name=ui-id-52 placeholder= aria= value=secureConsentMalyalam visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=26 tag=input type=radio id=ui-id-73|rb name=ui-id-52 placeholder= aria= value=secureConsentTamil visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=27 tag=input type=radio id=ui-id-74|rb name=ui-id-52 placeholder= aria= value=secureConsentUrdu visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=28 tag=input type=checkbox id=physicalstmt|cb name=secureConsentYesClickbtn placeholder= aria= value=physicalstmt visible=False
+
+ACTIONS
+
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=0 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Skip to main content
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=1 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=2 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=3 tag=a type= id=smallFont role= value= aria= title=Small Font visible=True disabled=False text=A- Small Font
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=4 tag=a type= id=defaultFont role= value= aria= title=Default Font visible=True disabled=False text=A Default Font
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=5 tag=a type= id=largeFont role= value= aria= title=Large Font visible=True disabled=False text=A+ Large Font
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=6 tag=a type= id= role= value= aria=Options Menu title=Theme Change visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=7 tag=a type= id= role= value= aria=Options Menu title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=8 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Refer User Guide Document
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=9 tag=a type= id= role= value= aria=Settings title=Settings visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=10 tag=a type= id=mailbox-holder role= value= aria= title=Notifications visible=True disabled=False text=29
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=11 tag=a type= id= role= value= aria=Logout title=Logout visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=12 tag=a type= id= role= value= aria=Settings title= visible=False disabled=False text=Settings
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=13 tag=a type= id= role= value= aria=Contact Us title= visible=False disabled=False text=Contact Us
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=14 tag=a type= id= role= value= aria=Help and support title= visible=False disabled=False text=Help and support
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=15 tag=a type= id= role= value= aria=RM Details title= visible=False disabled=False text=RM Details
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=16 tag=a type= id= role= value= aria=Session Summary title= visible=False disabled=False text=Session Summary
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=17 tag=a type= id= role= value= aria=Change Password title= visible=False disabled=False text=Change Password
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=18 tag=oj-button type= id= role= value= aria= title=OK visible=False disabled=False text=OK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=19 tag=button type= id= role= value= aria=OK title= visible=False disabled=False text=OK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=20 tag=a type= id= role=presentation value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=21 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=22 tag=a type= id= role=presentation value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=23 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=24 tag=oj-button type= id= role= value= aria= title= visible=True disabled=False text=Verify Recipient Name
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=25 tag=button type= id= role= value= aria= title= visible=True disabled=False text=Verify Recipient Name
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=26 tag=a type= id=tranferScheduleInfo role= value= aria=Transfer type title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=27 tag=oj-button type= id= role= value= aria= title= visible=True disabled=False text=Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=28 tag=button type= id= role= value= aria= title= visible=True disabled=False text=Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=29 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=30 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=31 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=32 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=33 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=34 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=35 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=36 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=37 tag=a type= id= role= value= aria= title= visible=False disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=38 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=39 tag=a type= id= role= value= aria= title= visible=False disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=40 tag=a type= id= role= value= aria= title=Go To Page 1 visible=True disabled=False text=Page 1
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=41 tag=a type= id= role= value= aria= title=Go To Page 3 visible=True disabled=False text=Page 3
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=42 tag=oj-button type= id=register-button role= value= aria= title= visible=False disabled=False text=Confirm & Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=43 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Confirm & Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=44 tag=oj-button type= id=register-button role= value= aria= title= visible=False disabled=False text=Confirm & Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=45 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Confirm & Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=46 tag=oj-button type= id=home-button role= value= aria= title= visible=False disabled=False text=Go to Home
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=47 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Go to Home
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=48 tag=oj-button type= id=initiate-button role= value= aria= title= visible=False disabled=False text=Initiate New Payment
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=49 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Initiate New Payment
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=50 tag=oj-button type= id= role= value= aria= title=OK visible=False disabled=False text=OK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=51 tag=button type= id= role= value= aria=OK title= visible=False disabled=False text=OK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=52 tag=oj-button type= id=home-button role= value= aria= title= visible=False disabled=False text=Try Again
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=53 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Try Again
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=54 tag=oj-button type= id=initiate-button role= value= aria= title= visible=False disabled=False text=BACK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=55 tag=button type= id= role= value= aria= title= visible=False disabled=False text=BACK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=56 tag=oj-button type= id=register-button role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=57 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=58 tag=oj-button type= id=home-button role= value= aria= title= visible=False disabled=False text=Try Again
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=59 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Try Again
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=60 tag=oj-button type= id=initiate-button role= value= aria= title= visible=False disabled=False text=BACK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=61 tag=button type= id= role= value= aria= title= visible=False disabled=False text=BACK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=62 tag=oj-button type= id= role= value= aria= title=OK visible=False disabled=False text=OK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=63 tag=button type= id= role= value= aria=OK title= visible=False disabled=False text=OK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=64 tag=oj-button type= id=home-button role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=65 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=66 tag=a type= id= role= value= aria=Back To Top title=Back To Top visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=67 tag=oj-button type= id=sessionExpiredButton role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=68 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=69 tag=oj-button type= id= role= value= aria= title= visible=False disabled=False text=Confirm
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=70 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Confirm
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=71 tag=oj-button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=72 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=73 tag=a type= id= role= value= aria= title= visible=False disabled=False text=I agree to Terms & Conditions
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=74 tag=oj-button type= id=confirmOk role= value= aria= title= visible=False disabled=False text=Continue banking
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=75 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Continue banking
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=76 tag=oj-button type= id=confirmOk role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=77 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=78 tag=a type= id= role= value= aria= title= visible=False disabled=False text=https://www.yesbank.in/steps-to-report-an-unauthorized-transaction
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=79 tag=oj-button type= id=secureConsentYes role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=80 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=81 tag=oj-button type= id=stayConnectedButton role= value= aria= title= visible=False disabled=False text=Stay Connected
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=82 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Stay Connected
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=83 tag=oj-button type= id=sessionExitButton role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=84 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=85 tag=oj-button type= id=logoutConfirmed role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=86 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=87 tag=oj-button type= id=home-button role= value= aria= title= visible=False disabled=False text=OK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=pay-beneficiary idx=88 tag=button type= id= role= value= aria= title= visible=False disabled=False text=OK
+
+CONSOLE
+
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/collections/upi/infoupitooltip.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/collections/upi/infoupitooltip.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=MAX_AMOUNT&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=MAX_AMOUNT&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/dashboard/navigation-arrow.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/dashboard/navigation-arrow.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-payments/payment/v1/payments/fetchNetwork?paymentType=SELF%2CINTERNAL%2CDOMESTIC%2CINTERNATIONAL&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-payments/payment/v1/payments/fetchNetwork?paymentType=SELF%2CINTERNAL%2CDOMESTIC%2CINTERNATIONAL&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-payments/payment/v1/payments/favorites?locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-payments/payment/v1/payments/favorites?locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-payments/payment/v1/payments/fetchNetwork?locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-payments/payment/v1/payments/fetchNetwork?locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-payments/payment/v1/payments/maintenance?locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-payments/payment/v1/payments/maintenance?locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=TD_AVAILABE_BALANCE&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=TD_AVAILABE_BALANCE&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-payments/payment/cz/v1/payments/currentDate?locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-payments/payment/cz/v1/payments/currentDate?locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=PAYMENTFREQUENCY&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=PAYMENTFREQUENCY&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-payments/payment/v1/payments/fetchNetwork?paymentType=DOMESTIC&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-payments/payment/v1/payments/fetchNetwork?paymentType=DOMESTIC&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-payments/payment/v1/payments/payeesv3?expand=ALL&types=INTERNAL%2CINTERNATIONAL%2CGENERICDOMESTIC&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-payments/payment/v1/payments/payeesv3?expand=ALL&types=INTERNAL%2CINTERNATIONAL%2CGENERICDOMESTIC&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=digi_od_redirection&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=digi_od_redirection&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/prelogin/chevron-right.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/prelogin/chevron-right.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/favicon_new.ico': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/favicon_new.ico': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/FundsTransfer/add-new-bene.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/FundsTransfer/add-new-bene.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=SSO.METHOD&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=SSO.METHOD&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=TO_SHOW_NBAOFFER&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=TO_SHOW_NBAOFFER&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/FundsTransfer/view-beneficiary.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/FundsTransfer/view-beneficiary.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Account%20Summary/to-own-account.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Account%20Summary/to-own-account.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Account%20Summary/pay-group.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Account%20Summary/pay-group.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/FundsTransfer/standing-instruction.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/FundsTransfer/standing-instruction.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Account%20Summary/quick-transfer.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Account%20Summary/quick-transfer.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/FundsTransfer/view-statement.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/FundsTransfer/view-statement.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Generic/failure-icon.png': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Generic/failure-icon.png': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Generic/bulktransfer.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Generic/bulktransfer.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=DIGI_OD_COMP_REDIRECTION&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=DIGI_OD_COMP_REDIRECTION&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-retail/origination/cz/v1/suggestedTransactions?partyBasedOffer=true&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-retail/origination/cz/v1/suggestedTransactions?partyBasedOffer=true&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/account/v1/accounts?accountType=CSA&accountType=VRA&taskCode=PC_F_CRNDFT&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/account/v1/accounts?accountType=CSA&accountType=VRA&taskCode=PC_F_CRNDFT&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/dda/v1/demandDeposit/F504B7D9E7344B8DC4AA952BA7D47F7C4CA3E9C40BC2F97A8D06C43AF81714F69EC2E3?locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/dda/v1/demandDeposit/F504B7D9E7344B8DC4AA952BA7D47F7C4CA3E9C40BC2F97A8D06C43AF81714F69EC2E3?locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Bank%20Logo/HDFC.png': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Bank%20Logo/HDFC.png': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Bank%20Logo/ICIC.png': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/Bank%20Logo/ICIC.png': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/FundsTransfer/banklogos/INTERNAL_ACCOUNT.svg': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/FundsTransfer/banklogos/INTERNAL_ACCOUNT.svg': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=TD_AVAILABE_BALANCE&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/common/cz/v1/enumerations/dropdown?identifier=TD_AVAILABE_BALANCE&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/account/v1/accounts?accountType=CSA&accountType=VRA&taskCode=PC_F_CRNIFT&locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/account/v1/accounts?accountType=CSA&accountType=VRA&taskCode=PC_F_CRNIFT&locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/dda/v1/demandDeposit/F504B7D9E7344B8DC4AA952BA7D47F7C4CA3E9C40BC2F97A8D06C43AF81714F69EC2E3?locale=en': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/digx-common/dda/v1/demandDeposit/F504B7D9E7344B8DC4AA952BA7D47F7C4CA3E9C40BC2F97A8D06C43AF81714F69EC2E3?locale=en': Cleared data types: "cache".
+warning: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/header/newloader.webp': Unrecognized type: "Storage".
+info: Clear-Site-Data header on 'https://yesbusiness.yesuat.bank.in/images/cz/header/newloader.webp': Cleared data types: "cache".
+
+REQUEST FAILURES
+
+GET https://yesbusiness.yesuat.bank.in/images/images/placeholder.svg -> net::ERR_ABORTED
+GET https://yesbusiness.yesuat.bank.in/images/images/placeholder.svg -> net::ERR_ABORTED

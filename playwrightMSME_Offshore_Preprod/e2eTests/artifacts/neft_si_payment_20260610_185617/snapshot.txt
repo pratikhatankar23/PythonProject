@@ -1,0 +1,111 @@
+PAGE
+
+url=https://yesbusiness.yesuat.bank.in/?page=login-form-main
+title=
+frames=1
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main readyState=complete bodyText="Verification\nClose\nVerify OTP\nOTP has been sent to your registered mobile number\nEnter OTP\nResend OTP in 14 secs\nGet OTP On Email\nConfirm and Proceed\nSkip to main content\nStreamline your business banking through a seamless dashboard- allowing you to make payments, collect funds, apply for loans and manage all business relationships, all at the click of a button\nUser ID\n31 characters left.\nForgot User ID?\nPassword\nForgot Password?\nLogin\nNot registered with NetBanking? Register Here | Unlock User ID\nGenerate/Regenerate Debit Card Pin\nNeed Help? Refer User Guide Document | Unblock Channel Access? Click here\nFor erstwhile YES MSME users, kindly login using your 'AUS Customer ID' and 'Password' of YES MSME application\nQuick Links\n Apply for instant OD\n|\n Explore our Current Accounts\n|\n Apply for Working Capital Finance\n|\n Explore YES BANK products\n|\n YES Connect\nContact Us \nLocate Us \nRates & Charges \nRegulatory Policies \nRegulatory Disclosures Section \nCheck Loan Application Status\nCopyrig"
+
+INPUTS
+
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=0 tag=input type=password id=otp|input name= placeholder= aria= value=222222 visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=1 tag=input type= id=username name=usernameremembered placeholder= aria= value= visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=2 tag=input type= id=password name=passwordremembered placeholder= aria= value= visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=3 tag=input type=text id=_oj115|input name= placeholder=Please enter here aria= value= visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=4 tag=input type=password id=_oj116|input name= placeholder=Please enter here aria= value= visible=True
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=5 tag=input type=text id=applicationnumber|input name= placeholder=Enter Loan Application Number aria= value= visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=6 tag=input type=text id=_oj135|input name= placeholder= aria= value= visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=7 tag=input type=checkbox id=agree-tnc-generic oj-flex|cb name=checkboxSetAgreeId placeholder= aria= value=undefined visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=8 tag=input type=radio id=ui-id-64|rb name=ui-id-52 placeholder= aria= value=secureConsentEnglish visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=9 tag=input type=radio id=ui-id-65|rb name=ui-id-52 placeholder= aria= value=secureConsentHindi visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=10 tag=input type=radio id=ui-id-66|rb name=ui-id-52 placeholder= aria= value=secureConsentMarathi visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=11 tag=input type=radio id=ui-id-67|rb name=ui-id-52 placeholder= aria= value=secureConsentGujarati visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=12 tag=input type=radio id=ui-id-68|rb name=ui-id-52 placeholder= aria= value=secureConsentBengali visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=13 tag=input type=radio id=ui-id-69|rb name=ui-id-52 placeholder= aria= value=secureConsentOdiya visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=14 tag=input type=radio id=ui-id-70|rb name=ui-id-52 placeholder= aria= value=secureConsentAsami visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=15 tag=input type=radio id=ui-id-71|rb name=ui-id-52 placeholder= aria= value=secureConsentKannada visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=16 tag=input type=radio id=ui-id-72|rb name=ui-id-52 placeholder= aria= value=secureConsentMalyalam visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=17 tag=input type=radio id=ui-id-73|rb name=ui-id-52 placeholder= aria= value=secureConsentTamil visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=18 tag=input type=radio id=ui-id-74|rb name=ui-id-52 placeholder= aria= value=secureConsentUrdu visible=False
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=19 tag=input type=checkbox id=physicalstmt|cb name=secureConsentYesClickbtn placeholder= aria= value=physicalstmt visible=False
+
+ACTIONS
+
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=0 tag=oj-button type= id= role= value= aria= title=Close visible=True disabled=False text=Close
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=1 tag=button type= id= role= value= aria= title= visible=True disabled=False text=Close
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=2 tag=a type= id= role= value= aria= title=Click to toggle password visible=False disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=3 tag=a type= id=resendButton role= value= aria=Resend OTP in title=Click here to resend code visible=False disabled=False text=Resend OTP in
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=4 tag=oj-button type= id= role= value= aria= title= visible=True disabled=False text=Confirm and Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=5 tag=button type= id= role= value= aria= title= visible=True disabled=False text=Confirm and Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=6 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Skip to main content
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=7 tag=oj-button type= id= role= value= aria= title=OK visible=False disabled=False text=OK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=8 tag=button type= id= role= value= aria=OK title= visible=False disabled=False text=OK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=9 tag=a type= id=buttonimnc7t role= value= aria=Open Virtual Keypad title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=10 tag=a type= id= role= value= aria= title=Click Here To Reset Your User Id visible=True disabled=False text=Forgot User ID?
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=11 tag=a type= id=buttonakn6pl role= value= aria=Open Virtual Keypad title= visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=12 tag=a type= id= role= value= aria=eye-icon title=eye-icon visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=13 tag=a type= id= role= value= aria= title=Click Here To Reset Your Password visible=True disabled=False text=Forgot Password?
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=14 tag=oj-button type= id=login-button role= value= aria= title= visible=True disabled=True text=Login
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=15 tag=button type= id= role= value= aria= title= visible=True disabled=True text=Login
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=16 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Register Here
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=17 tag=a type= id= role= value= aria= title=Click Here To Reset Your Password visible=True disabled=False text=Unlock User ID
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=18 tag=a type= id= role= value= aria= title=Click for Generate/Regenerate Debit Card Pin visible=True disabled=False text=Generate/Regenerate Debit Card Pin
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=19 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Refer User Guide Document
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=20 tag=a type= id= role= value= aria= title=Unblock Channel Access? visible=True disabled=False text=Click here
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=21 tag=oj-button type= id=home-button role= value= aria= title= visible=False disabled=False text=Retry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=22 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Retry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=23 tag=oj-button type= id=home-button role= value= aria= title= visible=False disabled=False text=Retry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=24 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Retry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=25 tag=oj-button type= id=home-button role= value= aria= title= visible=False disabled=False text=Retry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=26 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Retry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=27 tag=oj-button type= id=home-button role= value= aria= title= visible=False disabled=False text=Retry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=28 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Retry
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=29 tag=div type= id= role=button value= aria= title=Previous visible=False disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=30 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Apply for instant OD |
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=31 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Explore our Current Accounts |
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=32 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Apply for Working Capital Finance |
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=33 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Explore YES BANK products |
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=34 tag=a type= id= role= value= aria= title= visible=True disabled=False text=YES Connect
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=35 tag=div type= id= role=button value= aria= title=Next visible=False disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=36 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Contact Us
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=37 tag=a type= id= role= value= aria=Locate Us title= visible=True disabled=False text=Locate Us
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=38 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Rates & Charges
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=39 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Regulatory Policies
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=40 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Regulatory Disclosures Section
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=41 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Check Loan Application Status
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=42 tag=a type= id=button4n0s8 role= value= aria=Open Virtual Keypad title= visible=False disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=43 tag=a type= id=refresh role= value= aria= title= visible=False disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=44 tag=oj-button type= id=nextButton role= value= aria= title= visible=False disabled=False text=Check Status
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=45 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Check Status
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=46 tag=oj-button type= id=nextButton role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=47 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=48 tag=a type= id= role= value= aria=Back To Top title=Back To Top visible=True disabled=False text=
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=49 tag=oj-button type= id=sessionExpiredButton role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=50 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=51 tag=oj-button type= id= role= value= aria= title= visible=False disabled=False text=Confirm
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=52 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Confirm
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=53 tag=oj-button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=54 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=55 tag=a type= id= role= value= aria= title= visible=False disabled=False text=I agree to Terms & Conditions
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=56 tag=oj-button type= id=confirmOk role= value= aria= title= visible=False disabled=False text=Continue banking
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=57 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Continue banking
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=58 tag=oj-button type= id=confirmOk role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=59 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=60 tag=a type= id= role= value= aria= title= visible=False disabled=False text=https://www.yesbank.in/steps-to-report-an-unauthorized-transaction
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=61 tag=oj-button type= id=secureConsentYes role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=62 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=63 tag=oj-button type= id=stayConnectedButton role= value= aria= title= visible=False disabled=False text=Stay Connected
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=64 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Stay Connected
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=65 tag=oj-button type= id=sessionExitButton role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=66 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=67 tag=oj-button type= id=logoutConfirmed role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=68 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=69 tag=oj-button type= id=home-button role= value= aria= title= visible=False disabled=False text=OK
+frame=0 url=https://yesbusiness.yesuat.bank.in/?page=login-form-main idx=70 tag=button type= id= role= value= aria= title= visible=False disabled=False text=OK
+
+CONSOLE
+
+No console messages captured.
+
+REQUEST FAILURES
+
+No request failures captured.

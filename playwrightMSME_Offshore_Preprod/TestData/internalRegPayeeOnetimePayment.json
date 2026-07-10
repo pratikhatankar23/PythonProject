@@ -1,0 +1,13 @@
+{
+  "data": [
+      {
+      "payeename": "XXXXXISHNA FORGINGS",
+      "from_account": "084188900001394",
+      "amount": "22",
+      "transfer_schedule": "One Time",
+      "transfer_when": "Today",
+      "remarks": "Internal Payment",
+      "otp": "222222"
+    }
+  ]
+}

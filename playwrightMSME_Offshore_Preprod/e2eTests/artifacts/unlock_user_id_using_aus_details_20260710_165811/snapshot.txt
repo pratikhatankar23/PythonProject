@@ -1,0 +1,70 @@
+PAGE
+
+url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/
+title=YES Bank
+frames=1
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ readyState=complete bodyText='Skip to main content'
+
+INPUTS
+
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=0 tag=input type=checkbox id=agree-tnc-generic oj-flex|cb name=checkboxSetAgreeId placeholder= aria= value=undefined visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=1 tag=input type=radio id=ui-id-15|rb name=ui-id-11 placeholder= aria= value=secureConsentEnglish visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=2 tag=input type=radio id=ui-id-16|rb name=ui-id-11 placeholder= aria= value=secureConsentHindi visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=3 tag=input type=radio id=ui-id-17|rb name=ui-id-11 placeholder= aria= value=secureConsentMarathi visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=4 tag=input type=radio id=ui-id-18|rb name=ui-id-11 placeholder= aria= value=secureConsentGujarati visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=5 tag=input type=radio id=ui-id-19|rb name=ui-id-11 placeholder= aria= value=secureConsentBengali visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=6 tag=input type=radio id=ui-id-20|rb name=ui-id-11 placeholder= aria= value=secureConsentOdiya visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=7 tag=input type=radio id=ui-id-21|rb name=ui-id-11 placeholder= aria= value=secureConsentAsami visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=8 tag=input type=radio id=ui-id-22|rb name=ui-id-11 placeholder= aria= value=secureConsentKannada visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=9 tag=input type=radio id=ui-id-23|rb name=ui-id-11 placeholder= aria= value=secureConsentMalyalam visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=10 tag=input type=radio id=ui-id-24|rb name=ui-id-11 placeholder= aria= value=secureConsentTamil visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=11 tag=input type=radio id=ui-id-25|rb name=ui-id-11 placeholder= aria= value=secureConsentUrdu visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=12 tag=input type=checkbox id=physicalstmt|cb name=secureConsentYesClickbtn placeholder= aria= value=physicalstmt visible=False
+
+ACTIONS
+
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=0 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Skip to main content
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=1 tag=oj-button type= id= role= value= aria= title=OK visible=False disabled=False text=OK
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=2 tag=button type= id= role= value= aria=OK title= visible=False disabled=False text=OK
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=3 tag=oj-button type= id=sessionExpiredButton role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=4 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=5 tag=oj-button type= id= role= value= aria= title= visible=False disabled=False text=Confirm
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=6 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Confirm
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=7 tag=oj-button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=8 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=9 tag=a type= id= role= value= aria= title= visible=False disabled=False text=I agree to Terms & Conditions
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=10 tag=oj-button type= id=confirmOk role= value= aria= title= visible=False disabled=False text=Continue banking
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=11 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Continue banking
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=12 tag=oj-button type= id=confirmOk role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=13 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=14 tag=a type= id= role= value= aria= title= visible=False disabled=False text=https://www.yesbank.in/steps-to-report-an-unauthorized-transaction
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=15 tag=oj-button type= id=secureConsentYes role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=16 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=17 tag=oj-button type= id=stayConnectedButton role= value= aria= title= visible=False disabled=False text=Stay Connected
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=18 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Stay Connected
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=19 tag=oj-button type= id=sessionExitButton role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=20 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=21 tag=oj-button type= id=logoutConfirmed role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/ idx=22 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Logout
+
+CONSOLE
+
+warning: Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened.
+warning: Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened.
+error: Failed to load resource: the server responded with a status of 404 (Not Found)
+pageerror: Platform thirdPartyAnalytics not found or Disabled
+error: Failed to load resource: the server responded with a status of 503 (Service Unavailable)
+error: Failed to load resource: the server responded with a status of 503 (Service Unavailable)
+error: Failed to load resource: the server responded with a status of 503 (Service Unavailable)
+pageerror: Object
+error: Failed to load resource: the server responded with a status of 503 (Service Unavailable)
+pageerror: Object
+error: Failed to load resource: the server responded with a status of 503 (Service Unavailable)
+pageerror: Object
+error: Failed to load resource: the server responded with a status of 503 (Service Unavailable)
+pageerror: Object
+pageerror: Cannot read properties of undefined (reading 'moduleName')
+
+REQUEST FAILURES
+
+No request failures captured.

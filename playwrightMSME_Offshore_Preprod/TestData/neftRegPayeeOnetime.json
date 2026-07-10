@@ -1,0 +1,12 @@
+[
+  {
+    "payeename": "TestNEFTOne",
+    "from_account": "084188900001394",
+    "amount": "21",
+    "transfer_type": "NEFT",
+    "transfer_schedule": "One Time",
+    "transfer_when": "Today",
+    "remarks": "NEFT Payment",
+    "otp": "222222"
+  }
+]

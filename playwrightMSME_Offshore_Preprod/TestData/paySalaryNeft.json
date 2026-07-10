@@ -1,0 +1,10 @@
+[
+  {
+    "employeeName": "EmpDom01",
+    "fromAccount": "084188900001394",
+    "amount": "10",
+    "transferType": "NEFT",
+    "remarks": "Neft Salary Payment",
+    "otp": "222222"
+  }
+]

@@ -1,0 +1,98 @@
+PAGE
+
+url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information
+title=
+frames=1
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information readyState=complete bodyText='Skip to main content\nDisplaying page 1 of 1\nPage 1 content loaded\npagingControlLoginPagination\nPage\n1\nBack\nForgot Password\nSelect your preferred authentication method to reset password\nDebit Card\nRequires your Debit Card and ATM Pin\nAuthorized Signatory\nRequires Your Customer ID, Email ID , mobile number and Date of birth\nI accept the Terms & Conditions\nCopyright © 2018-2022. YES BANK. All rights reserved'
+
+INPUTS
+
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=0 tag=input type=checkbox id=agree-tnc-generic3|cb name=checkboxSetAgreeId3 placeholder= aria= value=true visible=True
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=1 tag=input type=text id=ui-id-66|input name= placeholder= aria= value=+91 visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=2 tag=input type=text id=custIDMobile|input name= placeholder=Enter aria= value= visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=3 tag=input type=radio id=ui-id-74|rb name=radioset placeholder= aria= value=Date of Birth visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=4 tag=input type=radio id=ui-id-75|rb name=radioset placeholder= aria= value=PAN No visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=5 tag=input type=text id=date|input name= placeholder=Enter Date/Select Date aria= value= visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=6 tag=input type=password id=otp|input name= placeholder= aria= value= visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=7 tag=input type=checkbox id=agree-tnc-generic oj-flex|cb name=checkboxSetAgreeId placeholder= aria= value=undefined visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=8 tag=input type=radio id=ui-id-15|rb name=ui-id-11 placeholder= aria= value=secureConsentEnglish visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=9 tag=input type=radio id=ui-id-16|rb name=ui-id-11 placeholder= aria= value=secureConsentHindi visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=10 tag=input type=radio id=ui-id-17|rb name=ui-id-11 placeholder= aria= value=secureConsentMarathi visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=11 tag=input type=radio id=ui-id-18|rb name=ui-id-11 placeholder= aria= value=secureConsentGujarati visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=12 tag=input type=radio id=ui-id-19|rb name=ui-id-11 placeholder= aria= value=secureConsentBengali visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=13 tag=input type=radio id=ui-id-20|rb name=ui-id-11 placeholder= aria= value=secureConsentOdiya visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=14 tag=input type=radio id=ui-id-21|rb name=ui-id-11 placeholder= aria= value=secureConsentAsami visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=15 tag=input type=radio id=ui-id-22|rb name=ui-id-11 placeholder= aria= value=secureConsentKannada visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=16 tag=input type=radio id=ui-id-23|rb name=ui-id-11 placeholder= aria= value=secureConsentMalyalam visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=17 tag=input type=radio id=ui-id-24|rb name=ui-id-11 placeholder= aria= value=secureConsentTamil visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=18 tag=input type=radio id=ui-id-25|rb name=ui-id-11 placeholder= aria= value=secureConsentUrdu visible=False
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=19 tag=input type=checkbox id=physicalstmt|cb name=secureConsentYesClickbtn placeholder= aria= value=physicalstmt visible=False
+
+ACTIONS
+
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=0 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Skip to main content
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=1 tag=oj-button type= id= role= value= aria= title=OK visible=False disabled=False text=OK
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=2 tag=button type= id= role= value= aria=OK title= visible=False disabled=False text=OK
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=3 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=4 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=5 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Back
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=6 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=7 tag=a type= id= role= value= aria= title= visible=True disabled=False text=
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=8 tag=a type= id= role= value= aria= title= visible=True disabled=False text=Terms & Conditions
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=9 tag=oj-button type= id=register-button role= value= aria= title= visible=False disabled=True text=Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=10 tag=button type= id= role= value= aria= title= visible=False disabled=True text=Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=11 tag=a type= id= role= value= aria= title=Click to toggle password visible=False disabled=False text=
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=12 tag=a type= id=resendButton role= value= aria=Resend OTP in title=Click here to resend code visible=False disabled=False text=Resend OTP in
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=13 tag=oj-button type= id= role= value= aria= title= visible=False disabled=False text=Confirm and Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=14 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Confirm and Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=15 tag=oj-button type= id=logoutConfirmed role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=16 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=17 tag=oj-button type= id=register-button role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=18 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=19 tag=oj-button type= id=register-button role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=20 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=21 tag=oj-button type= id=register-button role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=22 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=23 tag=oj-button type= id=home-button1 role= value= aria= title= visible=False disabled=True text=Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=24 tag=button type= id= role= value= aria= title= visible=False disabled=True text=Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=25 tag=oj-button type= id=reset-button role= value= aria= title= visible=False disabled=False text=Reset Password
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=26 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Reset Password
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=27 tag=oj-button type= id=login-button role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=28 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=29 tag=oj-button type= id= role= value= aria= title=OK visible=False disabled=False text=OK
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=30 tag=button type= id= role= value= aria=OK title= visible=False disabled=False text=OK
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=31 tag=a type= id= role= value= aria=Back To Top title=Back To Top visible=True disabled=False text=
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=32 tag=oj-button type= id=sessionExpiredButton role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=33 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Ok
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=34 tag=oj-button type= id= role= value= aria= title= visible=False disabled=False text=Confirm
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=35 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Confirm
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=36 tag=oj-button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=37 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=38 tag=a type= id= role= value= aria= title= visible=False disabled=False text=I agree to Terms & Conditions
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=39 tag=oj-button type= id=confirmOk role= value= aria= title= visible=False disabled=False text=Continue banking
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=40 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Continue banking
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=41 tag=oj-button type= id=confirmOk role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=42 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Cancel
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=43 tag=a type= id= role= value= aria= title= visible=False disabled=False text=https://www.yesbank.in/steps-to-report-an-unauthorized-transaction
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=44 tag=oj-button type= id=secureConsentYes role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=45 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Proceed
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=46 tag=oj-button type= id=stayConnectedButton role= value= aria= title= visible=False disabled=False text=Stay Connected
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=47 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Stay Connected
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=48 tag=oj-button type= id=sessionExitButton role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=49 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=50 tag=oj-button type= id=logoutConfirmed role= value= aria= title= visible=False disabled=False text=Logout
+frame=0 url=http://ofss-mum-1548.snbomprshared1.gbucdsint02bom.oraclevcn.com:6777/?page=user-information idx=51 tag=button type= id= role= value= aria= title= visible=False disabled=False text=Logout
+
+CONSOLE
+
+warning: Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened.
+warning: Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened.
+error: Failed to load resource: the server responded with a status of 404 (Not Found)
+pageerror: Platform thirdPartyAnalytics not found or Disabled
+error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+verbose: [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o
+verbose: [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o
+
+REQUEST FAILURES
+
+No request failures captured.

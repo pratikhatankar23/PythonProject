@@ -1,0 +1,13 @@
+[
+  {
+    "beneficiaryName": "TestNEFT15",
+    "countryCode": "+91",
+    "mobileNumber": "1234567825",
+    "accountNumber": "123456789155",
+    "confirmAccountNumber": "123456789155",
+    "ifsc": "ICIC0000005",
+    "emailId": "TestNEFT15@gmail.com",
+    "beneNickName": "TestNEFT15",
+    "otp": "222222"
+  }
+]
